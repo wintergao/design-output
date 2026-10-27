@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800" fill="none" role="img" aria-labelledby="title description">
+<title id="title">Test suites — Support Agent</title><desc id="description">Test suite list with seven-item navigation. Native vector drawing, 1600 by 800 pixels. Canvas background is transparent; interface surfaces remain white.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif} .mono{font-family:Menlo,Consolas,monospace}</style>
+<g id="sidebar">
+<rect x="16" y="16" width="204" height="768" rx="12" fill="white" stroke="#E4E7EC"/>
+<rect x="34" y="36" width="34" height="34" rx="10" fill="#F40046"/>
+<circle cx="45" cy="47" r="3" fill="white"/>
+<circle cx="45" cy="59" r="3" fill="white"/>
+<circle cx="57" cy="47" r="3" fill="white"/>
+<circle cx="57" cy="59" r="3" fill="white"/>
+<text x="80" y="56" fill="#101828" font-size="19" font-weight="700" text-anchor="start">GenAI Hub</text>
+<text x="184" y="56" fill="#667085" font-size="13" font-weight="400" text-anchor="start">2.0</text>
+<text x="36" y="106" fill="#667085" font-size="10" font-weight="700" text-anchor="start">WORKSPACE</text>
+<g transform="translate(42 133) scale(0.8333333333333334)" stroke="#344054" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M20 11.5a8.5 8.5 0 0 1-8.5 8.5H4l-2 2v-7.5A8.5 8.5 0 0 1 10.5 6H13"/><path d="M18 2v8M14 6h8"/></g>
+<text x="76" y="149" fill="#344054" font-size="14.5" font-weight="400" text-anchor="start">New Chat</text>
+<g transform="translate(42 184) scale(0.8333333333333334)" stroke="#344054" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="m12 3 10 5-10 5L2 8l10-5Z"/><path d="m2 12 10 5 10-5M2 16l10 5 10-5"/></g>
+<text x="76" y="200" fill="#344054" font-size="14.5" font-weight="400" text-anchor="start">Skill</text>
+<rect x="28" y="224" width="180" height="42" rx="8" fill="#FFF0F5"/>
+<rect x="28" y="231" width="3" height="28" rx="1.5" fill="#F40046"/>
+<g transform="translate(42 235) scale(0.8333333333333334)" stroke="#F40046" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none"><rect x="4" y="7" width="16" height="13" rx="3"/><path d="M12 3v4M1 12v4M23 12v4M9 16h6"/><circle cx="8.5" cy="12" r=".7"/><circle cx="15.5" cy="12" r=".7"/></g>
+<text x="76" y="251" fill="#F40046" font-size="14.5" font-weight="600" text-anchor="start">Agent</text>
+<g transform="translate(42 286) scale(0.8333333333333334)" stroke="#344054" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M12 5C9 3 5 3 2 4v16c4-1 7-1 10 1 3-2 6-2 10-1V4c-3-1-7-1-10 1Zm0 0v16"/></g>
+<text x="76" y="302" fill="#344054" font-size="14.5" font-weight="400" text-anchor="start">Knowledge</text>
+<g transform="translate(42 337) scale(0.8333333333333334)" stroke="#344054" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M7 2v6M17 2v6M3 10h18M12 13v3l3 2"/></g>
+<text x="76" y="353" fill="#344054" font-size="14.5" font-weight="400" text-anchor="start">Scheduled Task</text>
+<g transform="translate(42 388) scale(0.8333333333333334)" stroke="#344054" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="m9 15 6-6M8 9l-3 3a4 4 0 0 0 6 6l3-3M10 9l3-3a4 4 0 0 1 6 6l-3 3"/></g>
+<text x="76" y="404" fill="#344054" font-size="14.5" font-weight="400" text-anchor="start">Connector</text>
+<g transform="translate(42 439) scale(0.8333333333333334)" stroke="#344054" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M3 6a2 2 0 0 1 2-2h5l2 3h7a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6Z"/></g>
+<text x="76" y="455" fill="#344054" font-size="14.5" font-weight="400" text-anchor="start">Project</text>
+<path d="M34 712H202" stroke="#E4E7EC" stroke-width="1"/>
+<circle cx="51" cy="746" r="17" fill="#FFE9F0"/>
+<text x="51" y="751" fill="#F40046" font-size="12" font-weight="600" text-anchor="middle">AL</text>
+<text x="80" y="742" fill="#101828" font-size="14" font-weight="600" text-anchor="start">Alex Lam</text>
+<text x="80" y="761" fill="#667085" font-size="11" font-weight="400" text-anchor="start">Workspace member</text>
+</g>
+<g id="agent-header">
+<rect x="236" y="16" width="1348" height="186" rx="12" fill="white" stroke="#E4E7EC"/>
+<text x="264" y="46" fill="#667085" font-size="13" font-weight="400" text-anchor="start">Agent</text>
+<text x="310" y="46" fill="#98A2B3" font-size="13" font-weight="400" text-anchor="start">/</text>
+<text x="327" y="46" fill="#101828" font-size="13" font-weight="600" text-anchor="start">Support Agent</text>
+<g transform="translate(1476 30) scale(0.8333333333333334)" stroke="#667085" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M5 17h14l-2-3V9a5 5 0 0 0-10 0v5l-2 3ZM10 21h4"/></g>
+<circle cx="1492" cy="31" r="3" fill="#F40046"/>
+<circle cx="1534" cy="40" r="16" fill="#FFF0F5"/>
+<text x="1534" y="45" fill="#F40046" font-size="11" font-weight="600" text-anchor="middle">AL</text>
+<text x="264" y="90" fill="#101828" font-size="28" font-weight="700" text-anchor="start">Support Agent</text>
+<rect x="477" y="67" width="86" height="29" rx="6" fill="white" stroke="#D0D5DD"/>
+<text x="520" y="86" fill="#344054" font-size="13" font-weight="600" text-anchor="middle">Draft r27</text>
+<text x="264" y="135" fill="#667085" font-size="14" font-weight="400" text-anchor="start">Configure</text>
+<text x="382" y="135" fill="#F40046" font-size="14" font-weight="600" text-anchor="start">Test &amp; Evaluate</text>
+<text x="552" y="135" fill="#667085" font-size="14" font-weight="400" text-anchor="start">Release</text>
+<path d="M236 148H1584" stroke="#E4E7EC" stroke-width="1"/>
+<path d="M366 148H516" stroke="#F40046" stroke-width="2"/>
+<text x="278" y="181" fill="#667085" font-size="14" font-weight="400" text-anchor="start">Playground</text>
+<rect x="380" y="158" width="94" height="34" rx="8" fill="#FFF0F5"/>
+<text x="427" y="180" fill="#F40046" font-size="14" font-weight="600" text-anchor="middle">Test</text>
+<text x="499" y="181" fill="#667085" font-size="14" font-weight="400" text-anchor="start">Evaluation</text>
+</g>
+<g id="test-suites">
+<rect x="236" y="218" width="1348" height="566" rx="12" fill="white" stroke="#E4E7EC"/>
+<text x="264" y="263" fill="#101828" font-size="27" font-weight="700" text-anchor="start">Test suites</text>
+<text x="264" y="290" fill="#667085" font-size="15" font-weight="400" text-anchor="start">Define repeatable scenarios and check how your agent behaves.</text>
+<rect x="1382" y="242" width="174" height="38" rx="7" fill="#F40046"/>
+<g transform="translate(1395 252.0) scale(0.75)" stroke="white" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M12 5v14M5 12h14"/></g>
+<text x="1422" y="266.0" fill="white" font-size="14" font-weight="600" text-anchor="start">New test suite</text>
+<rect x="264" y="314" width="520" height="40" rx="7" fill="white" stroke="#D0D5DD"/>
+<g transform="translate(277 324) scale(0.8333333333333334)" stroke="#667085" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></g>
+<text x="309" y="340" fill="#98A2B3" font-size="14" font-weight="400" text-anchor="start">Search test suites</text>
+<g transform="translate(1434 323) scale(0.8333333333333334)" stroke="#667085" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l4 2"/></g>
+<text x="1465" y="339" fill="#1768CC" font-size="14" font-weight="400" text-anchor="start">Run history</text>
+<rect x="264" y="374" width="1292" height="330" rx="8" fill="white" stroke="#E4E7EC"/>
+<rect x="265" y="375" width="1290" height="48" rx="7" fill="#F8FAFC"/>
+<text x="286" y="405" fill="#667085" font-size="13" font-weight="600" text-anchor="start">Test suite</text>
+<text x="784" y="405" fill="#667085" font-size="13" font-weight="600" text-anchor="start">Cases</text>
+<text x="896" y="405" fill="#667085" font-size="13" font-weight="600" text-anchor="start">Latest run</text>
+<text x="1400" y="405" fill="#667085" font-size="13" font-weight="600" text-anchor="start">Updated</text>
+<path d="M264 423H1556" stroke="#E4E7EC" stroke-width="1"/>
+<text x="286" y="450" fill="#1768CC" font-size="16" font-weight="600" text-anchor="start">Ticket creation</text>
+<text x="286" y="473" fill="#667085" font-size="13" font-weight="400" text-anchor="start">Project selection, priority and duplicate prevention</text>
+<text x="784" y="454" fill="#101828" font-size="15" font-weight="400" text-anchor="start">8</text>
+<circle cx="903" cy="445" r="8" fill="#168557"/>
+<path d="m899.5 445 2.5 2.5 4.5-5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="919" y="450" fill="#168557" font-size="14" font-weight="400" text-anchor="start">6 passed</text>
+<circle cx="1019" cy="445" r="8" fill="#F40046"/>
+<path d="m1016 442 6 6m0-6-6 6" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+<text x="1035" y="450" fill="#F40046" font-size="14" font-weight="400" text-anchor="start">1 failed</text>
+<circle cx="1125" cy="445" r="8" fill="#A76208"/>
+<text x="1125" y="448.5" fill="white" font-size="11" font-weight="700" text-anchor="middle">!</text>
+<text x="1141" y="450" fill="#A76208" font-size="14" font-weight="400" text-anchor="start">1 execution error</text>
+<text x="896" y="473" fill="#667085" font-size="12" font-weight="400" text-anchor="start">Draft r27  ·  Oct 28, 2026, 10:32</text>
+<text x="1400" y="454" fill="#344054" font-size="13" font-weight="400" text-anchor="start">Today</text>
+<circle cx="1525" cy="451" r="1.5" fill="#667085"/>
+<circle cx="1530" cy="451" r="1.5" fill="#667085"/>
+<circle cx="1535" cy="451" r="1.5" fill="#667085"/>
+<path d="M264 493H1556" stroke="#E4E7EC" stroke-width="1"/>
+<text x="286" y="520" fill="#1768CC" font-size="16" font-weight="600" text-anchor="start">Knowledge answers</text>
+<text x="286" y="543" fill="#667085" font-size="13" font-weight="400" text-anchor="start">Grounded answers with useful citations</text>
+<text x="784" y="524" fill="#101828" font-size="15" font-weight="400" text-anchor="start">12</text>
+<circle cx="903" cy="515" r="8" fill="#168557"/>
+<path d="m899.5 515 2.5 2.5 4.5-5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="919" y="520" fill="#168557" font-size="14" font-weight="400" text-anchor="start">12 passed</text>
+<text x="896" y="543" fill="#667085" font-size="12" font-weight="400" text-anchor="start">Draft r27  ·  Oct 28, 2026, 09:10</text>
+<text x="1400" y="524" fill="#344054" font-size="13" font-weight="400" text-anchor="start">Today</text>
+<circle cx="1525" cy="521" r="1.5" fill="#667085"/>
+<circle cx="1530" cy="521" r="1.5" fill="#667085"/>
+<circle cx="1535" cy="521" r="1.5" fill="#667085"/>
+<path d="M264 563H1556" stroke="#E4E7EC" stroke-width="1"/>
+<text x="286" y="590" fill="#1768CC" font-size="16" font-weight="600" text-anchor="start">Tool failures</text>
+<text x="286" y="613" fill="#667085" font-size="13" font-weight="400" text-anchor="start">Timeouts, unavailable tools and recovery</text>
+<text x="784" y="594" fill="#101828" font-size="15" font-weight="400" text-anchor="start">6</text>
+<circle cx="903" cy="589" r="4" fill="#98A2B3"/>
+<text x="919" y="594" fill="#667085" font-size="14" font-weight="400" text-anchor="start">Not run</text>
+<text x="1400" y="594" fill="#344054" font-size="13" font-weight="400" text-anchor="start">Yesterday</text>
+<circle cx="1525" cy="591" r="1.5" fill="#667085"/>
+<circle cx="1530" cy="591" r="1.5" fill="#667085"/>
+<circle cx="1535" cy="591" r="1.5" fill="#667085"/>
+<path d="M264 633H1556" stroke="#E4E7EC" stroke-width="1"/>
+<text x="286" y="660" fill="#1768CC" font-size="16" font-weight="600" text-anchor="start">Conversation basics</text>
+<text x="286" y="683" fill="#667085" font-size="13" font-weight="400" text-anchor="start">Clarifying questions and multi-turn context</text>
+<text x="784" y="664" fill="#101828" font-size="15" font-weight="400" text-anchor="start">4</text>
+<circle cx="903" cy="659" r="4" fill="#98A2B3"/>
+<text x="919" y="664" fill="#667085" font-size="14" font-weight="400" text-anchor="start">Not run</text>
+<text x="784" y="684" fill="#667085" font-size="12" font-weight="400" text-anchor="start">1 draft</text>
+<text x="1400" y="664" fill="#344054" font-size="13" font-weight="400" text-anchor="start">Yesterday</text>
+<circle cx="1525" cy="661" r="1.5" fill="#667085"/>
+<circle cx="1530" cy="661" r="1.5" fill="#667085"/>
+<circle cx="1535" cy="661" r="1.5" fill="#667085"/>
+<text x="264" y="750" fill="#667085" font-size="13" font-weight="400" text-anchor="start">4 test suites</text>
+</g>
+</svg>
