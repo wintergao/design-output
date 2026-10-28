@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="4200" height="2100" viewBox="0 0 4200 2100" role="img" aria-labelledby="svg-title svg-desc">
+<title id="svg-title">AI Design Blueprint — Model Strategy, Knowledge &amp; Retrieval, MCP &amp; Connector</title>
+<desc id="svg-desc">Three design cards. Define model strategy based on actual task requirements across three dimensions: single or hybrid models, large or small models, and text-only or multimodal models. Build knowledge bases by extracting, cleaning, chunking and indexing; embeddings feed the vector index while chunk text feeds the keyword index. Retrieve with vector and keyword search, merge and deduplicate, rerank, and return cited evidence. Define reliable, secure and traceable tool access. Transparent canvas, 2:1 aspect ratio.</desc>
+<g font-family="Arial, Helvetica, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+<g id="model-card">
+<rect x="60" y="60" width="1120" height="1980" rx="32" fill="#FBE8EE" stroke="#ECC3CF" stroke-width="3" />
+<circle cx="168" cy="164" r="52" fill="#D31145"/>
+<text id="text-1" x="168" y="182" font-size="50" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0">03</text>
+<g transform="translate(1028,115) scale(1.65)" fill="none" stroke="#D31145" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<rect x="11" y="11" width="30" height="30" rx="5"/><path d="M19 3V11M33 3V11M19 41V49M33 41V49M3 19H11M3 33H11M41 19H49M41 33H49M19 26l5 5 11-12"/>
+</g>
+<text id="text-2" x="116" y="297" font-size="65" font-weight="700" fill="#333D47" text-anchor="start" letter-spacing="0">Model Strategy</text>
+<line x1="116" y1="337" x2="1124" y2="337" stroke="#ECC3CF" stroke-width="3" />
+<rect x="116" y="386" width="1008" height="413" rx="22" fill="#FFFFFF" stroke="#ECC3CF" stroke-width="2" />
+<rect x="116" y="411" width="7" height="363" rx="3" fill="#D31145" stroke="none" stroke-width="2" />
+<g transform="translate(149,425) scale(1.15)" fill="none" stroke="#D31145" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<rect x="3" y="8" width="16" height="15" rx="3"/><rect x="33" y="29" width="16" height="15" rx="3"/><path d="M19 15H40V29M33 36H12V23"/>
+</g>
+<text id="text-3" x="236" y="458" font-size="47" font-weight="700" fill="#333D47" text-anchor="start" letter-spacing="0">Model Composition</text>
+<rect x="236" y="512" width="410" height="88" rx="15" fill="#FBE8EE" stroke="#ECC3CF" stroke-width="2" />
+<text id="text-4" x="441" y="568" font-size="40" font-weight="700" fill="#D31145" text-anchor="middle" letter-spacing="0">Single model</text>
+<rect x="670" y="512" width="410" height="88" rx="15" fill="#FBE8EE" stroke="#ECC3CF" stroke-width="2" />
+<text id="text-5" x="875" y="568" font-size="40" font-weight="700" fill="#D31145" text-anchor="middle" letter-spacing="0">Hybrid models</text>
+<text id="text-6" x="236" y="672" font-size="42" font-weight="400" fill="#66727D" text-anchor="start" letter-spacing="0">Use one model, or route and combine</text>
+<text id="text-7" x="236" y="726" font-size="42" font-weight="400" fill="#66727D" text-anchor="start" letter-spacing="0">different models across task steps.</text>
+<rect x="116" y="831" width="1008" height="413" rx="22" fill="#FFFFFF" stroke="#ECC3CF" stroke-width="2" />
+<rect x="116" y="856" width="7" height="363" rx="3" fill="#D31145" stroke="none" stroke-width="2" />
+<g transform="translate(149,870) scale(1.15)" fill="none" stroke="#D31145" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<rect x="11" y="11" width="30" height="30" rx="5"/><path d="M19 3V11M33 3V11M19 41V49M33 41V49M3 19H11M3 33H11M41 19H49M41 33H49M19 26l5 5 11-12"/>
+</g>
+<text id="text-8" x="236" y="903" font-size="47" font-weight="700" fill="#333D47" text-anchor="start" letter-spacing="0">Model Size</text>
+<rect x="236" y="957" width="410" height="88" rx="15" fill="#FBE8EE" stroke="#ECC3CF" stroke-width="2" />
+<text id="text-9" x="441" y="1013" font-size="40" font-weight="700" fill="#D31145" text-anchor="middle" letter-spacing="0">Large models</text>
+<rect x="670" y="957" width="410" height="88" rx="15" fill="#FBE8EE" stroke="#ECC3CF" stroke-width="2" />
+<text id="text-10" x="875" y="1013" font-size="40" font-weight="700" fill="#D31145" text-anchor="middle" letter-spacing="0">Small models</text>
+<text id="text-11" x="236" y="1117" font-size="42" font-weight="400" fill="#66727D" text-anchor="start" letter-spacing="0">Select model size through task evaluation;</text>
+<text id="text-12" x="236" y="1171" font-size="42" font-weight="400" fill="#66727D" text-anchor="start" letter-spacing="0">balance quality, latency and cost.</text>
+<rect x="116" y="1276" width="1008" height="413" rx="22" fill="#FFFFFF" stroke="#ECC3CF" stroke-width="2" />
+<rect x="116" y="1301" width="7" height="363" rx="3" fill="#D31145" stroke="none" stroke-width="2" />
+<g transform="translate(149,1315) scale(1.15)" fill="none" stroke="#D31145" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="m4 17 22-12 22 12-22 12zM4 28l22 12 22-12M4 39l22 12 22-12"/>
+</g>
+<text id="text-13" x="236" y="1348" font-size="47" font-weight="700" fill="#333D47" text-anchor="start" letter-spacing="0">Model Modality</text>
+<rect x="236" y="1402" width="410" height="88" rx="15" fill="#FBE8EE" stroke="#ECC3CF" stroke-width="2" />
+<text id="text-14" x="441" y="1458" font-size="40" font-weight="700" fill="#D31145" text-anchor="middle" letter-spacing="0">Text-only</text>
+<rect x="670" y="1402" width="410" height="88" rx="15" fill="#FBE8EE" stroke="#ECC3CF" stroke-width="2" />
+<text id="text-15" x="875" y="1458" font-size="40" font-weight="700" fill="#D31145" text-anchor="middle" letter-spacing="0">Multimodal</text>
+<text id="text-16" x="236" y="1562" font-size="42" font-weight="400" fill="#66727D" text-anchor="start" letter-spacing="0">Match model inputs and outputs</text>
+<text id="text-17" x="236" y="1616" font-size="42" font-weight="400" fill="#66727D" text-anchor="start" letter-spacing="0">to text, image, audio or video needs.</text>
+<line x1="116" y1="1780" x2="1124" y2="1780" stroke="#ECC3CF" stroke-width="3" />
+<text id="text-18" x="116" y="1834" font-size="29" font-weight="700" fill="#D31145" text-anchor="start" letter-spacing="2.2">DESIGN PRINCIPLE</text>
+<text id="text-19" x="116" y="1906" font-size="43" font-weight="600" fill="#333D47" text-anchor="start" letter-spacing="0">Choose the model strategy</text>
+<text id="text-20" x="116" y="1963" font-size="43" font-weight="600" fill="#333D47" text-anchor="start" letter-spacing="0">based on actual task requirements.</text>
+</g>
+<g id="knowledge-card">
+<rect x="1220" y="60" width="1760" height="1980" rx="32" fill="#E9F2F7" stroke="#C7DDEA" stroke-width="3" />
+<circle cx="1328" cy="164" r="52" fill="#1F78AD"/>
+<text id="text-21" x="1328" y="182" font-size="50" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0">04</text>
+<g transform="translate(2828,115) scale(1.65)" fill="none" stroke="#1F78AD" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M9 43H5V4H31L42 15V25M30 4V16H42M13 21H29M13 29H22"/><circle cx="31" cy="36" r="11"/><path d="m39 44 10 10"/>
+</g>
+<text id="text-22" x="1276" y="297" font-size="65" font-weight="700" fill="#333D47" text-anchor="start" letter-spacing="0">Knowledge &amp; Retrieval</text>
+<line x1="1276" y1="337" x2="2924" y2="337" stroke="#C7DDEA" stroke-width="3" />
+<line x1="1276" y1="1780" x2="2924" y2="1780" stroke="#C7DDEA" stroke-width="3" />
+<text id="text-23" x="1276" y="1834" font-size="29" font-weight="700" fill="#1F78AD" text-anchor="start" letter-spacing="2.2">DESIGN PRINCIPLE</text>
+<text id="text-24" x="1276" y="1906" font-size="43" font-weight="600" fill="#333D47" text-anchor="start" letter-spacing="0">Return relevant evidence</text>
+<text id="text-25" x="1276" y="1963" font-size="43" font-weight="600" fill="#333D47" text-anchor="start" letter-spacing="0">with preserved source context.</text>
+</g>
+<g id="connector-card">
+<rect x="3020" y="60" width="1120" height="1980" rx="32" fill="#FBE8EE" stroke="#ECC3CF" stroke-width="3" />
+<circle cx="3128" cy="164" r="52" fill="#D31145"/>
+<text id="text-26" x="3128" y="182" font-size="50" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0">05</text>
+<g transform="translate(3988,115) scale(1.65)" fill="none" stroke="#D31145" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="m11 10 8 8m14 14 8 8M7 26l19-19 10 10-19 19zM25 44l19-19M25 25l-5 5M34 34l-5 5"/>
+</g>
+<text id="text-27" x="3076" y="297" font-size="65" font-weight="700" fill="#333D47" text-anchor="start" letter-spacing="0">MCP &amp; Connector</text>
+<line x1="3076" y1="337" x2="4084" y2="337" stroke="#ECC3CF" stroke-width="3" />
+<rect x="3076" y="386" width="1008" height="235" rx="22" fill="#FFFFFF" stroke="#ECC3CF" stroke-width="2" />
+<rect x="3076" y="411" width="7" height="185" rx="3" fill="#D31145" stroke="none" stroke-width="2" />
+<g transform="translate(3109,425) scale(1.15)" fill="none" stroke="#D31145" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<rect x="4" y="5" width="44" height="42" rx="5"/><path d="m18 17-9 9 9 9m16-18 9 9-9 9m-10 3 5-24"/>
+</g>
+<text id="text-28" x="3196" y="458" font-size="47" font-weight="700" fill="#333D47" text-anchor="start" letter-spacing="0">Clear Tool Contracts</text>
+<text id="text-29" x="3196" y="518" font-size="42" font-weight="400" fill="#66727D" text-anchor="start" letter-spacing="0">Descriptions</text>
+<text id="text-30" x="3196" y="572" font-size="42" font-weight="400" fill="#66727D" text-anchor="start" letter-spacing="0">Input/output schemas</text>
+<rect x="3076" y="653" width="1008" height="235" rx="22" fill="#FFFFFF" stroke="#ECC3CF" stroke-width="2" />
+<rect x="3076" y="678" width="7" height="185" rx="3" fill="#D31145" stroke="none" stroke-width="2" />
+<g transform="translate(3109,692) scale(1.15)" fill="none" stroke="#D31145" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<rect x="3" y="8" width="16" height="15" rx="3"/><rect x="33" y="29" width="16" height="15" rx="3"/><path d="M19 15H40V29M33 36H12V23"/>
+</g>
+<text id="text-31" x="3196" y="725" font-size="47" font-weight="700" fill="#333D47" text-anchor="start" letter-spacing="0">Business API Mapping</text>
+<text id="text-32" x="3196" y="785" font-size="42" font-weight="400" fill="#66727D" text-anchor="start" letter-spacing="0">Operations · Parameters</text>
+<text id="text-33" x="3196" y="839" font-size="42" font-weight="400" fill="#66727D" text-anchor="start" letter-spacing="0">Data formats</text>
+<rect x="3076" y="920" width="1008" height="235" rx="22" fill="#FFFFFF" stroke="#ECC3CF" stroke-width="2" />
+<rect x="3076" y="945" width="7" height="185" rx="3" fill="#D31145" stroke="none" stroke-width="2" />
+<g transform="translate(3109,959) scale(1.15)" fill="none" stroke="#D31145" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M26 4 45 11v15c0 11-8 18-19 24C15 44 7 37 7 26V11zM17 26l6 6 13-14"/>
+</g>
+<text id="text-34" x="3196" y="992" font-size="47" font-weight="700" fill="#333D47" text-anchor="start" letter-spacing="0">Secure Access</text>
+<text id="text-35" x="3196" y="1052" font-size="42" font-weight="400" fill="#66727D" text-anchor="start" letter-spacing="0">Identity · Least privilege</text>
+<text id="text-36" x="3196" y="1106" font-size="42" font-weight="400" fill="#66727D" text-anchor="start" letter-spacing="0">Approvals</text>
+<rect x="3076" y="1187" width="1008" height="235" rx="22" fill="#FFFFFF" stroke="#ECC3CF" stroke-width="2" />
+<rect x="3076" y="1212" width="7" height="185" rx="3" fill="#D31145" stroke="none" stroke-width="2" />
+<g transform="translate(3109,1226) scale(1.15)" fill="none" stroke="#D31145" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M43 15a20 20 0 0 0-34 3M9 6v12H21M9 37a20 20 0 0 0 34-3M43 46V34H31"/>
+</g>
+<text id="text-37" x="3196" y="1259" font-size="47" font-weight="700" fill="#333D47" text-anchor="start" letter-spacing="0">Reliable Execution</text>
+<text id="text-38" x="3196" y="1319" font-size="42" font-weight="400" fill="#66727D" text-anchor="start" letter-spacing="0">Timeouts · Safe retries</text>
+<text id="text-39" x="3196" y="1373" font-size="42" font-weight="400" fill="#66727D" text-anchor="start" letter-spacing="0">Idempotency</text>
+<rect x="3076" y="1454" width="1008" height="235" rx="22" fill="#FFFFFF" stroke="#ECC3CF" stroke-width="2" />
+<rect x="3076" y="1479" width="7" height="185" rx="3" fill="#D31145" stroke="none" stroke-width="2" />
+<g transform="translate(3109,1493) scale(1.15)" fill="none" stroke="#D31145" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<rect x="8" y="4" width="36" height="44" rx="4"/><path d="M23 15H35M23 26H35M23 37H35"/><circle cx="16" cy="15" r="1"/><circle cx="16" cy="26" r="1"/><circle cx="16" cy="37" r="1"/>
+</g>
+<text id="text-40" x="3196" y="1526" font-size="47" font-weight="700" fill="#333D47" text-anchor="start" letter-spacing="0">Traceable Operations</text>
+<text id="text-41" x="3196" y="1586" font-size="42" font-weight="400" fill="#66727D" text-anchor="start" letter-spacing="0">Versions · Logs</text>
+<text id="text-42" x="3196" y="1640" font-size="42" font-weight="400" fill="#66727D" text-anchor="start" letter-spacing="0">Error handling</text>
+<line x1="3076" y1="1780" x2="4084" y2="1780" stroke="#ECC3CF" stroke-width="3" />
+<text id="text-43" x="3076" y="1834" font-size="29" font-weight="700" fill="#D31145" text-anchor="start" letter-spacing="2.2">DESIGN PRINCIPLE</text>
+<text id="text-44" x="3076" y="1906" font-size="43" font-weight="600" fill="#333D47" text-anchor="start" letter-spacing="0">Expose business capabilities through</text>
+<text id="text-45" x="3076" y="1963" font-size="43" font-weight="600" fill="#333D47" text-anchor="start" letter-spacing="0">controlled, reliable tool access.</text>
+</g>
+<rect x="1276" y="386" width="1648" height="614" rx="22" fill="#F8FBFD" stroke="#C7DDEA" stroke-width="2" />
+<rect x="1278" y="388" width="1644" height="88" rx="20" fill="#DCEBF4" stroke="none" stroke-width="2" />
+<rect x="1278" y="444" width="1644" height="32" rx="0" fill="#DCEBF4" stroke="none" stroke-width="2" />
+<text id="text-46" x="1308" y="448" font-size="48" font-weight="700" fill="#1F78AD" text-anchor="start" letter-spacing="0">Build the Knowledge Base</text>
+<path d="M1570 634H1630" fill="none" stroke="#8DA3B2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1570" cy="634" r="5" fill="#8DA3B2"/>
+<circle cx="1630" cy="634" r="5" fill="#8DA3B2"/>
+<path d="M1890 634H1950" fill="none" stroke="#8DA3B2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1890" cy="634" r="5" fill="#8DA3B2"/>
+<circle cx="1950" cy="634" r="5" fill="#8DA3B2"/>
+<path d="M2220 634H2280" fill="none" stroke="#8DA3B2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="2220" cy="634" r="5" fill="#8DA3B2"/>
+<circle cx="2280" cy="634" r="5" fill="#8DA3B2"/>
+<path d="M2520 634H2596" fill="none" stroke="#8DA3B2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="2520" cy="634" r="5" fill="#8DA3B2"/>
+<circle cx="2596" cy="634" r="5" fill="#8DA3B2"/>
+<path d="M2085 720V813H2596" fill="none" stroke="#8DA3B2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="2085" cy="720" r="5" fill="#8DA3B2"/>
+<circle cx="2596" cy="813" r="5" fill="#8DA3B2"/>
+<text id="text-47" x="2120" y="790" font-size="31" font-weight="400" fill="#66727D" text-anchor="start" letter-spacing="0">Chunk text + metadata</text>
+<rect x="1310" y="540" width="260" height="180" rx="16" fill="#FFFFFF" stroke="#C7DDEA" stroke-width="2" />
+<text id="text-48" x="1440.0" y="583" font-size="43" font-weight="700" fill="#333D47" text-anchor="middle" letter-spacing="0">Extract</text>
+<text id="text-49" x="1440.0" y="631" font-size="43" font-weight="700" fill="#333D47" text-anchor="middle" letter-spacing="0">&amp; Parse</text>
+<text id="text-50" x="1440.0" y="667" font-size="31" font-weight="400" fill="#66727D" text-anchor="middle" letter-spacing="0">Text · Tables</text>
+<text id="text-51" x="1440.0" y="703" font-size="31" font-weight="400" fill="#66727D" text-anchor="middle" letter-spacing="0">OCR as needed</text>
+<rect x="1630" y="540" width="260" height="180" rx="16" fill="#FFFFFF" stroke="#C7DDEA" stroke-width="2" />
+<text id="text-52" x="1760.0" y="583" font-size="43" font-weight="700" fill="#333D47" text-anchor="middle" letter-spacing="0">Clean &amp;</text>
+<text id="text-53" x="1760.0" y="631" font-size="43" font-weight="700" fill="#333D47" text-anchor="middle" letter-spacing="0">Normalize</text>
+<text id="text-54" x="1760.0" y="667" font-size="31" font-weight="400" fill="#66727D" text-anchor="middle" letter-spacing="0">Noise removal</text>
+<text id="text-55" x="1760.0" y="703" font-size="31" font-weight="400" fill="#66727D" text-anchor="middle" letter-spacing="0">Deduplication</text>
+<rect x="1950" y="540" width="270" height="180" rx="16" fill="#FFFFFF" stroke="#C7DDEA" stroke-width="2" />
+<text id="text-56" x="2085.0" y="583" font-size="43" font-weight="700" fill="#333D47" text-anchor="middle" letter-spacing="0">Chunk</text>
+<text id="text-57" x="2085.0" y="631" font-size="43" font-weight="700" fill="#333D47" text-anchor="middle" letter-spacing="0">&amp; Tag</text>
+<text id="text-58" x="2085.0" y="667" font-size="31" font-weight="400" fill="#66727D" text-anchor="middle" letter-spacing="0">Semantic splits</text>
+<text id="text-59" x="2085.0" y="703" font-size="31" font-weight="400" fill="#66727D" text-anchor="middle" letter-spacing="0">Metadata</text>
+<rect x="2280" y="540" width="240" height="180" rx="16" fill="#FFFFFF" stroke="#C7DDEA" stroke-width="2" />
+<text id="text-60" x="2400.0" y="583" font-size="43" font-weight="700" fill="#333D47" text-anchor="middle" letter-spacing="0">Embed</text>
+<text id="text-61" x="2400.0" y="667" font-size="31" font-weight="400" fill="#66727D" text-anchor="middle" letter-spacing="0">Semantic</text>
+<text id="text-62" x="2400.0" y="703" font-size="31" font-weight="400" fill="#66727D" text-anchor="middle" letter-spacing="0">vectors</text>
+<rect x="2576" y="508" width="320" height="366" rx="17" fill="#FFFFFF" stroke="#B9D3E3" stroke-width="2" />
+<rect x="2578" y="510" width="316" height="70" rx="15" fill="#DCEBF4" stroke="none" stroke-width="2" />
+<rect x="2578" y="548" width="316" height="32" rx="0" fill="#DCEBF4" stroke="none" stroke-width="2" />
+<text id="text-63" x="2736" y="557" font-size="41" font-weight="700" fill="#1F78AD" text-anchor="middle" letter-spacing="0">Index</text>
+<rect x="2596" y="588" width="280" height="92" rx="12" fill="#F1F7FA" stroke="#C7DDEA" stroke-width="2" />
+<text id="text-64" x="2736" y="649" font-size="36" font-weight="600" fill="#333D47" text-anchor="middle" letter-spacing="0">Vector Index</text>
+<rect x="2596" y="767" width="280" height="92" rx="12" fill="#F1F7FA" stroke="#C7DDEA" stroke-width="2" />
+<text id="text-65" x="2736" y="828" font-size="36" font-weight="600" fill="#333D47" text-anchor="middle" letter-spacing="0">Keyword Index</text>
+<circle cx="2596" cy="634" r="5" fill="#8DA3B2"/>
+<circle cx="2596" cy="813" r="5" fill="#8DA3B2"/>
+<rect x="1310" y="910" width="1580" height="60" rx="12" fill="#E9F2F7" stroke="none" stroke-width="2" />
+<text id="text-66" x="2100" y="952" font-size="34" font-weight="500" fill="#1F78AD" text-anchor="middle" letter-spacing="0">Source · Version · Metadata · Access Permissions</text>
+<rect x="1276" y="1040" width="1648" height="661" rx="22" fill="#F8FBFD" stroke="#C7DDEA" stroke-width="2" />
+<rect x="1278" y="1042" width="1644" height="88" rx="20" fill="#DCEBF4" stroke="none" stroke-width="2" />
+<rect x="1278" y="1098" width="1644" height="32" rx="0" fill="#DCEBF4" stroke="none" stroke-width="2" />
+<text id="text-67" x="1308" y="1102" font-size="48" font-weight="700" fill="#1F78AD" text-anchor="start" letter-spacing="0">Retrieve Relevant Evidence</text>
+<path d="M1640 1290H1690V1215H1740" fill="none" stroke="#8DA3B2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1640" cy="1290" r="5" fill="#8DA3B2"/>
+<circle cx="1740" cy="1215" r="5" fill="#8DA3B2"/>
+<path d="M1690 1290V1370H1740" fill="none" stroke="#8DA3B2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1690" cy="1290" r="5" fill="#8DA3B2"/>
+<circle cx="1740" cy="1370" r="5" fill="#8DA3B2"/>
+<path d="M2130 1215H2180V1290H2240" fill="none" stroke="#8DA3B2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="2130" cy="1215" r="5" fill="#8DA3B2"/>
+<circle cx="2240" cy="1290" r="5" fill="#8DA3B2"/>
+<path d="M2130 1370H2180V1290" fill="none" stroke="#8DA3B2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="2130" cy="1370" r="5" fill="#8DA3B2"/>
+<circle cx="2180" cy="1290" r="5" fill="#8DA3B2"/>
+<path d="M2530 1290H2600" fill="none" stroke="#8DA3B2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="2530" cy="1290" r="5" fill="#8DA3B2"/>
+<circle cx="2600" cy="1290" r="5" fill="#8DA3B2"/>
+<path d="M2745 1380V1496H2385V1530" fill="none" stroke="#8DA3B2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="2745" cy="1380" r="5" fill="#8DA3B2"/>
+<circle cx="2385" cy="1530" r="5" fill="#8DA3B2"/>
+<rect x="1310" y="1200" width="330" height="180" rx="16" fill="#FFFFFF" stroke="#C7DDEA" stroke-width="2" />
+<text id="text-68" x="1475" y="1250" font-size="40" font-weight="700" fill="#333D47" text-anchor="middle" letter-spacing="0">Query</text>
+<text id="text-69" x="1475" y="1295" font-size="40" font-weight="700" fill="#333D47" text-anchor="middle" letter-spacing="0">Preparation</text>
+<text id="text-70" x="1475" y="1335" font-size="32" font-weight="400" fill="#66727D" text-anchor="middle" letter-spacing="0">Normalize</text>
+<text id="text-71" x="1475" y="1370" font-size="32" font-weight="400" fill="#66727D" text-anchor="middle" letter-spacing="0">Embed query</text>
+<rect x="1740" y="1168" width="390" height="94" rx="16" fill="#FFFFFF" stroke="#C7DDEA" stroke-width="2" />
+<text id="text-72" x="1935" y="1230" font-size="40" font-weight="600" fill="#333D47" text-anchor="middle" letter-spacing="0">Vector Search</text>
+<rect x="1740" y="1323" width="390" height="94" rx="16" fill="#FFFFFF" stroke="#C7DDEA" stroke-width="2" />
+<text id="text-73" x="1935" y="1385" font-size="40" font-weight="600" fill="#333D47" text-anchor="middle" letter-spacing="0">Keyword Search</text>
+<rect x="2240" y="1200" width="290" height="180" rx="16" fill="#FFFFFF" stroke="#C7DDEA" stroke-width="2" />
+<text id="text-74" x="2385" y="1250" font-size="40" font-weight="700" fill="#333D47" text-anchor="middle" letter-spacing="0">Merge &amp;</text>
+<text id="text-75" x="2385" y="1295" font-size="40" font-weight="700" fill="#333D47" text-anchor="middle" letter-spacing="0">Deduplicate</text>
+<text id="text-76" x="2385" y="1350" font-size="29" font-weight="400" fill="#66727D" text-anchor="middle" letter-spacing="0">Combine results</text>
+<rect x="2600" y="1200" width="290" height="180" rx="16" fill="#FFFFFF" stroke="#C7DDEA" stroke-width="2" />
+<text id="text-77" x="2745" y="1261" font-size="44" font-weight="700" fill="#333D47" text-anchor="middle" letter-spacing="0">Rerank</text>
+<text id="text-78" x="2745" y="1311" font-size="33" font-weight="400" fill="#66727D" text-anchor="middle" letter-spacing="0">Relevance</text>
+<text id="text-79" x="2745" y="1350" font-size="33" font-weight="400" fill="#66727D" text-anchor="middle" letter-spacing="0">ranking</text>
+<rect x="1310" y="1448" width="850" height="54" rx="12" fill="#E9F2F7" stroke="#B6D0E0" stroke-width="2" stroke-dasharray="6 7"/>
+<text id="text-80" x="1735" y="1485" font-size="33" font-weight="500" fill="#1F78AD" text-anchor="middle" letter-spacing="0">Access &amp; Metadata Filters</text>
+<rect x="1310" y="1530" width="1580" height="116" rx="18" fill="#FFFFFF" stroke="#A7C9DE" stroke-width="3" />
+<text id="text-81" x="2100" y="1605" font-size="46" font-weight="700" fill="#1F78AD" text-anchor="middle" letter-spacing="0">Top-K Evidence + Citations</text>
+</g></svg>
