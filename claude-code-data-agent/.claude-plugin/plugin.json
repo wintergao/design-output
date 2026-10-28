@@ -1,0 +1,14 @@
+{
+  "name": "data-agent",
+  "version": "1.0.0",
+  "description": "Answer questions from local, market-scoped Excel data with traceable calculations and explicit market isolation.",
+  "author": {
+    "name": "Data Agent maintainers"
+  },
+  "keywords": [
+    "data-analysis",
+    "excel",
+    "market-isolation",
+    "local-data"
+  ]
+}

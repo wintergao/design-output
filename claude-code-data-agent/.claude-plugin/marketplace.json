@@ -1,0 +1,14 @@
+{
+  "name": "data-agent-local",
+  "description": "A local catalog for the Data Agent Excel analysis plugin.",
+  "owner": {
+    "name": "Data Agent maintainers"
+  },
+  "plugins": [
+    {
+      "name": "data-agent",
+      "source": "./",
+      "description": "Local Excel analysis agent and skills with market-scoped source handling."
+    }
+  ]
+}
