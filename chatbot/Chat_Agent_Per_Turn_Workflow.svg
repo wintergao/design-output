@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="4200" height="2100" viewBox="0 0 2400 1200" version="1.1" role="img" aria-labelledby="a b">
+  <title id="a">How a Chat Agent handles a customer request</title>
+  <desc id="b">Seven steps in three rows. Step four checks every goal independently. Eligible requests follow the execution path. Requests needing clarification or access and ordinary out-of-scope requests bypass execution. A new event resumes at step one; the next known goal returns to step four.</desc>
+  <g id="input-and-understanding">
+    <rect x="38" y="47" width="720" height="228" rx="17" fill="#D6E7F1" stroke="#AFC8D7" stroke-width="1.5"/>
+    <rect x="65" y="75" width="54" height="43" rx="13" fill="#486C82" stroke="none" stroke-width="1.5"/>
+    <text x="92" y="105" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23" font-weight="700" fill="white" text-anchor="middle">01</text>
+    <text x="139" y="109" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="33" font-weight="700" fill="#333D47" text-anchor="start">Load session context</text>
+    <path d="M66 141H730" fill="none" stroke="#486C82" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="66" y="190" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="27" font-weight="400" fill="#333D47" text-anchor="start">Load the bot profile, verified user state</text>
+    <text x="66" y="229" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="27" font-weight="400" fill="#333D47" text-anchor="start">and any open tasks.</text>
+    <rect x="840" y="47" width="720" height="228" rx="17" fill="#D6E7F1" stroke="#AFC8D7" stroke-width="1.5"/>
+    <rect x="867" y="75" width="54" height="43" rx="13" fill="#486C82" stroke="none" stroke-width="1.5"/>
+    <text x="894" y="105" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23" font-weight="700" fill="white" text-anchor="middle">02</text>
+    <text x="941" y="109" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="33" font-weight="700" fill="#333D47" text-anchor="start">Interpret the current turn</text>
+    <path d="M868 141H1532" fill="none" stroke="#486C82" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="868" y="190" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="27" font-weight="400" fill="#333D47" text-anchor="start">Is this a reply, correction, cancellation</text>
+    <text x="868" y="229" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="27" font-weight="400" fill="#333D47" text-anchor="start">or a new request?</text>
+    <rect x="1642" y="47" width="720" height="228" rx="17" fill="#D6E7F1" stroke="#AFC8D7" stroke-width="1.5"/>
+    <rect x="1669" y="75" width="54" height="43" rx="13" fill="#486C82" stroke="none" stroke-width="1.5"/>
+    <text x="1696" y="105" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23" font-weight="700" fill="white" text-anchor="middle">03</text>
+    <text x="1743" y="109" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="33" font-weight="700" fill="#333D47" text-anchor="start">Identify intents and goals</text>
+    <path d="M1670 141H2334" fill="none" stroke="#486C82" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1670" y="190" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="27" font-weight="400" fill="#333D47" text-anchor="start">Identify the goal, object and requested action.</text>
+    <text x="1670" y="229" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="27" font-weight="400" fill="#333D47" text-anchor="start">Separate and prioritize multiple requests.</text>
+  </g>
+  <g id="per-goal-gate">
+    <rect x="38" y="368" width="2324" height="307" rx="19" fill="#E8E4F0" stroke="#C1B6D1" stroke-width="1.6"/>
+    <rect x="65" y="396" width="54" height="43" rx="13" fill="#716084" stroke="none" stroke-width="1.5"/>
+    <text x="92" y="426" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23" font-weight="700" fill="white" text-anchor="middle">04</text>
+    <text x="139" y="430" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="33" font-weight="700" fill="#333D47" text-anchor="start">Check scope and prerequisites</text>
+    <path d="M66 462H2334" fill="none" stroke="#716084" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="2327" y="427" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="22.5" font-weight="400" fill="#716084" text-anchor="end">Unsafe input follows the configured security policy.</text>
+    <text x="67" y="521" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="28" font-weight="700" fill="#333D47" text-anchor="start">Ready to proceed</text>
+    <text x="67" y="572" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="25.7" font-weight="400" fill="#333D47" text-anchor="start">The goal is clear, in scope</text>
+    <text x="67" y="607" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="25.7" font-weight="400" fill="#333D47" text-anchor="start">and authorized.</text>
+    <path d="M800 488V638" fill="none" stroke="#C6BDD3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="869" y="521" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="28" font-weight="700" fill="#333D47" text-anchor="start">More information or access needed</text>
+    <text x="869" y="572" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="25.7" font-weight="400" fill="#333D47" text-anchor="start">Ask a focused question or request</text>
+    <text x="869" y="607" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="25.7" font-weight="400" fill="#333D47" text-anchor="start">sign-in or consent.</text>
+    <path d="M1602 488V638" fill="none" stroke="#C6BDD3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1671" y="521" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="28" font-weight="700" fill="#333D47" text-anchor="start">Outside the supported scope</text>
+    <text x="1671" y="572" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="25.7" font-weight="400" fill="#333D47" text-anchor="start">Explain the boundary and offer supported</text>
+    <text x="1671" y="607" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="25.7" font-weight="400" fill="#333D47" text-anchor="start">topics. Do not escalate to a human.</text>
+  </g>
+  <g id="execution-and-closure">
+    <rect x="38" y="783" width="720" height="370" rx="17" fill="#F6DDE6" stroke="#DCB7C6" stroke-width="1.5"/>
+    <rect x="65" y="811" width="54" height="43" rx="13" fill="#9A5770" stroke="none" stroke-width="1.5"/>
+    <text x="92" y="841" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23" font-weight="700" fill="white" text-anchor="middle">05</text>
+    <text x="139" y="845" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="33" font-weight="700" fill="#333D47" text-anchor="start">Select and execute a path</text>
+    <path d="M66 877H730" fill="none" stroke="#9A5770" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="840" y="783" width="720" height="370" rx="17" fill="#F6DDE6" stroke="#DCB7C6" stroke-width="1.5"/>
+    <rect x="867" y="811" width="54" height="43" rx="13" fill="#9A5770" stroke="none" stroke-width="1.5"/>
+    <text x="894" y="841" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23" font-weight="700" fill="white" text-anchor="middle">06</text>
+    <text x="941" y="845" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="33" font-weight="700" fill="#333D47" text-anchor="start">Check the result and respond</text>
+    <path d="M868 877H1532" fill="none" stroke="#9A5770" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="1642" y="783" width="720" height="370" rx="17" fill="#F6DDE6" stroke="#DCB7C6" stroke-width="1.5"/>
+    <rect x="1669" y="811" width="54" height="43" rx="13" fill="#9A5770" stroke="none" stroke-width="1.5"/>
+    <text x="1696" y="841" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23" font-weight="700" fill="white" text-anchor="middle">07</text>
+    <text x="1743" y="845" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="33" font-weight="700" fill="#333D47" text-anchor="start">Wait, continue or close</text>
+    <path d="M1670 877H2334" fill="none" stroke="#9A5770" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="74" cy="917" r="3.5" fill="#9A5770"/>
+    <text x="90" y="924" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.8" font-weight="700" fill="#333D47" text-anchor="start">Reply directly</text>
+    <text x="90" y="956" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23.2" font-weight="400" fill="#4D525D" text-anchor="start">Handle greetings or confirmations.</text>
+    <circle cx="74" cy="996" r="3.5" fill="#9A5770"/>
+    <text x="90" y="1003" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.8" font-weight="700" fill="#333D47" text-anchor="start">Invoke a skill</text>
+    <text x="90" y="1035" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23.2" font-weight="400" fill="#4D525D" text-anchor="start">Look up knowledge, suggest a channel or prepare a handoff.</text>
+    <circle cx="74" cy="1075" r="3.5" fill="#9A5770"/>
+    <text x="90" y="1082" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.8" font-weight="700" fill="#333D47" text-anchor="start">Delegate when needed</text>
+    <text x="90" y="1114" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23.2" font-weight="400" fill="#4D525D" text-anchor="start">Use an authorized domain agent for a specialist task.</text>
+    <circle cx="876" cy="917" r="3.5" fill="#9A5770"/>
+    <text x="892" y="924" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.8" font-weight="700" fill="#333D47" text-anchor="start">Verify the result</text>
+    <text x="892" y="956" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23.2" font-weight="400" fill="#4D525D" text-anchor="start">Check sources, applicability and actual receipts.</text>
+    <circle cx="876" cy="996" r="3.5" fill="#9A5770"/>
+    <text x="892" y="1003" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.8" font-weight="700" fill="#333D47" text-anchor="start">Prepare the response</text>
+    <text x="892" y="1035" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23.2" font-weight="400" fill="#4D525D" text-anchor="start">Give an answer, ask a question or offer a next action.</text>
+    <circle cx="876" cy="1075" r="3.5" fill="#9A5770"/>
+    <text x="892" y="1082" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.8" font-weight="700" fill="#333D47" text-anchor="start">Apply the output policy</text>
+    <text x="892" y="1114" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23.2" font-weight="400" fill="#4D525D" text-anchor="start">Release approved content through the current channel.</text>
+    <circle cx="1678" cy="917" r="3.5" fill="#9A5770"/>
+    <text x="1694" y="924" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.8" font-weight="700" fill="#333D47" text-anchor="start">Waiting for a user or system event</text>
+    <text x="1694" y="956" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23.2" font-weight="400" fill="#4D525D" text-anchor="start">Save the pending task. Resume at step 01 on the next event.</text>
+    <circle cx="1678" cy="996" r="3.5" fill="#9A5770"/>
+    <text x="1694" y="1003" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.8" font-weight="700" fill="#333D47" text-anchor="start">Another known goal is pending</text>
+    <text x="1694" y="1035" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23.2" font-weight="400" fill="#4D525D" text-anchor="start">Return to step 04 and check that goal separately.</text>
+    <circle cx="1678" cy="1075" r="3.5" fill="#9A5770"/>
+    <text x="1694" y="1082" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.8" font-weight="700" fill="#333D47" text-anchor="start">The user confirms resolution</text>
+    <text x="1694" y="1114" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23.2" font-weight="400" fill="#4D525D" text-anchor="start">Close this goal and ask whether more help is needed.</text>
+  </g>
+  <g id="flow-connectors">
+    <path d="M761 161.0H836" fill="none" stroke="#526C7A" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M828 153.0L836 161.0L828 169.0" fill="none" stroke="#526C7A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1563 161.0H1638" fill="none" stroke="#526C7A" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1630 153.0L1638 161.0L1630 169.0" fill="none" stroke="#526C7A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M761 968.0H836" fill="none" stroke="#526C7A" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M828 960.0L836 968.0L828 976.0" fill="none" stroke="#526C7A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1563 968.0H1638" fill="none" stroke="#526C7A" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1630 960.0L1638 968.0L1630 976.0" fill="none" stroke="#526C7A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2002.0 277V364" fill="none" stroke="#526C7A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1994.0 356L2002.0 364L2010.0 356" fill="none" stroke="#526C7A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="2020.0" y="326" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="22" font-weight="700" fill="#526C7A" text-anchor="start">For each goal</text>
+    <path d="M398.0 677V779" fill="none" stroke="#716084" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M390.0 771L398.0 779L406.0 771" fill="none" stroke="#716084" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="418.0" y="740" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="22" font-weight="700" fill="#716084" text-anchor="start">Proceed</text>
+    <path d="M1200.0 677V779" fill="none" stroke="#716084" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1192.0 771L1200.0 779L1208.0 771" fill="none" stroke="#716084" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2002.0 677V709Q2002.0 717 1994.0 717H1200.0" fill="none" stroke="#716084" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1200.0" cy="717" r="4" fill="#716084"/>
+    <text x="1220.0" y="753" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="22" font-weight="700" fill="#716084" text-anchor="start">Respond without executing</text>
+  </g>
+</svg>

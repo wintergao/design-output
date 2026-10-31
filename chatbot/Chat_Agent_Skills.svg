@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="4200" height="2100" viewBox="0 0 2400 1200" role="img" aria-labelledby="svgtitle svgdesc">
+  <title id="svgtitle">Chat Agent and its three reusable skills</title>
+  <desc id="svgdesc">The Chat Agent can retrieve evidence from an approved knowledge base, recommend an entry point across four digital channels, or prepare a context package for D365 Live Agent. The dashed channel arrow denotes recommendation.</desc>
+  <g id="connectors">
+    <path d="M361 600 V221Q361 210 372 210H422" stroke="#416A80" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M410 202L422 210L410 218" stroke="#416A80" stroke-width="3.3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M361 600 V979Q361 990 372 990H422" stroke="#416A80" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M410 982L422 990L410 998" stroke="#416A80" stroke-width="3.3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M233 600H422" stroke="#416A80" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M410 592L422 600L410 608" stroke="#416A80" stroke-width="3.3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="361" cy="600" r="4" fill="#416A80"/>
+    <text x="296" y="546" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="19.8" font-weight="700" fill="#416A80" text-anchor="middle"><tspan x="296" y="546">Invoke as</tspan><tspan x="296" y="571">needed</tspan></text>
+    <text x="1734.0" y="161" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="21.8" font-weight="700" fill="#467460" text-anchor="middle"><tspan x="1734.0" y="161">Retrieve approved</tspan><tspan x="1734.0" y="188">content</tspan></text>
+    <path d="M1614 210H1854" stroke="#467460" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1842 202L1854 210L1842 218" stroke="#467460" stroke-width="3.3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1626 202L1614 210L1626 218" stroke="#467460" stroke-width="3.3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1734.0" y="551" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="21.8" font-weight="700" fill="#506D82" text-anchor="middle"><tspan x="1734.0" y="551">Recommend</tspan><tspan x="1734.0" y="578">a destination</tspan></text>
+    <path d="M1614 600H1854" stroke="#506D82" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 8"/>
+    <path d="M1842 592L1854 600L1842 608" stroke="#506D82" stroke-width="3.3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1614" cy="600" r="3.4" fill="#506D82"/>
+    <text x="1734.0" y="941" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="21.8" font-weight="700" fill="#71618A" text-anchor="middle"><tspan x="1734.0" y="941">Handoff request</tspan><tspan x="1734.0" y="968">&amp; context</tspan></text>
+    <path d="M1614 990H1854" stroke="#71618A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1842 982L1854 990L1842 998" stroke="#71618A" stroke-width="3.3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1614" cy="990" r="3.4" fill="#71618A"/>
+  </g>
+  <g id="chat-agent">
+    <g id="chat-agent-medallion" transform="translate(41.5 502.5) scale(1.625)" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">
+      <circle cx="60" cy="60" r="58.3" fill="#EDF0F4" stroke="#BCC9D3" stroke-width="1.25"/>
+      <circle cx="60" cy="60" r="51.8" fill="#30495C"/>
+      <path d="M41 37h38c8.4 0 14.5 6.2 14.5 14.5v18.8c0 8.1-6.2 14.3-14.5 14.3H58.5L44 94c-1.2.8-2.7-.1-2.7-1.5v-8.2C33 83.7 27 78 27 70.1V51.5C27 43.2 32.9 37 41 37Z" fill="#DAE9F1"/>
+      <path d="M60 36.6v-7" fill="none" stroke="#DAE9F1" stroke-width="3.6"/>
+      <circle cx="60" cy="27.4" r="3.3" fill="#C9C2E3"/>
+      <rect x="35.8" y="45.5" width="48.4" height="24.7" rx="11" fill="#3E566A"/>
+      <path d="M49.1 54.1v6.6" fill="none" stroke="#E9F4FB" stroke-width="4.2"/>
+      <path d="M70.9 54.1v6.6" fill="none" stroke="#D5CFEA" stroke-width="4.2"/>
+      <path d="M54.1 75.3q5.9 3.9 11.8 0" fill="none" stroke="#465F73" stroke-width="2.45"/>
+    </g>
+    <text x="139" y="739" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="38" font-weight="700" fill="#30495C" text-anchor="middle">Chat Agent</text>
+  </g>
+  <g id="skill-knowledge">
+    <rect x="426" y="27.0" width="1184" height="366" rx="18" fill="#E8F2F7" stroke="#ADC7D5" stroke-width="1.6"/>
+    <path d="M426.8 123.0V45.0Q426.8 27.8 444 27.8H1592Q1609.2 27.8 1609.2 45.0V123.0Z" fill="#C7DDEA"/>
+    <rect x="446" y="44.0" width="63" height="62" rx="12" fill="#EFF6FA" stroke="none" stroke-width="1.7"/>
+    <g transform="translate(459.5 57.5) scale(1.125)" fill="none" stroke="#416A80" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M16 7.5C12 4.5 7.5 4 3 5.3v20.3c4.5-1.2 9-.7 13 2.1 4-2.8 8.5-3.3 13-2.1V5.3C24.5 4 20 4.5 16 7.5zm0 0v20.2"/>
+      <path d="M7 11c2.2-.2 3.5.2 5 1.1M7 15.9c2.2-.2 3.5.2 5 1.1m7.8-.9 2.1 2.2 4.3-5.2"/>
+    </g>
+    <text x="528" y="75.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="36" font-weight="700" fill="#333D47" text-anchor="start">Answer from Approved Knowledge</text>
+    <text x="529" y="104.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="22" font-weight="400" fill="#426276" text-anchor="start">answer_from_approved_knowledge</text>
+    <path d="M427 123.0H1609" stroke="#ADC7D5" stroke-width="1.25" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="452" y="153.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="17.6" font-weight="700" fill="#416A80" text-anchor="start">WHEN TO USE</text>
+    <text x="452" y="188.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.4" font-weight="400" fill="#333D47" text-anchor="start">When the customer asks a question covered by approved FAQs or knowledge articles.</text>
+    <path d="M452 208.0H1584" stroke="#C3D6E1" stroke-width="1.25" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="452" y="235.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="17.6" font-weight="700" fill="#416A80" text-anchor="start">WORKFLOW</text>
+    <circle cx="466" cy="267.0" r="13.8" fill="#C5DBE8"/>
+    <text x="466" y="273.8" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.2" font-weight="700" fill="#416A80" text-anchor="middle">1</text>
+    <text x="494" y="274.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.3" font-weight="400" fill="#333D47" text-anchor="start">Search approved content using the question and conversation context.</text>
+    <circle cx="466" cy="311.0" r="13.8" fill="#C5DBE8"/>
+    <text x="466" y="317.8" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.2" font-weight="700" fill="#416A80" text-anchor="middle">2</text>
+    <text x="494" y="318.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.3" font-weight="400" fill="#333D47" text-anchor="start">Check that the source applies to the customer’s product and market.</text>
+    <circle cx="466" cy="355.0" r="13.8" fill="#C5DBE8"/>
+    <text x="466" y="361.8" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.2" font-weight="700" fill="#416A80" text-anchor="middle">3</text>
+    <text x="494" y="362.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.3" font-weight="400" fill="#333D47" text-anchor="start">Return an answer with sources, or flag missing or conflicting evidence.</text>
+  </g>
+  <g id="skill-route">
+    <rect x="426" y="417.0" width="1184" height="366" rx="18" fill="#E8F2F7" stroke="#ADC7D5" stroke-width="1.6"/>
+    <path d="M426.8 513.0V435.0Q426.8 417.8 444 417.8H1592Q1609.2 417.8 1609.2 435.0V513.0Z" fill="#C7DDEA"/>
+    <rect x="446" y="434.0" width="63" height="62" rx="12" fill="#EFF6FA" stroke="none" stroke-width="1.7"/>
+    <g transform="translate(459.5 447.5) scale(1.125)" fill="none" stroke="#416A80" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M3.5 12h7v7h-7zm19.2-9h6.5v6.5h-6.5zm0 19.5h6.5V29h-6.5z"/>
+      <path d="M10.5 15.5h3.3a3.5 3.5 0 0 0 3.5-3.5V9.8a3.5 3.5 0 0 1 3.5-3.5h1.6M13.8 15.5a3.5 3.5 0 0 1 3.5 3.5v3.2a3.5 3.5 0 0 0 3.5 3.5h1.6"/>
+    </g>
+    <text x="528" y="465.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="36" font-weight="700" fill="#333D47" text-anchor="start">Resolve Service Destination</text>
+    <text x="529" y="494.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="22" font-weight="400" fill="#426276" text-anchor="start">resolve_service_destination</text>
+    <path d="M427 513.0H1609" stroke="#ADC7D5" stroke-width="1.25" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="452" y="543.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="17.6" font-weight="700" fill="#416A80" text-anchor="start">WHEN TO USE</text>
+    <text x="452" y="578.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.4" font-weight="400" fill="#333D47" text-anchor="start">When the customer wants to complete a service or explore a product and needs the right channel.</text>
+    <path d="M452 598.0H1584" stroke="#C3D6E1" stroke-width="1.25" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="452" y="625.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="17.6" font-weight="700" fill="#416A80" text-anchor="start">WORKFLOW</text>
+    <circle cx="466" cy="657.0" r="13.8" fill="#C5DBE8"/>
+    <text x="466" y="663.8" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.2" font-weight="700" fill="#416A80" text-anchor="middle">1</text>
+    <text x="494" y="664.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.3" font-weight="400" fill="#333D47" text-anchor="start">Match the customer’s intent to the configured routing rules.</text>
+    <circle cx="466" cy="701.0" r="13.8" fill="#C5DBE8"/>
+    <text x="466" y="707.8" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.2" font-weight="700" fill="#416A80" text-anchor="middle">2</text>
+    <text x="494" y="708.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.3" font-weight="400" fill="#333D47" text-anchor="start">Select an eligible channel and check its sign-in requirements.</text>
+    <circle cx="466" cy="745.0" r="13.8" fill="#C5DBE8"/>
+    <text x="466" y="751.8" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.2" font-weight="700" fill="#416A80" text-anchor="middle">3</text>
+    <text x="494" y="752.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.3" font-weight="400" fill="#333D47" text-anchor="start">Return the entry point and explain why it fits, so the customer can choose.</text>
+  </g>
+  <g id="skill-handoff">
+    <rect x="426" y="807.0" width="1184" height="366" rx="18" fill="#E8F2F7" stroke="#ADC7D5" stroke-width="1.6"/>
+    <path d="M426.8 903.0V825.0Q426.8 807.8 444 807.8H1592Q1609.2 807.8 1609.2 825.0V903.0Z" fill="#C7DDEA"/>
+    <rect x="446" y="824.0" width="63" height="62" rx="12" fill="#EFF6FA" stroke="none" stroke-width="1.7"/>
+    <g transform="translate(459.5 837.5) scale(1.125)" fill="none" stroke="#416A80" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M3.5 13A9.5 9.5 0 0 1 22 9.7M4 12h3v8H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2zm16 0h3a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-3zM22 20v2a3 3 0 0 1-3 3h-4"/>
+      <path d="M13 28h14m-4-4 4 4-4 3"/>
+    </g>
+    <text x="528" y="855.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="36" font-weight="700" fill="#333D47" text-anchor="start">Prepare Human Handoff</text>
+    <text x="529" y="884.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="22" font-weight="400" fill="#426276" text-anchor="start">prepare_human_handoff</text>
+    <path d="M427 903.0H1609" stroke="#ADC7D5" stroke-width="1.25" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="452" y="933.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="17.6" font-weight="700" fill="#416A80" text-anchor="start">WHEN TO USE</text>
+    <text x="452" y="968.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.4" font-weight="400" fill="#333D47" text-anchor="start">When an in-scope request remains unresolved and meets the rules for live support.</text>
+    <path d="M452 988.0H1584" stroke="#C3D6E1" stroke-width="1.25" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="452" y="1015.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="17.6" font-weight="700" fill="#416A80" text-anchor="start">WORKFLOW</text>
+    <circle cx="466" cy="1047.0" r="13.8" fill="#C5DBE8"/>
+    <text x="466" y="1053.8" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.2" font-weight="700" fill="#416A80" text-anchor="middle">1</text>
+    <text x="494" y="1054.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.3" font-weight="400" fill="#333D47" text-anchor="start">Capture the customer’s goal, steps already taken and unresolved issue.</text>
+    <circle cx="466" cy="1091.0" r="13.8" fill="#C5DBE8"/>
+    <text x="466" y="1097.8" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.2" font-weight="700" fill="#416A80" text-anchor="middle">2</text>
+    <text x="494" y="1098.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.3" font-weight="400" fill="#333D47" text-anchor="start">Prepare a redacted summary and a reference to the authorized conversation history.</text>
+    <circle cx="466" cy="1135.0" r="13.8" fill="#C5DBE8"/>
+    <text x="466" y="1141.8" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.2" font-weight="700" fill="#416A80" text-anchor="middle">3</text>
+    <text x="494" y="1142.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.3" font-weight="400" fill="#333D47" text-anchor="start">Return the handoff request with the escalation reason and suggested queue.</text>
+  </g>
+  <g id="target-kb">
+    <rect x="1858" y="72.0" width="513" height="276" rx="17" fill="#DDEEE6" stroke="#A6C8B6" stroke-width="1.7"/>
+    <rect x="1885" y="96.0" width="57" height="56" rx="13" fill="#F4F9F6" stroke="none" stroke-width="1.7"/>
+    <g transform="translate(1897 108.0) scale(1.03125)" fill="none" stroke="#467460" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M16 7.5C12 4.5 7.5 4 3 5.3v20.3c4.5-1.2 9-.7 13 2.1 4-2.8 8.5-3.3 13-2.1V5.3C24.5 4 20 4.5 16 7.5zm0 0v20.2"/>
+      <path d="M7 11c2.2-.2 3.5.2 5 1.1M7 15.9c2.2-.2 3.5.2 5 1.1m7.8-.9 2.1 2.2 4.3-5.2"/>
+    </g>
+    <text x="1885" y="213.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="40" font-weight="700" fill="#333D47" text-anchor="start">Knowledge Base</text>
+    <path d="M1885 241.0H2344" stroke="#A6C8B6" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1885" y="292.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="29" font-weight="400" fill="#467460" text-anchor="start">Approved FAQs &amp; Articles</text>
+  </g>
+  <g id="target-channels">
+    <rect x="1858" y="450.0" width="513" height="300" rx="17" fill="#E7EDF2" stroke="#BACAD5" stroke-width="1.7"/>
+    <text x="1884" y="512.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="36.5" font-weight="700" fill="#333D47" text-anchor="start">Digital Channels</text>
+    <rect x="1885.0" y="543.0" width="223.5" height="79" rx="11" fill="#F7FAFC" stroke="#C3D1DA" stroke-width="1.4"/>
+    <text x="1996.75" y="592.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="28" font-weight="700" fill="#506D82" text-anchor="middle">AIA+</text>
+    <rect x="2120.5" y="543.0" width="223.5" height="79" rx="11" fill="#F7FAFC" stroke="#C3D1DA" stroke-width="1.4"/>
+    <text x="2232.25" y="592.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="28" font-weight="700" fill="#506D82" text-anchor="middle">MyAIA</text>
+    <rect x="1885.0" y="635.0" width="223.5" height="79" rx="11" fill="#F7FAFC" stroke="#C3D1DA" stroke-width="1.4"/>
+    <text x="1996.75" y="684.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="28" font-weight="700" fill="#506D82" text-anchor="middle">Vitality</text>
+    <rect x="2120.5" y="635.0" width="223.5" height="79" rx="11" fill="#F7FAFC" stroke="#C3D1DA" stroke-width="1.4"/>
+    <text x="2232.25" y="684.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="28" font-weight="700" fill="#506D82" text-anchor="middle">Web Form</text>
+  </g>
+  <g id="target-handoff">
+    <rect x="1858" y="852.0" width="513" height="276" rx="17" fill="#DCD8EA" stroke="#B9B2CF" stroke-width="1.7"/>
+    <rect x="1885" y="876.0" width="57" height="56" rx="13" fill="#F5F2F8" stroke="none" stroke-width="1.7"/>
+    <g transform="translate(1896 885.0) scale(1.1)">
+      <path d="M4 17v-2a12 12 0 0 1 24 0v7c0 4.4-2.9 7-7 7h-3" stroke="#71618A" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="2.5" y="13" width="6.5" height="11" rx="2" fill="none" stroke="#71618A" stroke-width="2"/>
+      <rect x="23" y="13" width="6.5" height="11" rx="2" fill="none" stroke="#71618A" stroke-width="2"/>
+      <rect x="14" y="26.5" width="7" height="4" rx="1.8" fill="none" stroke="#71618A" stroke-width="1.8"/>
+    </g>
+    <text x="1885" y="993.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="40" font-weight="700" fill="#333D47" text-anchor="start">D365 Live Agent</text>
+    <path d="M1885 1021.0H2344" stroke="#B9B2CF" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1885" y="1072.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="29" font-weight="400" fill="#71618A" text-anchor="start">D365 Omnichannel</text>
+  </g>
+</svg>

@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="4200" height="2100" viewBox="0 0 2520 1260" version="1.1" role="img" aria-labelledby="architect-title desc">
+  <title id="architect-title">Chatbot Integration Architecture</title>
+  <desc id="desc">Corp Website, AIA+ App and Facebook Messenger connect to Chatbot. The latter two touchpoints are grouped in Phase II. The ten Chatbot modules are shown above the digital self-service and live-agent destinations. Agent Integration invokes Chat Agent in GenAI Hub 2.0 and receives its AG-UI event stream. The hub retrieves knowledge from KMS / KB.</desc>
+  <g id="architecture" transform="translate(0 -45.5)">
+    <g id="user-touchpoints">
+      <rect x="34" y="127" width="330" height="1097" rx="19" fill="#F7F9FA" stroke="#B7C5CE" stroke-width="1.7"/>
+      <path d="M35 201 V146 Q35 128 53 128 H345 Q363 128 363 146 V201 Z" fill="#E6ECEF"/>
+      <path d="M35 201 H363" fill="none" stroke="#B7C5CE" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+      <rect x="54" y="152.0" width="5" height="24" rx="2.4" fill="#586D7B" stroke="none" stroke-width="1.4"/>
+      <text x="72" y="174.2" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="30" font-weight="700" text-anchor="start" fill="#333D47">User Touchpoints</text>
+      <g id="corp-website" transform="translate(0 -625)">
+        <rect x="54" y="883" width="280" height="211" rx="14" fill="#FFFFFF" stroke="#CBD5DC" stroke-width="1.5"/>
+        <rect x="72" y="903" width="63" height="57" rx="12" fill="#EAF0F3" stroke="none" stroke-width="1.4"/>
+        <g transform="translate(84 912) scale(1.21875)" fill="none" stroke="#586D7B" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M4.8 4h22.4a2.2 2.2 0 0 1 2.2 2.2v19.6a2.2 2.2 0 0 1-2.2 2.2H4.8a2.2 2.2 0 0 1-2.2-2.2V6.2A2.2 2.2 0 0 1 4.8 4z"/>
+          <path d="M2.8 10h26.4M6.5 7h.15m3.1 0h.15m3.1 0h.15M7 15h5.8v7.5H7zm10.5.5h6.2m-6.2 4h6.2"/>
+        </g>
+        <text x="73" y="1009" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23.5" font-weight="700" text-anchor="start" fill="#333D47">Corp Website</text>
+        <text x="73" y="1046" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="20.7" font-weight="400" text-anchor="start" fill="#516572">Embedded Web Widget</text>
+      </g>
+      <g id="phase-ii">
+        <rect x="44" y="550" width="308" height="630" rx="15" fill="#EBF1F5" stroke="#7390A1" stroke-width="2" stroke-dasharray="9 5"/>
+        <rect x="59" y="533" width="108" height="34" rx="10" fill="#486979" stroke="none" stroke-width="1.4"/>
+        <text x="113" y="556.5" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#FFFFFF">Phase II</text>
+        <g id="aia-app" transform="translate(0 348)">
+          <rect x="54" y="255" width="280" height="211" rx="14" fill="#FFFFFF" stroke="#CBD5DC" stroke-width="1.5"/>
+          <rect x="72" y="275" width="63" height="57" rx="12" fill="#EAF0F3" stroke="none" stroke-width="1.4"/>
+          <g transform="translate(84 284) scale(1.21875)" fill="none" stroke="#586D7B" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M9 2.5h14a3 3 0 0 1 3 3v21a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3v-21a3 3 0 0 1 3-3z"/>
+            <path d="M12 5.5h8m-6.5 21h5M12 16h8m-4-4v8"/>
+          </g>
+          <text x="73" y="381" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23.5" font-weight="700" text-anchor="start" fill="#333D47">AIA+ App</text>
+          <text x="73" y="418" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="20.7" font-weight="400" text-anchor="start" fill="#516572">Embedded In-App Chat</text>
+        </g>
+        <g id="facebook-messenger" transform="translate(0 354)">
+          <rect x="54" y="569" width="280" height="211" rx="14" fill="#FFFFFF" stroke="#CBD5DC" stroke-width="1.5"/>
+          <rect x="72" y="589" width="63" height="57" rx="12" fill="#EAF0F3" stroke="none" stroke-width="1.4"/>
+          <g transform="translate(84 598) scale(1.21875)" fill="none" stroke="#586D7B" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M16 3C8.4 3 2.8 8.2 2.8 15c0 3.8 1.7 7 4.8 9.2v5l4.8-2.7c1.1.3 2.3.5 3.6.5 7.5 0 13.2-5.2 13.2-12S23.5 3 16 3z"/>
+            <path d="m8.2 19 6.2-7.2 4.1 3.1 5.2-4.2-6.1 7.3-4-3.2z"/>
+          </g>
+          <text x="73" y="695" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="23.5" font-weight="700" text-anchor="start" fill="#333D47">Facebook Messenger</text>
+          <text x="73" y="732" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="20.7" font-weight="400" text-anchor="start" fill="#516572">Native Messaging</text>
+        </g>
+      </g>
+    </g>
+    <g id="chatbot">
+      <rect x="440" y="127" width="1030" height="680" rx="19" fill="#F4F8FA" stroke="#ADC3D0" stroke-width="1.7"/>
+      <path d="M441 201 V146 Q441 128 459 128 H1451 Q1469 128 1469 146 V201 Z" fill="#D8E7EF"/>
+      <path d="M441 201 H1469" fill="none" stroke="#ADC3D0" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+      <rect x="460" y="152.0" width="5" height="24" rx="2.4" fill="#436D87" stroke="none" stroke-width="1.4"/>
+      <text x="478" y="175.56" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="34" font-weight="700" text-anchor="start" fill="#333D47">Chatbot</text>
+      <g id="conversation-services">
+        <rect x="459" y="219" width="992" height="301" rx="17" fill="#F9FCFD" stroke="#B6CBD8" stroke-width="1.7"/>
+        <path d="M460 270 V237 Q460 220 477 220 H1433 Q1450 220 1450 237 V270 Z" fill="#E7F1F6"/>
+        <path d="M460 270 H1450" fill="none" stroke="#B6CBD8" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+        <rect x="479" y="232.5" width="5" height="24" rx="2.4" fill="#436D87" stroke="none" stroke-width="1.4"/>
+        <text x="497" y="253.545" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="27" font-weight="700" text-anchor="start" fill="#333D47">Conversation Services</text>
+        <g id="conversation-services-1">
+          <rect x="477" y="337" width="181" height="132" rx="12" fill="#C7DDEA" stroke="#ABC6D6" stroke-width="1.2"/>
+          <rect x="544.0" y="350" width="47" height="47" rx="10" fill="#EAF3F7" stroke="none" stroke-width="1.4"/>
+          <g transform="translate(551.5 357.5)" fill="none" stroke="#436D87" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M13 4.5h12.5a2 2 0 0 1 2 2v19a2 2 0 0 1-2 2H13M2.5 16H20m-6-6 6 6-6 6"/>
+          </g>
+          <text x="567.5" y="431" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="21.1" font-weight="700" text-anchor="middle" fill="#333D47">
+            <tspan x="567.5" y="431">Access control</tspan>
+            <tspan x="567.5" y="455.054">&amp; Integration</tspan>
+          </text>
+        </g>
+        <g id="conversation-services-2">
+          <rect x="671" y="337" width="181" height="132" rx="12" fill="#C7DDEA" stroke="#ABC6D6" stroke-width="1.2"/>
+          <rect x="738.0" y="350" width="47" height="47" rx="10" fill="#EAF3F7" stroke="none" stroke-width="1.4"/>
+          <g transform="translate(745.5 357.5)" fill="none" stroke="#436D87" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M15 22H5a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3h18a3 3 0 0 1 3 3v4M2 9h24M6.5 6h.2m3.2 0h.2m3.2 0h.2"/>
+            <path d="M18.4 13h8.2a2.4 2.4 0 0 1 2.4 2.4v12.2a2.4 2.4 0 0 1-2.4 2.4h-8.2a2.4 2.4 0 0 1-2.4-2.4V15.4a2.4 2.4 0 0 1 2.4-2.4zM20 17h5m-4 10h3"/>
+          </g>
+          <text x="761.5" y="443" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="21.1" font-weight="700" text-anchor="middle" fill="#333D47">UI/UX</text>
+        </g>
+        <g id="conversation-services-3">
+          <rect x="865" y="337" width="181" height="132" rx="12" fill="#C7DDEA" stroke="#ABC6D6" stroke-width="1.2"/>
+          <rect x="932.0" y="350" width="47" height="47" rx="10" fill="#EAF3F7" stroke="none" stroke-width="1.4"/>
+          <g transform="translate(939.5 357.5)" fill="none" stroke="#436D87" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M16 20H9l-5.5 5V8.5A3.5 3.5 0 0 1 7 5h14a3.5 3.5 0 0 1 3.5 3.5V13M8 10.5h10.5M8 14.5h7"/>
+            <path d="M30.5 22a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0zM24 18.7v3.5l2.7 1.7"/>
+          </g>
+          <text x="955.5" y="431" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="21.1" font-weight="700" text-anchor="middle" fill="#333D47">
+            <tspan x="955.5" y="431">Conversations</tspan>
+            <tspan x="955.5" y="455.054">&amp; History</tspan>
+          </text>
+        </g>
+        <g id="conversation-services-4">
+          <rect x="1059" y="337" width="181" height="132" rx="12" fill="#C7DDEA" stroke="#ABC6D6" stroke-width="1.2"/>
+          <rect x="1126.0" y="350" width="47" height="47" rx="10" fill="#EAF3F7" stroke="none" stroke-width="1.4"/>
+          <g transform="translate(1133.5 357.5)" fill="none" stroke="#436D87" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M2.5 6h6v6h-6zM23 3h6.5v6.5H23zM23 22h6.5v6.5H23z"/>
+            <path d="M8.5 9h4.7a3 3 0 0 0 3-3h6.5M8.5 9h4.7a3 3 0 0 1 3 3v10a3.3 3.3 0 0 0 3.3 3.3H23"/>
+          </g>
+          <text x="1149.5" y="431" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="21.1" font-weight="700" text-anchor="middle" fill="#333D47">
+            <tspan x="1149.5" y="431">Agent</tspan>
+            <tspan x="1149.5" y="455.054">Integration</tspan>
+          </text>
+        </g>
+        <g id="conversation-services-5">
+          <rect x="1253" y="337" width="181" height="132" rx="12" fill="#C7DDEA" stroke="#ABC6D6" stroke-width="1.2"/>
+          <rect x="1320.0" y="350" width="47" height="47" rx="10" fill="#EAF3F7" stroke="none" stroke-width="1.4"/>
+          <g transform="translate(1327.5 357.5)" fill="none" stroke="#436D87" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M16 2.5 27.5 7v7.2c0 6.2-3.7 11.4-11.5 15.3C8.2 25.6 4.5 20.4 4.5 14.2V7zM10 16l4 4 8-9"/>
+          </g>
+          <text x="1343.5" y="431" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="21.1" font-weight="700" text-anchor="middle" fill="#333D47">
+            <tspan x="1343.5" y="431">Security &amp;</tspan>
+            <tspan x="1343.5" y="455.054">Human Handoff</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="management-operations">
+        <rect x="459" y="537" width="992" height="249" rx="17" fill="#FFF9FB" stroke="#E3BFCD" stroke-width="1.7"/>
+        <path d="M460 588 V555 Q460 538 477 538 H1433 Q1450 538 1450 555 V588 Z" fill="#FAE8EF"/>
+        <path d="M460 588 H1450" fill="none" stroke="#E3BFCD" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+        <rect x="479" y="550.5" width="5" height="24" rx="2.4" fill="#995571" stroke="none" stroke-width="1.4"/>
+        <text x="497" y="571.545" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="27" font-weight="700" text-anchor="start" fill="#333D47">Management &amp; Operations</text>
+        <g id="management-operations-1">
+          <rect x="477" y="625" width="181" height="137" rx="12" fill="#F6CFDA" stroke="#E3ACBF" stroke-width="1.2"/>
+          <rect x="544.0" y="638" width="47" height="47" rx="10" fill="#FCEAF0" stroke="none" stroke-width="1.4"/>
+          <g transform="translate(551.5 645.5)" fill="none" stroke="#995571" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M11 3h10v7H11zM2 22h10v7H2zM20 22h10v7H20zM16 10v6M7 22v-6h18v6"/>
+          </g>
+          <text x="567.5" y="719" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="21.1" font-weight="700" text-anchor="middle" fill="#333D47">
+            <tspan x="567.5" y="719">Organization</tspan>
+            <tspan x="567.5" y="743.054">&amp; Permissions</tspan>
+          </text>
+        </g>
+        <g id="management-operations-2">
+          <rect x="671" y="625" width="181" height="137" rx="12" fill="#F6CFDA" stroke="#E3ACBF" stroke-width="1.2"/>
+          <rect x="738.0" y="638" width="47" height="47" rx="10" fill="#FCEAF0" stroke="none" stroke-width="1.4"/>
+          <g transform="translate(745.5 645.5)" fill="none" stroke="#995571" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 3.5h22a3 3 0 0 1 3 3v18.5a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V6.5a3 3 0 0 1 3-3z"/>
+            <path d="M2.5 10h27M10.5 10v18M15 16h8m-3-3 3 3-3 3M15 23h10"/>
+          </g>
+          <text x="761.5" y="719" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="21.1" font-weight="700" text-anchor="middle" fill="#333D47">
+            <tspan x="761.5" y="719">Workspace &amp;</tspan>
+            <tspan x="761.5" y="743.054">Entry Points</tspan>
+          </text>
+        </g>
+        <g id="management-operations-3">
+          <rect x="865" y="625" width="181" height="137" rx="12" fill="#F6CFDA" stroke="#E3ACBF" stroke-width="1.2"/>
+          <rect x="932.0" y="638" width="47" height="47" rx="10" fill="#FCEAF0" stroke="none" stroke-width="1.4"/>
+          <g transform="translate(939.5 645.5)" fill="none" stroke="#995571" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M16 8.3C12.5 5.3 8.2 4.2 2.5 5.3v20c5.9-1.4 10.2-.3 13.5 2.8 3.3-3.1 7.6-4.2 13.5-2.8v-20C23.8 4.2 19.5 5.3 16 8.3zm0 0v19.5M6.5 10.2c2.5 0 4.1.5 5.5 1.5m-5.5 4.1c2.5 0 4.1.5 5.5 1.5m8.8-5.7c1.6-.8 3.3-1.4 5.1-1.4"/>
+          </g>
+          <text x="955.5" y="719" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="21.1" font-weight="700" text-anchor="middle" fill="#333D47">
+            <tspan x="955.5" y="719">Knowledge &amp;</tspan>
+            <tspan x="955.5" y="743.054">Capabilities</tspan>
+          </text>
+        </g>
+        <g id="management-operations-4">
+          <rect x="1059" y="625" width="181" height="137" rx="12" fill="#F6CFDA" stroke="#E3ACBF" stroke-width="1.2"/>
+          <rect x="1126.0" y="638" width="47" height="47" rx="10" fill="#FCEAF0" stroke="none" stroke-width="1.4"/>
+          <g transform="translate(1133.5 645.5)" fill="none" stroke="#995571" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M8.8 5.5H6.6A2.6 2.6 0 0 0 4 8.1v18.3A2.6 2.6 0 0 0 6.6 29h14.8a2.6 2.6 0 0 0 2.6-2.6M19.2 5.5h2.2A2.6 2.6 0 0 1 24 8.1v8M9 3h10v5H9z"/>
+            <path d="m8 17 3.4 3.4 6.6-7M20.3 22H29m-3.7-3.7L29 22l-3.7 3.7"/>
+          </g>
+          <text x="1149.5" y="719" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="21.1" font-weight="700" text-anchor="middle" fill="#333D47">
+            <tspan x="1149.5" y="719">Testing</tspan>
+            <tspan x="1149.5" y="743.054">&amp; Release</tspan>
+          </text>
+        </g>
+        <g id="management-operations-5">
+          <rect x="1253" y="625" width="181" height="137" rx="12" fill="#F6CFDA" stroke="#E3ACBF" stroke-width="1.2"/>
+          <rect x="1320.0" y="638" width="47" height="47" rx="10" fill="#FCEAF0" stroke="none" stroke-width="1.4"/>
+          <g transform="translate(1327.5 645.5)" fill="none" stroke="#995571" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3 4v23h26M8 22v-6m5.5 6v-9m5.5 9v-6m5.5 6V9M7.5 11l5-4 5.5 3.3L26 3.8M22 3.8h4v4"/>
+          </g>
+          <text x="1343.5" y="719" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="21.1" font-weight="700" text-anchor="middle" fill="#333D47">
+            <tspan x="1343.5" y="719">Analytics &amp;</tspan>
+            <tspan x="1343.5" y="743.054">Governance</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+    <g id="connected-systems">
+      <rect x="440" y="879" width="1030" height="345" rx="19" fill="#F7F9FA" stroke="#B7C5CE" stroke-width="1.7"/>
+      <path d="M441 938 V899 Q441 880 460 880 H1450 Q1469 880 1469 899 V938 Z" fill="#E6ECEF"/>
+      <path d="M441 938 H1469" fill="none" stroke="#B7C5CE" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+      <rect x="460" y="896.5" width="5" height="24" rx="2.4" fill="#586D7B" stroke="none" stroke-width="1.4"/>
+      <text x="478" y="919.22" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="32" font-weight="700" text-anchor="start" fill="#333D47">Connected Systems</text>
+      <g id="digital-self-service">
+        <text x="463" y="981" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="22.5" font-weight="700" text-anchor="start" fill="#496371">Digital Self-Service</text>
+        <path d="M680 974 H1190" fill="none" stroke="#CBD7DD" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+        <g id="aia-plus-service">
+          <rect x="463" y="1005" width="237" height="187" rx="13" fill="#FFFFFF" stroke="#C2D1D9" stroke-width="1.5"/>
+          <rect x="550" y="1026" width="64" height="64" rx="13" fill="#E8EFF3" stroke="none" stroke-width="1.4"/>
+          <g transform="translate(561 1037) scale(1.3125)" aria-hidden="true">
+            <path d="M10 3.5h12a3 3 0 0 1 3 3v19a3 3 0 0 1-3 3H10a3 3 0 0 1-3-3v-19a3 3 0 0 1 3-3z" fill="none" stroke="#536F7E" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+            <path d="M13 6.5h6m-6 9h6m-3-3v6m-2 7h4" fill="none" stroke="#536F7E" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+          </g>
+          <text x="582" y="1147" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="25" font-weight="700" text-anchor="middle" fill="#333D47">AIA+</text>
+        </g>
+        <g id="myaia">
+          <rect x="711" y="1005" width="237" height="187" rx="13" fill="#FFFFFF" stroke="#C2D1D9" stroke-width="1.5"/>
+          <rect x="798" y="1026" width="64" height="64" rx="13" fill="#E8EFF3" stroke="none" stroke-width="1.4"/>
+          <g transform="translate(809 1037) scale(1.3125)" aria-hidden="true">
+            <path d="M4.5 5.5h23a2 2 0 0 1 2 2v17a2 2 0 0 1-2 2h-23a2 2 0 0 1-2-2v-17a2 2 0 0 1 2-2z" fill="none" stroke="#536F7E" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+            <path d="M14.3 13a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.3 21c.6-2.6 2.2-4 5-4s4.4 1.4 5 4M20 12h5m-5 5h5" fill="none" stroke="#536F7E" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+          </g>
+          <text x="830" y="1147" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="25" font-weight="700" text-anchor="middle" fill="#333D47">MyAIA</text>
+        </g>
+        <g id="vitality">
+          <rect x="959" y="1005" width="237" height="187" rx="13" fill="#FFFFFF" stroke="#C2D1D9" stroke-width="1.5"/>
+          <rect x="1046" y="1026" width="64" height="64" rx="13" fill="#E8EFF3" stroke="none" stroke-width="1.4"/>
+          <g transform="translate(1057 1037) scale(1.3125)" aria-hidden="true">
+            <path d="M3 16h6l3-7 4.5 14 4-10 2.4 3H29" fill="none" stroke="#536F7E" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+            <path d="M16 29C7.8 23.2 2.5 18.6 2.5 11.4A7 7 0 0 1 16 8.5 7 7 0 0 1 29.5 11.4C29.5 18.5 24.2 23.2 16 29z" fill="none" stroke="#536F7E" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+          </g>
+          <text x="1078" y="1147" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="25" font-weight="700" text-anchor="middle" fill="#333D47">Vitality</text>
+        </g>
+      </g>
+      <g id="live-agent-handoff">
+        <text x="1210" y="981" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="22.5" font-weight="700" text-anchor="start" fill="#496371">Live Agent Handoff</text>
+        <path d="M1420 974 H1447" fill="none" stroke="#CBD7DD" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+        <g id="d365">
+          <rect x="1207" y="1005" width="237" height="187" rx="13" fill="#FFFFFF" stroke="#C2D1D9" stroke-width="1.5"/>
+          <rect x="1294" y="1026" width="64" height="64" rx="13" fill="#E8EFF3" stroke="none" stroke-width="1.4"/>
+          <g transform="translate(1305 1037) scale(1.3125)" aria-hidden="true">
+            <path d="M4.5 17v-3a11.5 11.5 0 0 1 23 0v3M4.3 14h2.8a2 2 0 0 1 2 2v6.5a2 2 0 0 1-2 2H4.3a2 2 0 0 1-2-2V16a2 2 0 0 1 2-2zM24.9 14h2.8a2 2 0 0 1 2 2v6.5a2 2 0 0 1-2 2h-2.8a2 2 0 0 1-2-2V16a2 2 0 0 1 2-2z" fill="none" stroke="#536F7E" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+            <path d="M26 25c0 2.3-2 3.4-5.2 3.4h-4.3m1.6 0h-4.3" fill="none" stroke="#536F7E" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+          </g>
+          <text x="1326" y="1133" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#333D47">
+            <tspan x="1326" y="1133">Microsoft</tspan>
+            <tspan x="1326" y="1160">Dynamic 365</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+    <g id="genai-hub">
+      <rect x="1578" y="127" width="906" height="680" rx="19" fill="#F8F7FB" stroke="#C2B9D4" stroke-width="1.7"/>
+      <path d="M1579 201 V146 Q1579 128 1597 128 H2465 Q2483 128 2483 146 V201 Z" fill="#E4DEEF"/>
+      <path d="M1579 201 H2483" fill="none" stroke="#C2B9D4" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+      <rect x="1598" y="152.0" width="5" height="24" rx="2.4" fill="#71628D" stroke="none" stroke-width="1.4"/>
+      <text x="1616" y="175.56" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="34" font-weight="700" text-anchor="start" fill="#333D47">GenAI Hub 2.0</text>
+      <rect x="1601" y="277" width="278" height="315" rx="13" fill="#C7DDEA" stroke="#AAC4D4" stroke-width="1.6"/>
+      <g transform="translate(1618 300) scale(1)" fill="none" stroke="#436D87" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M8 5.5h16a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H14l-7.5 5v-5H8a4 4 0 0 1-4-4v-10a4 4 0 0 1 4-4z"/>
+        <path d="M10 14.5h.4m5.3 0h.4m5.3 0h.4"/>
+      </g>
+      <text x="1661" y="325" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="28" font-weight="700" text-anchor="start" fill="#333D47">Chat Agent</text>
+      <path d="M1618 346 H1862" fill="none" stroke="#A6C1D0" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="1619" cy="385" r="2.7" fill="#436D87" stroke="none" stroke-width="1"/>
+      <text x="1631" y="391" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="19.3" font-weight="400" text-anchor="start" fill="#333D47">Understand user intent</text>
+      <circle cx="1619" cy="434" r="2.7" fill="#436D87" stroke="none" stroke-width="1"/>
+      <text x="1631" y="440" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="19.3" font-weight="400" text-anchor="start" fill="#333D47">Handle follow-up questions</text>
+      <circle cx="1619" cy="483" r="2.7" fill="#436D87" stroke="none" stroke-width="1"/>
+      <text x="1631" y="489" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="19.3" font-weight="400" text-anchor="start" fill="#333D47">Answer from FAQs &amp; KBs</text>
+      <circle cx="1619" cy="532" r="2.7" fill="#436D87" stroke="none" stroke-width="1"/>
+      <text x="1631" y="538" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="19.3" font-weight="400" text-anchor="start" fill="#333D47">Route &amp; coordinate tasks</text>
+      <rect x="1902" y="277" width="556" height="315" rx="13" fill="none" stroke="#BBAFD0" stroke-width="1.65" id="domain-group"/>
+      <rect x="1915.0" y="290.0" width="258.5" height="138.0" rx="10" fill="#D2D1E4" stroke="#B5B0CC" stroke-width="1.15" id="domain-1"/>
+      <g transform="translate(2029.25 314.0) scale(0.9375)" fill="none" stroke="#665D87" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="m16 3 11.5 6.4v13.2L16 29 4.5 22.6V9.4zM10.5 15.7l3.8 3.8 7.3-7.5"/>
+      </g>
+      <text x="2044.25" y="384.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#333D47">Domain Agent</text>
+      <rect x="2186.5" y="290.0" width="258.5" height="138.0" rx="10" fill="#D2D1E4" stroke="#B5B0CC" stroke-width="1.15" id="domain-2"/>
+      <g transform="translate(2300.75 314.0) scale(0.9375)" fill="none" stroke="#665D87" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="m16 3 11.5 6.4v13.2L16 29 4.5 22.6V9.4zM10.5 15.7l3.8 3.8 7.3-7.5"/>
+      </g>
+      <text x="2315.75" y="384.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#333D47">Domain Agent</text>
+      <rect x="1915.0" y="441.0" width="258.5" height="138.0" rx="10" fill="#D2D1E4" stroke="#B5B0CC" stroke-width="1.15" id="domain-3"/>
+      <g transform="translate(2029.25 465.0) scale(0.9375)" fill="none" stroke="#665D87" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="m16 3 11.5 6.4v13.2L16 29 4.5 22.6V9.4zM10.5 15.7l3.8 3.8 7.3-7.5"/>
+      </g>
+      <text x="2044.25" y="535.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#333D47">Domain Agent</text>
+      <rect x="2186.5" y="441.0" width="258.5" height="138.0" rx="10" fill="#D2D1E4" stroke="#B5B0CC" stroke-width="1.15" id="domain-4"/>
+      <g transform="translate(2300.75 465.0) scale(0.9375)" fill="none" stroke="#665D87" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="m16 3 11.5 6.4v13.2L16 29 4.5 22.6V9.4zM10.5 15.7l3.8 3.8 7.3-7.5"/>
+      </g>
+      <text x="2315.75" y="535.0" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#333D47">Domain Agent</text>
+      <rect x="1601.0" y="631" width="204.5" height="67" rx="9" fill="#EEEBF5" stroke="#C7C1D7" stroke-width="1.4"/>
+      <text x="1703.25" y="671.156" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="20.8" font-weight="700" text-anchor="middle" fill="#333D47">Skills</text>
+      <rect x="1818.5" y="631" width="204.5" height="67" rx="9" fill="#EEEBF5" stroke="#C7C1D7" stroke-width="1.4"/>
+      <text x="1920.75" y="671.156" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="20.8" font-weight="700" text-anchor="middle" fill="#333D47">Tools</text>
+      <rect x="2036.0" y="631" width="204.5" height="67" rx="9" fill="#EEEBF5" stroke="#C7C1D7" stroke-width="1.4"/>
+      <text x="2138.25" y="671.156" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="20.8" font-weight="700" text-anchor="middle" fill="#333D47">MCP / Connectors</text>
+      <rect x="2253.5" y="631" width="204.5" height="67" rx="9" fill="#EEEBF5" stroke="#C7C1D7" stroke-width="1.4"/>
+      <text x="2355.75" y="671.156" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="20.8" font-weight="700" text-anchor="middle" fill="#333D47">Memory</text>
+      <rect x="1601" y="724" width="857" height="60" rx="8" fill="#DCD8E9" stroke="#BCB6CF" stroke-width="1.4"/>
+      <text x="2029.5" y="761.68" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#333D47">Agent Harness</text>
+    </g>
+    <g id="kms-kb">
+      <rect x="1578" y="879" width="906" height="345" rx="19" fill="#F4F9F7" stroke="#ABCBBF" stroke-width="1.7"/>
+      <path d="M1579 938 V898 Q1579 880 1597 880 H2465 Q2483 880 2483 898 V938 Z" fill="#DDEDE6"/>
+      <path d="M1579 938 H2483" fill="none" stroke="#ABCBBF" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+      <rect x="1598" y="896.5" width="5" height="24" rx="2.4" fill="#477969" stroke="none" stroke-width="1.4"/>
+      <text x="1616" y="919.38" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="32" font-weight="700" text-anchor="start" fill="#333D47">KMS / KB</text>
+      <text x="1601" y="970" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="22.5" font-weight="700" text-anchor="start" fill="#36594F">Knowledge Processing</text>
+      <path d="M1864.5625 964 H2458" fill="none" stroke="#C5D9D0" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+      <rect x="1601.0" y="986" width="128.66666666666666" height="51" rx="7" fill="#E2F0EA" stroke="#B0CEC0" stroke-width="1.4"/>
+      <text x="1665.3333333333333" y="1017.388" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.4" font-weight="700" text-anchor="middle" fill="#333D47">Ingestion</text>
+      <path d="M1732.1666666666667 1011.5 H1743.1666666666667" fill="none" stroke="#477969" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M1739.6666666666667 1008 L1743.1666666666667 1011.5 L1739.6666666666667 1015" fill="none" stroke="#477969" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+      <rect x="1746.6666666666667" y="986" width="128.66666666666666" height="51" rx="7" fill="#E2F0EA" stroke="#B0CEC0" stroke-width="1.4"/>
+      <text x="1811.0" y="1017.388" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.4" font-weight="700" text-anchor="middle" fill="#333D47">Extract</text>
+      <path d="M1877.8333333333335 1011.5 H1888.8333333333335" fill="none" stroke="#477969" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M1885.3333333333335 1008 L1888.8333333333335 1011.5 L1885.3333333333335 1015" fill="none" stroke="#477969" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+      <rect x="1892.3333333333333" y="986" width="128.66666666666666" height="51" rx="7" fill="#E2F0EA" stroke="#B0CEC0" stroke-width="1.4"/>
+      <text x="1956.6666666666665" y="1017.388" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.4" font-weight="700" text-anchor="middle" fill="#333D47">Clean</text>
+      <path d="M2023.5 1011.5 H2034.5" fill="none" stroke="#477969" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M2031.0 1008 L2034.5 1011.5 L2031.0 1015" fill="none" stroke="#477969" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+      <rect x="2038.0" y="986" width="128.66666666666666" height="51" rx="7" fill="#E2F0EA" stroke="#B0CEC0" stroke-width="1.4"/>
+      <text x="2102.3333333333335" y="1017.388" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.4" font-weight="700" text-anchor="middle" fill="#333D47">Chunk</text>
+      <path d="M2169.1666666666665 1011.5 H2180.1666666666665" fill="none" stroke="#477969" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M2176.6666666666665 1008 L2180.1666666666665 1011.5 L2176.6666666666665 1015" fill="none" stroke="#477969" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+      <rect x="2183.6666666666665" y="986" width="128.66666666666666" height="51" rx="7" fill="#E2F0EA" stroke="#B0CEC0" stroke-width="1.4"/>
+      <text x="2248.0" y="1017.388" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.4" font-weight="700" text-anchor="middle" fill="#333D47">Embedding</text>
+      <path d="M2314.833333333333 1011.5 H2325.833333333333" fill="none" stroke="#477969" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M2322.333333333333 1008 L2325.833333333333 1011.5 L2322.333333333333 1015" fill="none" stroke="#477969" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+      <rect x="2329.333333333333" y="986" width="128.66666666666666" height="51" rx="7" fill="#E2F0EA" stroke="#B0CEC0" stroke-width="1.4"/>
+      <text x="2393.6666666666665" y="1017.388" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.4" font-weight="700" text-anchor="middle" fill="#333D47">Index</text>
+      <text x="1601" y="1084" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="22.5" font-weight="700" text-anchor="start" fill="#36594F">Knowledge Governance</text>
+      <path d="M1872.2421875 1078 H2458" fill="none" stroke="#C5D9D0" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+      <rect x="1601.0" y="1100" width="136.16666666666666" height="89" rx="8" fill="#FFFFFF" stroke="#C1D8CC" stroke-width="1.4"/>
+      <text x="1669.0833333333333" y="1139.95" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.2" font-weight="400" text-anchor="middle" fill="#333D47">
+        <tspan x="1669.0833333333333" y="1139.95">Metadata</tspan>
+        <tspan x="1669.0833333333333" y="1160.698">Governance</tspan>
+      </text>
+      <rect x="1745.1666666666667" y="1100" width="136.16666666666666" height="89" rx="8" fill="#FFFFFF" stroke="#C1D8CC" stroke-width="1.4"/>
+      <text x="1813.25" y="1150.324" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.2" font-weight="400" text-anchor="middle" fill="#333D47">Review</text>
+      <rect x="1889.3333333333333" y="1100" width="136.16666666666666" height="89" rx="8" fill="#FFFFFF" stroke="#C1D8CC" stroke-width="1.4"/>
+      <text x="1957.4166666666665" y="1150.324" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.2" font-weight="400" text-anchor="middle" fill="#333D47">Evaluation</text>
+      <rect x="2033.5" y="1100" width="136.16666666666666" height="89" rx="8" fill="#FFFFFF" stroke="#C1D8CC" stroke-width="1.4"/>
+      <text x="2101.5833333333335" y="1139.95" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.2" font-weight="400" text-anchor="middle" fill="#333D47">
+        <tspan x="2101.5833333333335" y="1139.95">Data</tspan>
+        <tspan x="2101.5833333333335" y="1160.698">Security</tspan>
+      </text>
+      <rect x="2177.6666666666665" y="1100" width="136.16666666666666" height="89" rx="8" fill="#FFFFFF" stroke="#C1D8CC" stroke-width="1.4"/>
+      <text x="2245.75" y="1150.324" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.2" font-weight="400" text-anchor="middle" fill="#333D47">Versioning</text>
+      <rect x="2321.833333333333" y="1100" width="136.16666666666666" height="89" rx="8" fill="#FFFFFF" stroke="#C1D8CC" stroke-width="1.4"/>
+      <text x="2389.9166666666665" y="1150.324" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.2" font-weight="400" text-anchor="middle" fill="#333D47">Monitoring</text>
+    </g>
+    <g id="integrations">
+      <path d="M334 363.5 H393" fill="none" stroke="#7A8C97" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="334" cy="363.5" r="3.7" fill="white" stroke="#536C7C" stroke-width="1.9"/>
+      <path d="M334 708.5 H393" fill="none" stroke="#7A8C97" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="334" cy="708.5" r="3.7" fill="white" stroke="#536C7C" stroke-width="1.9"/>
+      <path d="M334 1028.5 H393" fill="none" stroke="#7A8C97" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="334" cy="1028.5" r="3.7" fill="white" stroke="#536C7C" stroke-width="1.9"/>
+      <path d="M393 363.5 V1028.5" fill="none" stroke="#7A8C97" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M393 499 H459" fill="none" stroke="#7A8C97" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="393" cy="499" r="3" fill="#637E8F" stroke="none" stroke-width="1"/>
+      <circle cx="459" cy="499" r="3.7" fill="white" stroke="#536C7C" stroke-width="1.9"/>
+      <text x="347" y="493" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="17.4" font-weight="700" text-anchor="end" fill="#536C7C">
+        <tspan x="347" y="493">Messages &amp;</tspan>
+        <tspan x="347" y="514">User Actions</tspan>
+      </text>
+      <path d="M1149.5 337 V317 H1601" fill="none" stroke="#436D87" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="1149.5" cy="337" r="3.7" fill="white" stroke="#436D87" stroke-width="1.9"/>
+      <path d="M1595 312 L1600 317 L1595 322" fill="none" stroke="#436D87" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <text x="1315" y="310" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.5" font-weight="700" text-anchor="middle" fill="#436D87">Agent Invocation</text>
+      <path d="M1601 578 H1525 V488 H1149.5 V469" fill="none" stroke="#71628D" stroke-width="2.45" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 5"/>
+      <circle cx="1601" cy="578" r="3.7" fill="white" stroke="#71628D" stroke-width="1.9"/>
+      <path d="M1144.5 475 L1149.5 470 L1154.5 475" fill="none" stroke="#71628D" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <text x="1315" y="511" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18.5" font-weight="700" text-anchor="middle" fill="#71628D">AG-UI Event Stream</text>
+      <path d="M1740 277 V248 H2014 V277" fill="none" stroke="#71628D" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="1740" cy="277" r="3.7" fill="white" stroke="#71628D" stroke-width="1.9"/>
+      <path d="M2009 271 L2014 276 L2019 271" fill="none" stroke="#71628D" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <text x="1877" y="236" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#71628D">Delegate when needed</text>
+      <path d="M1978 807 V879" fill="none" stroke="#477969" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="1978" cy="807" r="3.7" fill="white" stroke="#477969" stroke-width="1.9"/>
+      <circle cx="1978" cy="879" r="3.7" fill="white" stroke="#477969" stroke-width="1.9"/>
+      <text x="1993" y="850" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="19.1" font-weight="700" text-anchor="start" fill="#477969">Knowledge Retrieval</text>
+      <g id="service-connections">
+        <path d="M832 807 V879" fill="none" stroke="#577583" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round"/>
+        <circle cx="832" cy="807" r="3.7" fill="#FFFFFF" stroke="#577583" stroke-width="1.9"/>
+        <circle cx="832" cy="879" r="3.7" fill="#FFFFFF" stroke="#577583" stroke-width="1.9"/>
+        <text x="850" y="850" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="19.1" font-weight="700" text-anchor="start" fill="#536F7E">Service Links &amp; Handoff</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4200" height="2100" viewBox="0 0 1680 840" role="img" aria-labelledby="title desc">
+<title id="title">A2UI and AG-UI in a chatbot</title><desc id="desc">From left to right: Chat UI, Chatbot, Agent. A2UI specifies UI components, data, and user actions. AG-UI carries run inputs and streams agent events. The chatbot can forward A2UI content from an AG-UI event to the chat window for rendering.</desc>
+<g id="chat-ui">
+<rect x="44" y="42" width="301" height="388" rx="16" fill="#FFFFFF" stroke="#B9B8C9" stroke-width="1.8"/>
+<path d="M60 42H329Q345 42 345 58V110H44V58Q44 42 60 42Z" fill="#F0EFF6" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(63 63) scale(1.0833333333333333)">
+<path d="M4 4h16a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H10l-5 4v-4H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z M7.5 9h9 M7.5 12.5h6" fill="none" stroke="#655986" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="99" y="87" font-family="Arial, Liberation Sans, sans-serif" font-size="29" font-weight="700" fill="#263443" text-anchor="start">Chat UI</text>
+<circle cx="293" cy="76" r="2.4" fill="#878396" stroke="none" stroke-width="1.5"/>
+<circle cx="303" cy="76" r="2.4" fill="#878396" stroke="none" stroke-width="1.5"/>
+<circle cx="313" cy="76" r="2.4" fill="#878396" stroke="none" stroke-width="1.5"/>
+<rect x="172" y="132" width="148" height="42" rx="15" fill="#EDF1F4" stroke="none" stroke-width="1.5"/>
+<text x="246" y="159" font-family="Arial, Liberation Sans, sans-serif" font-size="19" font-weight="400" fill="#333D47" text-anchor="middle">Show options</text>
+<text x="64" y="213" font-family="Arial, Liberation Sans, sans-serif" font-size="21" font-weight="700" fill="#263443" text-anchor="start">Choose an option</text>
+<rect x="64" y="229" width="258" height="70" rx="11" fill="#F4F3FA" stroke="#C8C4D8" stroke-width="1.5"/>
+<circle cx="82" cy="264" r="7.2" fill="#FFFFFF" stroke="#655986" stroke-width="1.5"/>
+<circle cx="82" cy="264" r="3.2" fill="#655986" stroke="none" stroke-width="1.5"/>
+<text x="98" y="270" font-family="Arial, Liberation Sans, sans-serif" font-size="18" font-weight="400" fill="#333D47" text-anchor="start">Option A</text>
+<rect x="218" y="247" width="86" height="35" rx="8" fill="#D2D1E4" stroke="none" stroke-width="1.5"/>
+<text x="261" y="270" font-family="Arial, Liberation Sans, sans-serif" font-size="17" font-weight="700" fill="#655986" text-anchor="middle">Select</text>
+<rect x="64" y="324" width="258" height="44" rx="14" fill="#FBFBFD" stroke="#D0D4DA" stroke-width="1.5"/>
+<text x="78" y="353" font-family="Arial, Liberation Sans, sans-serif" font-size="18" font-weight="400" fill="#626976" text-anchor="start">Message…</text>
+<path d="M294 346h13m-6-5.5 6 5.5-6 5.5" fill="none" stroke="#655986" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(65 389) scale(0.7916666666666666)">
+<path d="M3 3h18v18H3z M3 8h18 M10 8v13" fill="none" stroke="#655986" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="94" y="406" font-family="Arial, Liberation Sans, sans-serif" font-size="17" font-weight="700" fill="#655986" text-anchor="start">A2UI Renderer</text>
+</g>
+<g id="bot">
+<rect x="704" y="64" width="272" height="344" rx="16" fill="#FEF5F7" stroke="#E9BCC9" stroke-width="1.7"/>
+<path d="M720 64H960Q976 64 976 80V151H704V80Q704 64 720 64Z" fill="#DC416A" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(726 95) scale(1.2083333333333333)">
+<path d="M3 4h12a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H9l-4 3v-3H4a2 2 0 0 1-2-2V6a2 2 0 0 1 1-2z M8 18h7l4 3v-3h1a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2 M6 8h7 M6 11h4" fill="none" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="768" y="119" font-family="Arial, Liberation Sans, sans-serif" font-size="31" font-weight="700" fill="#FFFFFF" text-anchor="start">Chatbot</text>
+<text x="728" y="201" font-family="Arial, Liberation Sans, sans-serif" font-size="22" font-weight="600" fill="#263443" text-anchor="start">Manage</text>
+<text x="728" y="230" font-family="Arial, Liberation Sans, sans-serif" font-size="22" font-weight="600" fill="#263443" text-anchor="start">conversations</text>
+<path d="M728 271L952 271" fill="none" stroke="#E9BCC9" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="728" y="322" font-family="Arial, Liberation Sans, sans-serif" font-size="22" font-weight="600" fill="#263443" text-anchor="start">Relay messages</text>
+<text x="728" y="352" font-family="Arial, Liberation Sans, sans-serif" font-size="22" font-weight="600" fill="#263443" text-anchor="start">and actions</text>
+</g>
+<g id="agent">
+<rect x="1335" y="64" width="301" height="344" rx="16" fill="#F1F7FA" stroke="#B0CDDD" stroke-width="1.7"/>
+<path d="M1351 64H1620Q1636 64 1636 80V151H1335V80Q1335 64 1351 64Z" fill="#C7DDEA" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(1357 95) scale(1.25)">
+<path d="M5 7h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z M12 7V4 M1 12v4 M23 12v4 M9 17h6" fill="none" stroke="#21475D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="12" cy="2.6" r="1.15" fill="#21475D" stroke="none" stroke-width="1.5"/>
+<circle cx="8" cy="12.2" r="1.15" fill="#21475D" stroke="none" stroke-width="1.5"/>
+<circle cx="16" cy="12.2" r="1.15" fill="#21475D" stroke="none" stroke-width="1.5"/>
+</g>
+<text x="1399" y="119" font-family="Arial, Liberation Sans, sans-serif" font-size="31" font-weight="700" fill="#21475D" text-anchor="start">Agent</text>
+<text x="1359" y="219" font-family="Arial, Liberation Sans, sans-serif" font-size="22" font-weight="600" fill="#263443" text-anchor="start">Interpret requests</text>
+<path d="M1359 271L1612 271" fill="none" stroke="#B0CDDD" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1359" y="338" font-family="Arial, Liberation Sans, sans-serif" font-size="22" font-weight="600" fill="#263443" text-anchor="start">Execute tasks</text>
+</g>
+<g id="flow-a2ui">
+<text x="524.5" y="103" font-family="Arial, Liberation Sans, sans-serif" font-size="45" font-weight="700" fill="#655986" text-anchor="middle">A2UI</text>
+<text x="524.5" y="135" font-family="Arial, Liberation Sans, sans-serif" font-size="19" font-weight="400" fill="#526170" text-anchor="middle">Agent to UI</text>
+<text x="524.5" y="198" font-family="Arial, Liberation Sans, sans-serif" font-size="24" font-weight="700" fill="#263443" text-anchor="middle">User action</text>
+<circle cx="351" cy="218" r="3.8" fill="#655986" stroke="none" stroke-width="1.5"/>
+<path d="M351 218L698 218" fill="none" stroke="#655986" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M687 211.5L698 218L687 224.5" fill="none" stroke="#655986" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="524.5" y="249" font-family="Arial, Liberation Sans, sans-serif" font-size="18.5" font-weight="400" fill="#526170" text-anchor="middle">Action name and selected values</text>
+<text x="524.5" y="329" font-family="Arial, Liberation Sans, sans-serif" font-size="24" font-weight="700" fill="#263443" text-anchor="middle">UI description &amp; data</text>
+<circle cx="698" cy="349" r="3.8" fill="#655986" stroke="none" stroke-width="1.5"/>
+<path d="M698 349L351 349" fill="none" stroke="#655986" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M362 342.5L351 349L362 355.5" fill="none" stroke="#655986" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="524.5" y="380" font-family="Arial, Liberation Sans, sans-serif" font-size="18.5" font-weight="400" fill="#526170" text-anchor="middle">Components, layout and bound data</text>
+</g>
+<g id="flow-agui">
+<text x="1155.5" y="103" font-family="Arial, Liberation Sans, sans-serif" font-size="45" font-weight="700" fill="#336B8A" text-anchor="middle">AG-UI</text>
+<text x="1155.5" y="135" font-family="Arial, Liberation Sans, sans-serif" font-size="19" font-weight="400" fill="#526170" text-anchor="middle">Agent User Interaction</text>
+<text x="1155.5" y="198" font-family="Arial, Liberation Sans, sans-serif" font-size="24" font-weight="700" fill="#263443" text-anchor="middle">Run input</text>
+<circle cx="982" cy="218" r="3.8" fill="#336B8A" stroke="none" stroke-width="1.5"/>
+<path d="M982 218L1329 218" fill="none" stroke="#336B8A" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1318 211.5L1329 218L1318 224.5" fill="none" stroke="#336B8A" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1155.5" y="249" font-family="Arial, Liberation Sans, sans-serif" font-size="18.5" font-weight="400" fill="#526170" text-anchor="middle">Messages, thread ID and run ID</text>
+<text x="1155.5" y="329" font-family="Arial, Liberation Sans, sans-serif" font-size="24" font-weight="700" fill="#263443" text-anchor="middle">Event stream</text>
+<circle cx="1329" cy="349" r="3.8" fill="#336B8A" stroke="none" stroke-width="1.5"/>
+<path d="M1329 349L982 349" fill="none" stroke="#336B8A" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M993 342.5L982 349L993 355.5" fill="none" stroke="#336B8A" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1155.5" y="380" font-family="Arial, Liberation Sans, sans-serif" font-size="18.5" font-weight="400" fill="#526170" text-anchor="middle">Text, tool calls and state changes</text>
+</g>
+<g id="capabilities-a2ui">
+<rect x="44" y="487" width="780" height="311" rx="17" fill="#F7F6FB" stroke="#C3C0D5" stroke-width="1.5"/>
+<path d="M61 487H807Q824 487 824 504V562H44V504Q44 487 61 487Z" fill="#D2D1E4" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="67" y="537" font-family="Arial, Liberation Sans, sans-serif" font-size="29" font-weight="700" fill="#51466C" text-anchor="start">A2UI</text>
+<path d="M149 507L149 542" fill="none" stroke="#C3C0D5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="170" y="537" font-family="Arial, Liberation Sans, sans-serif" font-size="25" font-weight="600" fill="#263443" text-anchor="start">Interactive UI</text>
+<g transform="translate(68 589) scale(1.5416666666666667)">
+<path d="M3 3h18v18H3z M3 8h18 M10 8v13" fill="none" stroke="#51466C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="68" y="679" font-family="Arial, Liberation Sans, sans-serif" font-size="23" font-weight="700" fill="#263443" text-anchor="start">Describe layouts</text>
+<text x="68" y="709" font-family="Arial, Liberation Sans, sans-serif" font-size="23" font-weight="700" fill="#263443" text-anchor="start">and components</text>
+<text x="68" y="756" font-family="Arial, Liberation Sans, sans-serif" font-size="17.5" font-weight="400" fill="#526170" text-anchor="start">Cards, lists and forms</text>
+<path d="M305 590L305 764" fill="none" stroke="#C3C0D5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(321 589) scale(1.5416666666666667)">
+<path d="M9.5 8.5l2.8-2.8a4 4 0 0 1 5.7 5.7l-3 3 M14.5 15.5l-2.8 2.8A4 4 0 0 1 6 12.6l3-3 M9.4 14.6l5.2-5.2" fill="none" stroke="#51466C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="321" y="679" font-family="Arial, Liberation Sans, sans-serif" font-size="23" font-weight="700" fill="#263443" text-anchor="start">Bind data &amp;</text>
+<text x="321" y="709" font-family="Arial, Liberation Sans, sans-serif" font-size="23" font-weight="700" fill="#263443" text-anchor="start">update the UI</text>
+<text x="321" y="756" font-family="Arial, Liberation Sans, sans-serif" font-size="17.5" font-weight="400" fill="#526170" text-anchor="start">Update existing views</text>
+<path d="M558 590L558 764" fill="none" stroke="#C3C0D5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(574 589) scale(1.5416666666666667)">
+<path d="M7 4l1.7 16 4.1-4.1 3.3 5.2 2.7-1.7-3.4-5.1 5.8-1.1z M3 4 1.5 3 M5 1.3 4.5 0" fill="none" stroke="#51466C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="574" y="679" font-family="Arial, Liberation Sans, sans-serif" font-size="23" font-weight="700" fill="#263443" text-anchor="start">Capture</text>
+<text x="574" y="709" font-family="Arial, Liberation Sans, sans-serif" font-size="23" font-weight="700" fill="#263443" text-anchor="start">user actions</text>
+<text x="574" y="756" font-family="Arial, Liberation Sans, sans-serif" font-size="17.5" font-weight="400" fill="#526170" text-anchor="start">Choices and submissions</text>
+</g>
+<g id="capabilities-agui">
+<rect x="856" y="487" width="780" height="311" rx="17" fill="#F3F8FB" stroke="#ABC8DA" stroke-width="1.5"/>
+<path d="M873 487H1619Q1636 487 1636 504V562H856V504Q856 487 873 487Z" fill="#C7DDEA" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="879" y="537" font-family="Arial, Liberation Sans, sans-serif" font-size="29" font-weight="700" fill="#2F5D76" text-anchor="start">AG-UI</text>
+<path d="M978 507L978 542" fill="none" stroke="#ABC8DA" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="999" y="537" font-family="Arial, Liberation Sans, sans-serif" font-size="25" font-weight="600" fill="#263443" text-anchor="start">Agent execution &amp; events</text>
+<g transform="translate(880 589) scale(1.5416666666666667)">
+<path d="M4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z M9.5 7.5v9l7.5-4.5z" fill="none" stroke="#2F5D76" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="880" y="679" font-family="Arial, Liberation Sans, sans-serif" font-size="23" font-weight="700" fill="#263443" text-anchor="start">Start runs</text>
+<text x="880" y="709" font-family="Arial, Liberation Sans, sans-serif" font-size="23" font-weight="700" fill="#263443" text-anchor="start">with context</text>
+<text x="880" y="756" font-family="Arial, Liberation Sans, sans-serif" font-size="17.5" font-weight="400" fill="#526170" text-anchor="start">Messages and state</text>
+<path d="M1117 590L1117 764" fill="none" stroke="#ABC8DA" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(1133 589) scale(1.5416666666666667)">
+<path d="M2 5h12 M5 11h6 M2 17h12 M15 8l4 3-4 3 M11 11h8" fill="none" stroke="#2F5D76" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="1133" y="679" font-family="Arial, Liberation Sans, sans-serif" font-size="23" font-weight="700" fill="#263443" text-anchor="start">Stream replies &amp;</text>
+<text x="1133" y="709" font-family="Arial, Liberation Sans, sans-serif" font-size="23" font-weight="700" fill="#263443" text-anchor="start">execution events</text>
+<text x="1133" y="756" font-family="Arial, Liberation Sans, sans-serif" font-size="17.5" font-weight="400" fill="#526170" text-anchor="start">Text and run progress</text>
+<path d="M1370 590L1370 764" fill="none" stroke="#ABC8DA" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(1386 589) scale(1.5416666666666667)">
+<path d="M4.4 10a8 8 0 0 1 13.5-4l2.2 2 M20 3.1v5.1h-5.2 M19.6 14a8 8 0 0 1-13.5 4l-2.2-2 M4 20.8v-5.1h5.2" fill="none" stroke="#2F5D76" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="1386" y="679" font-family="Arial, Liberation Sans, sans-serif" font-size="23" font-weight="700" fill="#263443" text-anchor="start">Synchronize</text>
+<text x="1386" y="709" font-family="Arial, Liberation Sans, sans-serif" font-size="23" font-weight="700" fill="#263443" text-anchor="start">agent state</text>
+<text x="1386" y="756" font-family="Arial, Liberation Sans, sans-serif" font-size="17.5" font-weight="400" fill="#526170" text-anchor="start">Snapshots and deltas</text>
+</g>
+</svg>

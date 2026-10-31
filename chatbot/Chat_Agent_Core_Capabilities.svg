@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="4200" height="2100" viewBox="0 0 2400 1200" version="1.1" role="img" aria-labelledby="art-title art-desc">
+  <title id="art-title">Chat Agent core capabilities</title>
+  <desc id="art-desc">The Chat Agent icon is centred. The upper arrow points left to its six functional capabilities, and the lower arrow points right to eight technical capabilities.</desc>
+  <g id="functional-list">
+    <rect x="33" y="34" width="918" height="1132" rx="21" fill="#C7DDEA" stroke="#A2C1D3" stroke-width="1.6"/>
+    <g id="entry-intent">
+      <rect x="57" y="97.33333333333331" width="62" height="62" rx="14" fill="#EAF4F8" stroke="none" stroke-width="1.2"/>
+      <g transform="translate(71.0 111.33333333333331) scale(1.0625)" fill="none" stroke="#365F78" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M13.5 4.5a10 10 0 1 0 8.9 5.5M13.5 9a5.5 5.5 0 1 0 5 4"/>
+        <path d="M13.5 14.5 23 5m0-3v5h5M21.8 22.5l6 6"/>
+      </g>
+      <text x="142" y="118.68333333333331" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="31" font-weight="700" fill="#333D47" text-anchor="start" id="heading-intent">Understand Intent &amp; Context</text>
+      <text x="142" y="159.83333333333331" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="25" font-weight="400" fill="#333D47" text-anchor="start" id="copy-intent">Identify the customer’s goal, constraints and current task.</text>
+    </g>
+    <g id="entry-dialogue">
+      <path d="M62 222.66666666666666 H922" stroke="#A2C1D3" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="57" y="286.0" width="62" height="62" rx="14" fill="#EAF4F8" stroke="none" stroke-width="1.2"/>
+      <g transform="translate(71.0 300.0) scale(1.0625)" fill="none" stroke="#365F78" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M5.5 4.5h16A3.5 3.5 0 0 1 25 8v8a3.5 3.5 0 0 1-3.5 3.5h-10L5 24v-4.5A3.2 3.2 0 0 1 2 16V8a3.5 3.5 0 0 1 3.5-3.5z"/>
+        <path d="M10.5 23v.6a2.9 2.9 0 0 0 3 2.9h9l5 3.2v-3.2a2.9 2.9 0 0 0 2.5-3v-8a3 3 0 0 0-2-2.8M7.5 10.5h12M7.5 14.5h8"/>
+      </g>
+      <text x="142" y="307.35" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="31" font-weight="700" fill="#333D47" text-anchor="start" id="heading-dialogue">Manage Multi-turn Dialogue</text>
+      <text x="142" y="348.5" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="25" font-weight="400" fill="#333D47" text-anchor="start" id="copy-dialogue">Clarify requests and carry context across follow-up questions.</text>
+    </g>
+    <g id="entry-knowledge">
+      <path d="M62 411.3333333333333 H922" stroke="#A2C1D3" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="57" y="474.66666666666663" width="62" height="62" rx="14" fill="#EAF4F8" stroke="none" stroke-width="1.2"/>
+      <g transform="translate(71.0 488.66666666666663) scale(1.0625)" fill="none" stroke="#365F78" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M16 7.5C12 4.5 7.5 4 3 5.3v20.3c4.5-1.2 9-.7 13 2.1 4-2.8 8.5-3.3 13-2.1V5.3C24.5 4 20 4.5 16 7.5zm0 0v20.2"/>
+        <path d="M7 11c2.2-.2 3.5.2 5 1.1M7 15.9c2.2-.2 3.5.2 5 1.1m7.8-.9 2.1 2.2 4.3-5.2"/>
+      </g>
+      <text x="142" y="496.01666666666665" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="31" font-weight="700" fill="#333D47" text-anchor="start" id="heading-knowledge">Answer from Approved Knowledge</text>
+      <text x="142" y="537.1666666666666" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="25" font-weight="400" fill="#333D47" text-anchor="start" id="copy-knowledge">Use relevant FAQs and cite the applicable policy or document.</text>
+    </g>
+    <g id="entry-route">
+      <path d="M62 600.0 H922" stroke="#A2C1D3" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="57" y="663.3333333333334" width="62" height="62" rx="14" fill="#EAF4F8" stroke="none" stroke-width="1.2"/>
+      <g transform="translate(71.0 677.3333333333334) scale(1.0625)" fill="none" stroke="#365F78" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M3.5 12h7v7h-7zm19.2-9h6.5v6.5h-6.5zm0 19.5h6.5V29h-6.5z"/>
+        <path d="M10.5 15.5h3.3a3.5 3.5 0 0 0 3.5-3.5V9.8a3.5 3.5 0 0 1 3.5-3.5h1.6M13.8 15.5a3.5 3.5 0 0 1 3.5 3.5v3.2a3.5 3.5 0 0 0 3.5 3.5h1.6"/>
+      </g>
+      <text x="142" y="684.6833333333334" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="31" font-weight="700" fill="#333D47" text-anchor="start" id="heading-route">Route &amp; Coordinate Tasks</text>
+      <text x="142" y="725.8333333333334" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="25" font-weight="400" fill="#333D47" text-anchor="start" id="copy-route">Select the right skill or domain agent and coordinate the work.</text>
+    </g>
+    <g id="entry-results">
+      <path d="M62 788.6666666666666 H922" stroke="#A2C1D3" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="57" y="852.0" width="62" height="62" rx="14" fill="#EAF4F8" stroke="none" stroke-width="1.2"/>
+      <g transform="translate(71.0 866.0) scale(1.0625)" fill="none" stroke="#365F78" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M6 3.5h13l5.5 5.5v18.5H6zM18.8 3.5v6h5.5M9.8 13h7.9m-8.1 5 2 1.9 3.8-4.3"/>
+        <path d="M18.5 22h11m-4.3-4.2 4.3 4.2-4.3 4.2"/>
+      </g>
+      <text x="142" y="873.35" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="31" font-weight="700" fill="#333D47" text-anchor="start" id="heading-results">Explain Results &amp; Guide Actions</text>
+      <text x="142" y="914.5" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="25" font-weight="400" fill="#333D47" text-anchor="start" id="copy-results">Explain the outcome, present options and request confirmation.</text>
+    </g>
+    <g id="entry-handoff">
+      <path d="M62 977.3333333333333 H922" stroke="#A2C1D3" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="57" y="1040.6666666666665" width="62" height="62" rx="14" fill="#EAF4F8" stroke="none" stroke-width="1.2"/>
+      <g transform="translate(71.0 1054.6666666666665) scale(1.0625)" fill="none" stroke="#365F78" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M3.5 13A9.5 9.5 0 0 1 22 9.7M4 12h3v8H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2zm16 0h3a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-3zM22 20v2a3 3 0 0 1-3 3h-4"/>
+        <path d="M13 28h14m-4-4 4 4-4 3"/>
+      </g>
+      <text x="142" y="1062.0166666666664" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="31" font-weight="700" fill="#333D47" text-anchor="start" id="heading-handoff">Handle Exceptions &amp; Handoffs</text>
+      <text x="142" y="1103.1666666666665" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="25" font-weight="400" fill="#333D47" text-anchor="start" id="copy-handoff">Recognize when help is needed and brief the human representative.</text>
+    </g>
+  </g>
+  <g id="technical-list">
+    <rect x="1449" y="34" width="918" height="1132" rx="21" fill="#D2D1E4" stroke="#B8B4CC" stroke-width="1.6"/>
+    <g id="entry-isolation">
+      <rect x="1473" y="77.25" width="55" height="55" rx="14" fill="#F1EFF7" stroke="none" stroke-width="1.2"/>
+      <g transform="translate(1483.5 87.75) scale(1.0625)" fill="none" stroke="#61567E" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M14 6H5a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h9m5-20h8a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2h-8M16.5 3v26"/>
+        <path d="M7 14a2.4 2.4 0 1 0 4.8 0 2.4 2.4 0 0 0-4.8 0zm-.4 6.5c.8-3 4.8-3 5.6 0m8.5-7.5h4v5h-4z"/>
+      </g>
+      <text x="1551" y="79.325" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="29.5" font-weight="700" fill="#333D47" text-anchor="start" id="heading-isolation">Instance &amp; Session Isolation</text>
+      <text x="1551" y="119.84" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.5" font-weight="400" fill="#333D47" text-anchor="start" id="copy-isolation">
+        <tspan x="1551" y="119.84">Isolate each bot’s configuration and</tspan>
+        <tspan x="1551" y="150.84">each user’s context, memory and tasks.</tspan>
+      </text>
+    </g>
+    <g id="entry-capacity">
+      <path d="M1478 175.5 H2338" stroke="#B8B4CC" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="1473" y="218.75" width="55" height="55" rx="14" fill="#F1EFF7" stroke="none" stroke-width="1.2"/>
+      <g transform="translate(1483.5 229.25) scale(1.0625)" fill="none" stroke="#61567E" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M3 17.5h17.5v4H3zM3 25h17.5v4H3zM3 10h10v4H3zM21 15l7-9m-6.5 0H28v6.5"/>
+        <path d="M6.5 19.5h1m-1 7.5h1"/>
+      </g>
+      <text x="1551" y="236.325" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="29.5" font-weight="700" fill="#333D47" text-anchor="start" id="heading-capacity">Concurrency &amp; Capacity Isolation</text>
+      <text x="1551" y="276.84" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.5" font-weight="400" fill="#333D47" text-anchor="start" id="copy-capacity">Scale across replicas and protect each instance’s capacity under load.</text>
+    </g>
+    <g id="entry-latency">
+      <path d="M1478 317.0 H2338" stroke="#B8B4CC" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="1473" y="360.25" width="55" height="55" rx="14" fill="#F1EFF7" stroke="none" stroke-width="1.2"/>
+      <g transform="translate(1483.5 370.75) scale(1.0625)" fill="none" stroke="#61567E" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M16 3a12.5 12.5 0 1 1-12 16M4 10h8M2 14h7m7-8V4m8.7 7.7 1.6-1M16 16l5.8-7.2M14.4 16a1.6 1.6 0 1 0 3.2 0 1.6 1.6 0 1 0-3.2 0z"/>
+      </g>
+      <text x="1551" y="362.325" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="29.5" font-weight="700" fill="#333D47" text-anchor="start" id="heading-latency">Latency-Aware Orchestration</text>
+      <text x="1551" y="402.84" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.5" font-weight="400" fill="#333D47" text-anchor="start" id="copy-latency">
+        <tspan x="1551" y="402.84">Use the shortest valid path and budget</tspan>
+        <tspan x="1551" y="433.84">time for models, tools and checks.</tspan>
+      </text>
+    </g>
+    <g id="entry-privacy">
+      <path d="M1478 458.5 H2338" stroke="#B8B4CC" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="1473" y="501.75" width="55" height="55" rx="14" fill="#F1EFF7" stroke="none" stroke-width="1.2"/>
+      <g transform="translate(1483.5 512.25) scale(1.0625)" fill="none" stroke="#61567E" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M16 2.6c3.5 2.8 7 4 11.2 4.8v8c0 6-4.2 10.6-11.2 14.2C9 26 4.8 21.4 4.8 15.4v-8C9 6.6 12.5 5.4 16 2.6z"/>
+        <path d="M11.6 14.5h8.8v7h-8.8zM13.3 14.5v-2.2a2.7 2.7 0 0 1 5.4 0v2.2"/>
+      </g>
+      <text x="1551" y="519.325" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="29.5" font-weight="700" fill="#333D47" text-anchor="start" id="heading-privacy">Privacy &amp; Fine-Grained Access</text>
+      <text x="1551" y="559.84" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.5" font-weight="400" fill="#333D47" text-anchor="start" id="copy-privacy">Minimize personal data and verify access to each record and field.</text>
+    </g>
+    <g id="entry-tool">
+      <path d="M1478 600.0 H2338" stroke="#B8B4CC" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="1473" y="643.25" width="55" height="55" rx="14" fill="#F1EFF7" stroke="none" stroke-width="1.2"/>
+      <g transform="translate(1483.5 653.75) scale(1.0625)" fill="none" stroke="#61567E" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M18.5 4.2a6.9 6.9 0 0 0-8.2 8.8l-7.2 7.4a3.7 3.7 0 0 0 5.3 5.2l7.3-7.4a7 7 0 0 0 8.6-8.5l-4.1 4-4-3.9 4.2-4.4"/>
+        <path d="m20 24 3 3 6.3-6.8"/>
+      </g>
+      <text x="1551" y="660.825" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="29.5" font-weight="700" fill="#333D47" text-anchor="start" id="heading-tool">Secure Tool &amp; Action Execution</text>
+      <text x="1551" y="701.34" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.5" font-weight="400" fill="#333D47" text-anchor="start" id="copy-tool">Allow only authorized tools and verify consent before sensitive actions.</text>
+    </g>
+    <g id="entry-policy">
+      <path d="M1478 741.5 H2338" stroke="#B8B4CC" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="1473" y="784.75" width="55" height="55" rx="14" fill="#F1EFF7" stroke="none" stroke-width="1.2"/>
+      <g transform="translate(1483.5 795.25) scale(1.0625)" fill="none" stroke="#61567E" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M5 4.5h13l5.5 5.4V14m-5.6-9.5v6h5.6M5 4.5v23h10M9 14h6.2M9 18h4.5"/>
+        <path d="M24 15.5c1.8 1.3 3.6 1.9 5.4 2.2v4c0 3.2-2.1 5.6-5.4 7.4-3.3-1.8-5.4-4.2-5.4-7.4v-4a13.5 13.5 0 0 0 5.4-2.2zm-2.6 6.8 1.8 1.8 3.5-3.8"/>
+      </g>
+      <text x="1551" y="802.325" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="29.5" font-weight="700" fill="#333D47" text-anchor="start" id="heading-policy">Scenario-Based Output Controls</text>
+      <text x="1551" y="842.84" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.5" font-weight="400" fill="#333D47" text-anchor="start" id="copy-policy">Enforce sourcing, wording, disclosure and review rules before display.</text>
+    </g>
+    <g id="entry-recover">
+      <path d="M1478 883.0 H2338" stroke="#B8B4CC" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="1473" y="926.25" width="55" height="55" rx="14" fill="#F1EFF7" stroke="none" stroke-width="1.2"/>
+      <g transform="translate(1483.5 936.75) scale(1.0625)" fill="none" stroke="#61567E" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M4.7 12.8a11.4 11.4 0 1 1-.2 7.5M4.6 5.5v7.7H12"/>
+        <path d="M15.5 9.8v7.1l5 2.8"/>
+      </g>
+      <text x="1551" y="928.325" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="29.5" font-weight="700" fill="#333D47" text-anchor="start" id="heading-recover">Resilience &amp; Recovery</text>
+      <text x="1551" y="968.84" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.5" font-weight="400" fill="#333D47" text-anchor="start" id="copy-recover">
+        <tspan x="1551" y="968.84">Resume interrupted tasks and recover</tspan>
+        <tspan x="1551" y="999.84">safely without duplicate submissions.</tspan>
+      </text>
+    </g>
+    <g id="entry-audit">
+      <path d="M1478 1024.5 H2338" stroke="#B8B4CC" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="1473" y="1067.75" width="55" height="55" rx="14" fill="#F1EFF7" stroke="none" stroke-width="1.2"/>
+      <g transform="translate(1483.5 1078.25) scale(1.0625)" fill="none" stroke="#61567E" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M4 3h15l5.2 5.2v5M18.5 3v6h5.7M4 3v26h13M8 11.5h7.2M8 16.2h5M8 21h3.5"/>
+        <path d="M21.4 14.5a6.4 6.4 0 1 0 .1 12.8 6.4 6.4 0 0 0-.1-12.8zm4.8 11.1 4.3 4.2"/>
+      </g>
+      <text x="1551" y="1069.825" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="29.5" font-weight="700" fill="#333D47" text-anchor="start" id="heading-audit">Observability &amp; Auditability</text>
+      <text x="1551" y="1110.34" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="24.5" font-weight="400" fill="#333D47" text-anchor="start" id="copy-audit">
+        <tspan x="1551" y="1110.34">Trace what the customer saw to its</tspan>
+        <tspan x="1551" y="1141.34">sources, checks and business receipt.</tspan>
+      </text>
+    </g>
+  </g>
+  <g id="chat-agent-center">
+    <text x="1200" y="339" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="33" font-weight="700" fill="#385F78" text-anchor="middle" id="functional-heading">Functional Capabilities</text>
+    <path d="M1200 455 V388 Q1200 374 1185 374 H965" stroke="#385F78" stroke-width="4.3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M977 365 L963 374 L977 383" stroke="#385F78" stroke-width="4.3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <g id="chat-agent-medallion" transform="translate(1084 455) scale(1.93333)" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">
+      <circle cx="60" cy="60" r="58.3" fill="#EDF0F4" stroke="#BCC9D3" stroke-width="1.25"/>
+      <circle cx="60" cy="60" r="51.8" fill="#30495C"/>
+      <path d="M41 37h38c8.4 0 14.5 6.2 14.5 14.5v18.8c0 8.1-6.2 14.3-14.5 14.3H58.5L44 94c-1.2.8-2.7-.1-2.7-1.5v-8.2C33 83.7 27 78 27 70.1V51.5C27 43.2 32.9 37 41 37Z" fill="#DAE9F1"/>
+      <path d="M60 36.6v-7" fill="none" stroke="#DAE9F1" stroke-width="3.6"/>
+      <circle cx="60" cy="27.4" r="3.3" fill="#C9C2E3"/>
+      <rect x="35.8" y="45.5" width="48.4" height="24.7" rx="11" fill="#3E566A"/>
+      <path d="M49.1 54.1v6.6" fill="none" stroke="#E9F4FB" stroke-width="4.2"/>
+      <path d="M70.9 54.1v6.6" fill="none" stroke="#D5CFEA" stroke-width="4.2"/>
+      <path d="M54.1 75.3q5.9 3.9 11.8 0" fill="none" stroke="#465F73" stroke-width="2.45"/>
+    </g>
+    <text x="1200" y="742" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="43" font-weight="700" fill="#30495C" text-anchor="middle" id="center-heading">Chat Agent</text>
+    <path d="M1200 766 V796 Q1200 810 1215 810 H1436" stroke="#62557D" stroke-width="4.3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1423 801 L1437 810 L1423 819" stroke="#62557D" stroke-width="4.3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1200" y="868" font-family="Arial, Helvetica, Nimbus Sans, sans-serif" font-size="33" font-weight="700" fill="#62557D" text-anchor="middle" id="technical-heading">Technical Capabilities</text>
+  </g>
+</svg>
