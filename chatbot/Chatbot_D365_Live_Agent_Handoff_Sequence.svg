@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="4600" height="2400" viewBox="0 0 4600 2400" role="img" aria-labelledby="diagram-title diagram-description">
+<title id="diagram-title">Customer Assistant — D365 Live Agent Handoff Sequence</title>
+<desc id="diagram-description">Seven participants: Customer, Chatbot, Agent, Skill, MCP, KB, D365 Omnichannel. Multi-turn clarification is followed by approved knowledge retrieval and handoff eligibility assessment. The human-handoff skill summarizes and redacts authorized conversation context. MCP submits the summary to D365 and obtains a live-support link tied to the handoff reference. Customer-initiated continuation shows queue status, summary availability for the assigned human agent, and the actual connected event. Link issuance, queue entry and agent connection are separate states. Create or resume handoff is a logical integration operation, not a claim of a native API name. Twenty-three numbered messages. Transparent canvas and editable text.</desc>
+<defs>
+<marker id="ink-call" markerUnits="userSpaceOnUse" markerWidth="17" markerHeight="17" refX="14" refY="8.5" orient="auto">
+<path d="M1 1 L14 8.5 L1 16 Z" fill="#253347"/>
+</marker>
+<marker id="ink-return" markerUnits="userSpaceOnUse" markerWidth="17" markerHeight="17" refX="14" refY="8.5" orient="auto">
+<path d="M1 1 L14 8.5 L1 16" fill="none" stroke="#253347" stroke-width="2.6"/>
+</marker>
+<marker id="blue-call" markerUnits="userSpaceOnUse" markerWidth="17" markerHeight="17" refX="14" refY="8.5" orient="auto">
+<path d="M1 1 L14 8.5 L1 16 Z" fill="#355E96"/>
+</marker>
+<marker id="blue-return" markerUnits="userSpaceOnUse" markerWidth="17" markerHeight="17" refX="14" refY="8.5" orient="auto">
+<path d="M1 1 L14 8.5 L1 16" fill="none" stroke="#355E96" stroke-width="2.6"/>
+</marker>
+<marker id="teal-call" markerUnits="userSpaceOnUse" markerWidth="17" markerHeight="17" refX="14" refY="8.5" orient="auto">
+<path d="M1 1 L14 8.5 L1 16 Z" fill="#416F72"/>
+</marker>
+<marker id="teal-return" markerUnits="userSpaceOnUse" markerWidth="17" markerHeight="17" refX="14" refY="8.5" orient="auto">
+<path d="M1 1 L14 8.5 L1 16" fill="none" stroke="#416F72" stroke-width="2.6"/>
+</marker>
+<marker id="neutral-call" markerUnits="userSpaceOnUse" markerWidth="17" markerHeight="17" refX="14" refY="8.5" orient="auto">
+<path d="M1 1 L14 8.5 L1 16 Z" fill="#57677B"/>
+</marker>
+<marker id="neutral-return" markerUnits="userSpaceOnUse" markerWidth="17" markerHeight="17" refX="14" refY="8.5" orient="auto">
+<path d="M1 1 L14 8.5 L1 16" fill="none" stroke="#57677B" stroke-width="2.6"/>
+</marker>
+<marker id="purple-call" markerUnits="userSpaceOnUse" markerWidth="17" markerHeight="17" refX="14" refY="8.5" orient="auto">
+<path d="M1 1 L14 8.5 L1 16 Z" fill="#77529B"/>
+</marker>
+<marker id="purple-return" markerUnits="userSpaceOnUse" markerWidth="17" markerHeight="17" refX="14" refY="8.5" orient="auto">
+<path d="M1 1 L14 8.5 L1 16" fill="none" stroke="#77529B" stroke-width="2.6"/>
+</marker>
+</defs>
+<g font-family="Arial, Nimbus Sans, Helvetica, sans-serif">
+<rect x="120" y="389" width="1900" height="354" rx="6" fill="#FBFDFF" stroke="#ADC2DD" stroke-width="1.8" />
+<rect x="1460" y="760" width="2420" height="490" rx="6" fill="#FBFDFF" stroke="#ADC2DD" stroke-width="1.8" />
+<rect x="1460" y="1320" width="3070" height="575" rx="6" fill="#FCFAFE" stroke="#B9A1CD" stroke-width="1.8" />
+<rect x="120" y="2095" width="4410" height="285" rx="6" fill="#FBFDFF" stroke="#ADC2DD" stroke-width="1.8" />
+<line x1="300" y1="110" x2="300" y2="2390" stroke="#C2CBD7" stroke-width="1.7" stroke-dasharray="7 9"/>
+<line x1="960" y1="110" x2="960" y2="2390" stroke="#C2CBD7" stroke-width="1.7" stroke-dasharray="7 9"/>
+<line x1="1620" y1="110" x2="1620" y2="2390" stroke="#C2CBD7" stroke-width="1.7" stroke-dasharray="7 9"/>
+<line x1="2280" y1="110" x2="2280" y2="2390" stroke="#C2CBD7" stroke-width="1.7" stroke-dasharray="7 9"/>
+<line x1="2940" y1="110" x2="2940" y2="2390" stroke="#C2CBD7" stroke-width="1.7" stroke-dasharray="7 9"/>
+<line x1="3600" y1="110" x2="3600" y2="2390" stroke="#C2CBD7" stroke-width="1.7" stroke-dasharray="7 9"/>
+<line x1="4260" y1="110" x2="4260" y2="2390" stroke="#C2CBD7" stroke-width="1.7" stroke-dasharray="7 9"/>
+<rect x="70" y="140" width="4460" height="42" rx="4" fill="#EFF4FA" stroke="none" stroke-width="0" />
+<text x="94" y="171" fill="#355E96" font-size="29" font-weight="700" text-anchor="start" >Understand &amp; Clarify</text>
+<rect x="122" y="391" width="1896" height="73" rx="4" fill="#EFF4FA" stroke="none" stroke-width="0" />
+<rect x="122" y="391" width="98" height="39" rx="3" fill="#E4EDF7" stroke="none" stroke-width="0" />
+<text x="171" y="420" fill="#355E96" font-size="26" font-weight="700" text-anchor="middle" >loop</text>
+<text x="246" y="422" fill="#355E96" font-size="28" font-weight="700" text-anchor="start" >Clarify Intent &amp; Required Details</text>
+<text x="246" y="453" fill="#607086" font-size="23" font-weight="400" text-anchor="start" >Repeat as needed, within configured clarification limits.</text>
+<rect x="1462" y="762" width="2416" height="44" rx="4" fill="#EFF4FA" stroke="none" stroke-width="0" />
+<text x="1670" y="793" fill="#355E96" font-size="29" font-weight="700" text-anchor="start" >Retrieve Service Guidance</text>
+<text x="3850" y="793" fill="#416F72" font-size="27" font-weight="400" text-anchor="end" >answer_from_approved_knowledge</text>
+<rect x="1462" y="1322" width="3066" height="44" rx="4" fill="#F4EEF9" stroke="none" stroke-width="0" />
+<text x="1670" y="1353" fill="#77529B" font-size="29" font-weight="700" text-anchor="start" >Prepare Handoff &amp; Obtain Live Support Link</text>
+<text x="4502" y="1353" fill="#77529B" font-size="27" font-weight="400" text-anchor="end" >prepare_human_handoff</text>
+<rect x="70" y="1920" width="4460" height="44" rx="4" fill="#EFF4FA" stroke="none" stroke-width="0" />
+<text x="94" y="1953" fill="#355E96" font-size="29" font-weight="700" text-anchor="start" >Present the Link &amp; Connect to Live Support</text>
+<rect x="122" y="2097" width="4406" height="43" rx="4" fill="#EFF4FA" stroke="none" stroke-width="0" />
+<rect x="122" y="2097" width="98" height="43" rx="3" fill="#E4EDF7" stroke="none" stroke-width="0" />
+<text x="171" y="2128" fill="#355E96" font-size="26" font-weight="700" text-anchor="middle" >opt</text>
+<text x="246" y="2128" fill="#355E96" font-size="28" font-weight="700" text-anchor="start" >Customer Chooses Live Support</text>
+<text x="4502" y="2128" fill="#607086" font-size="24" font-weight="400" text-anchor="end" >Connection is confirmed by D365.</text>
+<rect x="947" y="225" width="26" height="65" rx="0" fill="#F1F4F7" stroke="#57677B" stroke-width="1.7" />
+<rect x="947" y="502" width="26" height="56" rx="0" fill="#F1F4F7" stroke="#57677B" stroke-width="1.7" />
+<rect x="947" y="614" width="26" height="56" rx="0" fill="#F1F4F7" stroke="#57677B" stroke-width="1.7" />
+<rect x="947" y="2000" width="26" height="60" rx="0" fill="#F1F4F7" stroke="#57677B" stroke-width="1.7" />
+<rect x="1607" y="290" width="26" height="212" rx="0" fill="#E8EFF8" stroke="#355E96" stroke-width="1.7" />
+<rect x="1607" y="670" width="26" height="1330" rx="0" fill="#E8EFF8" stroke="#355E96" stroke-width="1.7" />
+<rect x="2267" y="855" width="26" height="365" rx="0" fill="#EDF4F3" stroke="#416F72" stroke-width="1.7" />
+<rect x="2927" y="915" width="26" height="180" rx="0" fill="#F1F4F7" stroke="#57677B" stroke-width="1.7" />
+<rect x="3587" y="975" width="26" height="60" rx="0" fill="#F1F4F7" stroke="#57677B" stroke-width="1.7" />
+<rect x="2267" y="1410" width="26" height="450" rx="0" fill="#EFE6F7" stroke="#77529B" stroke-width="1.7" />
+<rect x="2927" y="1565" width="26" height="235" rx="0" fill="#F1F4F7" stroke="#57677B" stroke-width="1.7" />
+<rect x="4247" y="1625" width="26" height="115" rx="0" fill="#F1F4F7" stroke="#57677B" stroke-width="1.7" />
+<rect x="4247" y="2175" width="26" height="65" rx="0" fill="#F1F4F7" stroke="#57677B" stroke-width="1.7" />
+<rect x="4247" y="2258" width="26" height="87" rx="0" fill="#F1F4F7" stroke="#57677B" stroke-width="1.7" />
+<g id="message-01" data-from="Customer" data-to="Chatbot" aria-label="01 Ask a Service Question">
+<line x1="300" y1="225" x2="947" y2="225" stroke="#253347" stroke-width="2.6" marker-end="url(#ink-call)"/>
+<text x="623.5" y="206" fill="#253347" font-size="32" font-weight="400" text-anchor="middle" >01  Ask a Service Question</text>
+</g>
+<g id="message-02" data-from="Chatbot" data-to="Agent" aria-label="02 Message &amp; Conversation Context">
+<line x1="973" y1="290" x2="1607" y2="290" stroke="#355E96" stroke-width="2.6" marker-end="url(#blue-call)"/>
+<text x="1290.0" y="271" fill="#355E96" font-size="32" font-weight="400" text-anchor="middle" >02  Message &amp; Conversation Context</text>
+</g>
+<g aria-label="Identify Intent &amp; Missing Details" data-kind="internal-action">
+<path d="M 1633 325 H 1793 V 357 H 1633" fill="none" stroke="#355E96" stroke-width="2.6" marker-end="url(#blue-call)"/>
+<text x="1578" y="349" fill="#355E96" font-size="29" font-weight="400" text-anchor="end" >Identify Intent &amp; Missing Details</text>
+</g>
+<g id="message-03" data-from="Agent" data-to="Chatbot" aria-label="03 Return Clarification Question">
+<line x1="1607" y1="502" x2="973" y2="502" stroke="#355E96" stroke-width="2.6" stroke-dasharray="10 8" marker-end="url(#blue-return)"/>
+<text x="1290.0" y="483" fill="#355E96" font-size="32" font-weight="400" text-anchor="middle" >03  Return Clarification Question</text>
+</g>
+<g id="message-04" data-from="Chatbot" data-to="Customer" aria-label="04 Display Clarification Question">
+<line x1="947" y1="558" x2="300" y2="558" stroke="#253347" stroke-width="2.6" stroke-dasharray="10 8" marker-end="url(#ink-return)"/>
+<text x="623.5" y="539" fill="#253347" font-size="32" font-weight="400" text-anchor="middle" >04  Display Clarification Question</text>
+</g>
+<g id="message-05" data-from="Customer" data-to="Chatbot" aria-label="05 Provide More Details">
+<line x1="300" y1="614" x2="947" y2="614" stroke="#253347" stroke-width="2.6" marker-end="url(#ink-call)"/>
+<text x="623.5" y="595" fill="#253347" font-size="32" font-weight="400" text-anchor="middle" >05  Provide More Details</text>
+</g>
+<g id="message-06" data-from="Chatbot" data-to="Agent" aria-label="06 Reply &amp; Updated Context">
+<line x1="973" y1="670" x2="1607" y2="670" stroke="#355E96" stroke-width="2.6" marker-end="url(#blue-call)"/>
+<text x="1290.0" y="651" fill="#355E96" font-size="32" font-weight="400" text-anchor="middle" >06  Reply &amp; Updated Context</text>
+</g>
+<g aria-label="Refine Intent &amp; Check Readiness" data-kind="internal-action">
+<path d="M 1633 698 H 1793 V 730 H 1633" fill="none" stroke="#355E96" stroke-width="2.6" marker-end="url(#blue-call)"/>
+<text x="1578" y="722" fill="#355E96" font-size="29" font-weight="400" text-anchor="end" >Refine Intent &amp; Check Readiness</text>
+</g>
+<g id="message-07" data-from="Agent" data-to="Skill" aria-label="07 Retrieve Service Guidance">
+<line x1="1633" y1="855" x2="2267" y2="855" stroke="#416F72" stroke-width="2.6" marker-end="url(#teal-call)"/>
+<text x="1950.0" y="836" fill="#416F72" font-size="32" font-weight="400" text-anchor="middle" >07  Retrieve Service Guidance</text>
+</g>
+<g id="message-08" data-from="Skill" data-to="MCP" aria-label="08 Search Approved Knowledge">
+<line x1="2293" y1="915" x2="2927" y2="915" stroke="#416F72" stroke-width="2.6" marker-end="url(#teal-call)"/>
+<text x="2610.0" y="896" fill="#416F72" font-size="32" font-weight="400" text-anchor="middle" >08  Search Approved Knowledge</text>
+</g>
+<g id="message-09" data-from="MCP" data-to="KB" aria-label="09 Query Service &amp; Escalation Rules">
+<line x1="2953" y1="975" x2="3587" y2="975" stroke="#57677B" stroke-width="2.6" marker-end="url(#neutral-call)"/>
+<text x="3270.0" y="956" fill="#57677B" font-size="32" font-weight="400" text-anchor="middle" >09  Query Service &amp; Escalation Rules</text>
+</g>
+<g id="message-10" data-from="KB" data-to="MCP" aria-label="10 Guidance &amp; Source References">
+<line x1="3587" y1="1035" x2="2953" y2="1035" stroke="#57677B" stroke-width="2.6" stroke-dasharray="10 8" marker-end="url(#neutral-return)"/>
+<text x="3270.0" y="1016" fill="#57677B" font-size="32" font-weight="400" text-anchor="middle" >10  Guidance &amp; Source References</text>
+</g>
+<g id="message-11" data-from="MCP" data-to="Skill" aria-label="11 Return Retrieved Evidence">
+<line x1="2927" y1="1095" x2="2293" y2="1095" stroke="#57677B" stroke-width="2.6" stroke-dasharray="10 8" marker-end="url(#neutral-return)"/>
+<text x="2610.0" y="1076" fill="#57677B" font-size="32" font-weight="400" text-anchor="middle" >11  Return Retrieved Evidence</text>
+</g>
+<g aria-label="Check Applicable Guidance &amp; Rules" data-kind="internal-action">
+<path d="M 2293 1124 H 2453 V 1156 H 2293" fill="none" stroke="#416F72" stroke-width="2.6" marker-end="url(#teal-call)"/>
+<text x="2238" y="1148" fill="#416F72" font-size="29" font-weight="400" text-anchor="end" >Check Applicable Guidance &amp; Rules</text>
+</g>
+<g id="message-12" data-from="Skill" data-to="Agent" aria-label="12 Guidance &amp; Escalation Rules">
+<line x1="2267" y1="1220" x2="1633" y2="1220" stroke="#416F72" stroke-width="2.6" stroke-dasharray="10 8" marker-end="url(#teal-return)"/>
+<text x="1950.0" y="1201" fill="#416F72" font-size="32" font-weight="400" text-anchor="middle" >12  Guidance &amp; Escalation Rules</text>
+</g>
+<g aria-label="Confirm Handoff Eligibility" data-kind="internal-action">
+<path d="M 1633 1268 H 1793 V 1300 H 1633" fill="none" stroke="#355E96" stroke-width="2.6" marker-end="url(#blue-call)"/>
+<text x="1578" y="1292" fill="#355E96" font-size="29" font-weight="400" text-anchor="end" >Confirm Handoff Eligibility</text>
+</g>
+<g id="message-13" data-from="Agent" data-to="Skill" aria-label="13 Prepare Human Handoff">
+<line x1="1633" y1="1410" x2="2267" y2="1410" stroke="#77529B" stroke-width="2.6" marker-end="url(#purple-call)"/>
+<text x="1950.0" y="1391" fill="#77529B" font-size="32" font-weight="400" text-anchor="middle" >13  Prepare Human Handoff</text>
+</g>
+<g aria-label="Summarize &amp; Redact Conversation Context" data-kind="internal-action">
+<path d="M 2293 1440 H 2453 V 1472 H 2293" fill="none" stroke="#77529B" stroke-width="2.6" marker-end="url(#purple-call)"/>
+<text x="2238" y="1464" fill="#77529B" font-size="29" font-weight="400" text-anchor="end" >Summarize &amp; Redact Conversation Context</text>
+</g>
+<text x="2238" y="1498" fill="#607086" font-size="22" font-weight="400" text-anchor="end" >Customer goal · Verified facts · Steps attempted</text>
+<text x="2238" y="1527" fill="#607086" font-size="22" font-weight="400" text-anchor="end" >Open issue · Escalation reason · Conversation reference</text>
+<g id="message-14" data-from="Skill" data-to="MCP" aria-label="14 Request Live Support with Context">
+<line x1="2293" y1="1565" x2="2927" y2="1565" stroke="#77529B" stroke-width="2.6" marker-end="url(#purple-call)"/>
+<text x="2610.0" y="1546" fill="#77529B" font-size="32" font-weight="400" text-anchor="middle" >14  Request Live Support with Context</text>
+</g>
+<g id="message-15" data-from="MCP" data-to="D365 Omnichannel" aria-label="15 Create or Resume Handoff with Summary">
+<line x1="2953" y1="1625" x2="4247" y2="1625" stroke="#57677B" stroke-width="2.6" marker-end="url(#neutral-call)"/>
+<text x="3600.0" y="1606" fill="#57677B" font-size="32" font-weight="400" text-anchor="middle" >15  Create or Resume Handoff with Summary</text>
+</g>
+<g aria-label="Store Summary &amp; Link to Handoff" data-kind="internal-action">
+<path d="M 4273 1658 H 4433 V 1690 H 4273" fill="none" stroke="#57677B" stroke-width="2.6" marker-end="url(#neutral-call)"/>
+<text x="4218" y="1682" fill="#57677B" font-size="29" font-weight="400" text-anchor="end" >Store Summary &amp; Link to Handoff</text>
+</g>
+<g id="message-16" data-from="D365 Omnichannel" data-to="MCP" aria-label="16 Handoff ID, Live Support Link &amp; Status">
+<line x1="4247" y1="1740" x2="2953" y2="1740" stroke="#57677B" stroke-width="2.6" stroke-dasharray="10 8" marker-end="url(#neutral-return)"/>
+<text x="3600.0" y="1721" fill="#57677B" font-size="32" font-weight="400" text-anchor="middle" >16  Handoff ID, Live Support Link &amp; Status</text>
+</g>
+<g id="message-17" data-from="MCP" data-to="Skill" aria-label="17 Return Handoff Reference &amp; Link">
+<line x1="2927" y1="1800" x2="2293" y2="1800" stroke="#57677B" stroke-width="2.6" stroke-dasharray="10 8" marker-end="url(#neutral-return)"/>
+<text x="2610.0" y="1781" fill="#57677B" font-size="32" font-weight="400" text-anchor="middle" >17  Return Handoff Reference &amp; Link</text>
+</g>
+<g id="message-18" data-from="Skill" data-to="Agent" aria-label="18 Handoff Details &amp; Next Step">
+<line x1="2267" y1="1860" x2="1633" y2="1860" stroke="#77529B" stroke-width="2.6" stroke-dasharray="10 8" marker-end="url(#purple-return)"/>
+<text x="1950.0" y="1841" fill="#77529B" font-size="32" font-weight="400" text-anchor="middle" >18  Handoff Details &amp; Next Step</text>
+</g>
+<g id="message-19" data-from="Agent" data-to="Chatbot" aria-label="19 Explain Handoff &amp; Provide Link">
+<line x1="1607" y1="2000" x2="973" y2="2000" stroke="#355E96" stroke-width="2.6" stroke-dasharray="10 8" marker-end="url(#blue-return)"/>
+<text x="1290.0" y="1981" fill="#355E96" font-size="32" font-weight="400" text-anchor="middle" >19  Explain Handoff &amp; Provide Link</text>
+</g>
+<g id="message-20" data-from="Chatbot" data-to="Customer" aria-label="20 Handoff Reason &amp; Live Support Link">
+<line x1="947" y1="2060" x2="300" y2="2060" stroke="#253347" stroke-width="2.6" stroke-dasharray="10 8" marker-end="url(#ink-return)"/>
+<text x="623.5" y="2041" fill="#253347" font-size="32" font-weight="400" text-anchor="middle" >20  Handoff Reason &amp; Live Support Link</text>
+</g>
+<g id="message-21" data-from="Customer" data-to="D365 Omnichannel" aria-label="21 Open Linked Support Session">
+<line x1="300" y1="2175" x2="4247" y2="2175" stroke="#253347" stroke-width="2.6" marker-end="url(#ink-call)"/>
+<text x="2273.5" y="2156" fill="#253347" font-size="32" font-weight="400" text-anchor="middle" >21  Open Linked Support Session</text>
+</g>
+<g id="message-22" data-from="D365 Omnichannel" data-to="Customer" aria-label="22 Show Queue / Connection Status">
+<line x1="4247" y1="2240" x2="300" y2="2240" stroke="#57677B" stroke-width="2.6" stroke-dasharray="10 8" marker-end="url(#neutral-return)"/>
+<text x="2273.5" y="2221" fill="#57677B" font-size="32" font-weight="400" text-anchor="middle" >22  Show Queue / Connection Status</text>
+</g>
+<g aria-label="Make Summary Available to Assigned Agent" data-kind="internal-action">
+<path d="M 4273 2268 H 4433 V 2300 H 4273" fill="none" stroke="#57677B" stroke-width="2.6" marker-end="url(#neutral-call)"/>
+<text x="4218" y="2292" fill="#57677B" font-size="29" font-weight="400" text-anchor="end" >Make Summary Available to Assigned Agent</text>
+</g>
+<g id="message-23" data-from="D365 Omnichannel" data-to="Customer" aria-label="23 Live Agent Connected">
+<line x1="4247" y1="2345" x2="300" y2="2345" stroke="#57677B" stroke-width="2.6" stroke-dasharray="10 8" marker-end="url(#neutral-return)"/>
+<text x="2273.5" y="2326" fill="#57677B" font-size="32" font-weight="400" text-anchor="middle" >23  Live Agent Connected</text>
+</g>
+<rect x="75" y="32" width="450" height="78" rx="5" fill="#DC416A" stroke="none" stroke-width="0" />
+<text x="300" y="84" fill="#FFFFFF" font-size="36" font-weight="700" text-anchor="middle" >Customer</text>
+<rect x="735" y="32" width="450" height="78" rx="5" fill="#DC416A" stroke="none" stroke-width="0" />
+<text x="960" y="84" fill="#FFFFFF" font-size="36" font-weight="700" text-anchor="middle" >Chatbot</text>
+<rect x="1395" y="32" width="450" height="78" rx="5" fill="#DC416A" stroke="none" stroke-width="0" />
+<text x="1620" y="84" fill="#FFFFFF" font-size="36" font-weight="700" text-anchor="middle" >Agent</text>
+<rect x="2055" y="32" width="450" height="78" rx="5" fill="#DC416A" stroke="none" stroke-width="0" />
+<text x="2280" y="84" fill="#FFFFFF" font-size="36" font-weight="700" text-anchor="middle" >Skill</text>
+<rect x="2715" y="32" width="450" height="78" rx="5" fill="#DC416A" stroke="none" stroke-width="0" />
+<text x="2940" y="84" fill="#FFFFFF" font-size="36" font-weight="700" text-anchor="middle" >MCP</text>
+<rect x="3375" y="32" width="450" height="78" rx="5" fill="#DC416A" stroke="none" stroke-width="0" />
+<text x="3600" y="84" fill="#FFFFFF" font-size="36" font-weight="700" text-anchor="middle" >KB</text>
+<rect x="4035" y="32" width="450" height="78" rx="5" fill="#DC416A" stroke="none" stroke-width="0" />
+<text x="4260" y="63" fill="#FFFFFF" font-size="30" font-weight="700" text-anchor="middle" >D365</text>
+<text x="4260" y="98" fill="#FFFFFF" font-size="30" font-weight="700" text-anchor="middle" >Omnichannel</text>
+</g></svg>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="4300" height="2000" viewBox="0 0 4300 2000" role="img" aria-labelledby="diagram-title diagram-description">
+<title id="diagram-title">Customer Assistant — Knowledge Answer Sequence</title>
+<desc id="diagram-description">Six participants: Customer, Chatbot, Agent, Skill, MCP, KB. Fourteen numbered cross-participant messages. A bounded clarification loop refines customer intent, followed by approved knowledge retrieval and an answer with sources. Transparent canvas and editable text. Skill is a logical workflow execution boundary.</desc>
+<defs>
+<marker id="ink-call" markerUnits="userSpaceOnUse" markerWidth="17" markerHeight="17" refX="14" refY="8.5" orient="auto">
+<path d="M1 1 L14 8.5 L1 16 Z" fill="#253347"/>
+</marker>
+<marker id="ink-return" markerUnits="userSpaceOnUse" markerWidth="17" markerHeight="17" refX="14" refY="8.5" orient="auto">
+<path d="M1 1 L14 8.5 L1 16" fill="none" stroke="#253347" stroke-width="2.6"/>
+</marker>
+<marker id="blue-call" markerUnits="userSpaceOnUse" markerWidth="17" markerHeight="17" refX="14" refY="8.5" orient="auto">
+<path d="M1 1 L14 8.5 L1 16 Z" fill="#355E96"/>
+</marker>
+<marker id="blue-return" markerUnits="userSpaceOnUse" markerWidth="17" markerHeight="17" refX="14" refY="8.5" orient="auto">
+<path d="M1 1 L14 8.5 L1 16" fill="none" stroke="#355E96" stroke-width="2.6"/>
+</marker>
+<marker id="teal-call" markerUnits="userSpaceOnUse" markerWidth="17" markerHeight="17" refX="14" refY="8.5" orient="auto">
+<path d="M1 1 L14 8.5 L1 16 Z" fill="#416F72"/>
+</marker>
+<marker id="teal-return" markerUnits="userSpaceOnUse" markerWidth="17" markerHeight="17" refX="14" refY="8.5" orient="auto">
+<path d="M1 1 L14 8.5 L1 16" fill="none" stroke="#416F72" stroke-width="2.6"/>
+</marker>
+<marker id="neutral-call" markerUnits="userSpaceOnUse" markerWidth="17" markerHeight="17" refX="14" refY="8.5" orient="auto">
+<path d="M1 1 L14 8.5 L1 16 Z" fill="#57677B"/>
+</marker>
+<marker id="neutral-return" markerUnits="userSpaceOnUse" markerWidth="17" markerHeight="17" refX="14" refY="8.5" orient="auto">
+<path d="M1 1 L14 8.5 L1 16" fill="none" stroke="#57677B" stroke-width="2.6"/>
+</marker>
+</defs>
+<g font-family="Arial, Nimbus Sans, Helvetica, sans-serif">
+<rect x="120" y="475" width="2070" height="465" rx="6" fill="#FBFDFF" stroke="#ADC2DD" stroke-width="1.8" />
+<rect x="1600" y="976" width="2640" height="684" rx="6" fill="#FBFDFF" stroke="#ADC2DD" stroke-width="1.8" />
+<line x1="300" y1="124" x2="300" y2="1970" stroke="#C2CBD7" stroke-width="1.7" stroke-dasharray="7 9"/>
+<line x1="1040" y1="124" x2="1040" y2="1970" stroke="#C2CBD7" stroke-width="1.7" stroke-dasharray="7 9"/>
+<line x1="1780" y1="124" x2="1780" y2="1970" stroke="#C2CBD7" stroke-width="1.7" stroke-dasharray="7 9"/>
+<line x1="2520" y1="124" x2="2520" y2="1970" stroke="#C2CBD7" stroke-width="1.7" stroke-dasharray="7 9"/>
+<line x1="3260" y1="124" x2="3260" y2="1970" stroke="#C2CBD7" stroke-width="1.7" stroke-dasharray="7 9"/>
+<line x1="4000" y1="124" x2="4000" y2="1970" stroke="#C2CBD7" stroke-width="1.7" stroke-dasharray="7 9"/>
+<rect x="70" y="164" width="4160" height="46" rx="4" fill="#EFF4FA" stroke="none" stroke-width="0" />
+<text x="94" y="197" fill="#355E96" font-size="29" font-weight="700" text-anchor="start" >Understand &amp; Clarify</text>
+<rect x="122" y="477" width="2066" height="91" rx="4" fill="#EFF4FA" stroke="none" stroke-width="0" />
+<rect x="122" y="477" width="98" height="45" rx="3" fill="#E4EDF7" stroke="none" stroke-width="0" />
+<text x="171" y="508" fill="#355E96" font-size="27" font-weight="700" text-anchor="middle" >loop</text>
+<text x="246" y="509" fill="#355E96" font-size="28" font-weight="700" text-anchor="start" >Clarify Until Intent &amp; Required Details Are Clear</text>
+<text x="246" y="547" fill="#607086" font-size="24" font-weight="400" text-anchor="start" >Repeat as needed, within configured clarification limits.</text>
+<rect x="1602" y="978" width="2636" height="48" rx="4" fill="#EFF4FA" stroke="none" stroke-width="0" />
+<text x="1830" y="1011" fill="#355E96" font-size="29" font-weight="700" text-anchor="start" >Retrieve &amp; Prepare Answer</text>
+<text x="4212" y="1011" fill="#416F72" font-size="28" font-weight="400" text-anchor="end" >answer_from_approved_knowledge</text>
+<rect x="70" y="1710" width="4160" height="46" rx="4" fill="#EFF4FA" stroke="none" stroke-width="0" />
+<text x="94" y="1743" fill="#355E96" font-size="29" font-weight="700" text-anchor="start" >Review &amp; Respond</text>
+<rect x="1027" y="258" width="26" height="80" rx="0" fill="#F1F4F7" stroke="#57677B" stroke-width="1.7" />
+<rect x="1027" y="603" width="26" height="70" rx="0" fill="#F1F4F7" stroke="#57677B" stroke-width="1.7" />
+<rect x="1027" y="748" width="26" height="70" rx="0" fill="#F1F4F7" stroke="#57677B" stroke-width="1.7" />
+<rect x="1027" y="1885" width="26" height="65" rx="0" fill="#F1F4F7" stroke="#57677B" stroke-width="1.7" />
+<rect x="1767" y="338" width="26" height="265" rx="0" fill="#E8EFF8" stroke="#355E96" stroke-width="1.7" />
+<rect x="1767" y="818" width="26" height="1067" rx="0" fill="#E8EFF8" stroke="#355E96" stroke-width="1.7" />
+<rect x="2507" y="1120" width="26" height="495" rx="0" fill="#EDF4F3" stroke="#416F72" stroke-width="1.7" />
+<rect x="3247" y="1200" width="26" height="240" rx="0" fill="#F1F4F7" stroke="#57677B" stroke-width="1.7" />
+<rect x="3987" y="1280" width="26" height="80" rx="0" fill="#F1F4F7" stroke="#57677B" stroke-width="1.7" />
+<g id="message-01" data-from="Customer" data-to="Chatbot" aria-label="01 Ask a Question">
+<line x1="300" y1="258" x2="1027" y2="258" stroke="#253347" stroke-width="2.6" marker-end="url(#ink-call)"/>
+<text x="663.5" y="239" fill="#253347" font-size="32" font-weight="400" text-anchor="middle" >01  Ask a Question</text>
+</g>
+<g id="message-02" data-from="Chatbot" data-to="Agent" aria-label="02 Forward Message &amp; Conversation Context">
+<line x1="1053" y1="338" x2="1767" y2="338" stroke="#355E96" stroke-width="2.6" marker-end="url(#blue-call)"/>
+<text x="1410.0" y="319" fill="#355E96" font-size="32" font-weight="400" text-anchor="middle" >02  Forward Message &amp; Conversation Context</text>
+</g>
+<g aria-label="Identify Intent &amp; Missing Details" data-kind="internal-action">
+<path d="M 1793 393 H 1953 V 435 H 1793" fill="none" stroke="#355E96" stroke-width="2.6" marker-end="url(#blue-call)"/>
+<text x="1738" y="422" fill="#355E96" font-size="30" font-weight="400" text-anchor="end" >Identify Intent &amp; Missing Details</text>
+</g>
+<g id="message-03" data-from="Agent" data-to="Chatbot" aria-label="03 Return Clarification Question">
+<line x1="1767" y1="603" x2="1053" y2="603" stroke="#355E96" stroke-width="2.6" stroke-dasharray="10 8" marker-end="url(#blue-return)"/>
+<text x="1410.0" y="584" fill="#355E96" font-size="32" font-weight="400" text-anchor="middle" >03  Return Clarification Question</text>
+</g>
+<g id="message-04" data-from="Chatbot" data-to="Customer" aria-label="04 Display Clarification Question">
+<line x1="1027" y1="673" x2="300" y2="673" stroke="#253347" stroke-width="2.6" stroke-dasharray="10 8" marker-end="url(#ink-return)"/>
+<text x="663.5" y="654" fill="#253347" font-size="32" font-weight="400" text-anchor="middle" >04  Display Clarification Question</text>
+</g>
+<g id="message-05" data-from="Customer" data-to="Chatbot" aria-label="05 Provide More Details">
+<line x1="300" y1="748" x2="1027" y2="748" stroke="#253347" stroke-width="2.6" marker-end="url(#ink-call)"/>
+<text x="663.5" y="729" fill="#253347" font-size="32" font-weight="400" text-anchor="middle" >05  Provide More Details</text>
+</g>
+<g id="message-06" data-from="Chatbot" data-to="Agent" aria-label="06 Forward Reply &amp; Updated Context">
+<line x1="1053" y1="818" x2="1767" y2="818" stroke="#355E96" stroke-width="2.6" marker-end="url(#blue-call)"/>
+<text x="1410.0" y="799" fill="#355E96" font-size="32" font-weight="400" text-anchor="middle" >06  Forward Reply &amp; Updated Context</text>
+</g>
+<g aria-label="Refine Intent &amp; Check Readiness" data-kind="internal-action">
+<path d="M 1793 863 H 1953 V 905 H 1793" fill="none" stroke="#355E96" stroke-width="2.6" marker-end="url(#blue-call)"/>
+<text x="1738" y="892" fill="#355E96" font-size="30" font-weight="400" text-anchor="end" >Refine Intent &amp; Check Readiness</text>
+</g>
+<g id="message-07" data-from="Agent" data-to="Skill" aria-label="07 Invoke Knowledge Skill Question &amp; Context">
+<line x1="1793" y1="1120" x2="2507" y2="1120" stroke="#416F72" stroke-width="2.6" marker-end="url(#teal-call)"/>
+<text x="2150.0" y="1066" fill="#416F72" font-size="32" font-weight="400" text-anchor="middle" >07  Invoke Knowledge Skill</text>
+<text x="2150.0" y="1101" fill="#416F72" font-size="32" font-weight="400" text-anchor="middle" >Question &amp; Context</text>
+</g>
+<g id="message-08" data-from="Skill" data-to="MCP" aria-label="08 Call Approved Knowledge Search">
+<line x1="2533" y1="1200" x2="3247" y2="1200" stroke="#416F72" stroke-width="2.6" marker-end="url(#teal-call)"/>
+<text x="2890.0" y="1181" fill="#416F72" font-size="32" font-weight="400" text-anchor="middle" >08  Call Approved Knowledge Search</text>
+</g>
+<g id="message-09" data-from="MCP" data-to="KB" aria-label="09 Search with Query &amp; Scope Filters">
+<line x1="3273" y1="1280" x2="3987" y2="1280" stroke="#57677B" stroke-width="2.6" marker-end="url(#neutral-call)"/>
+<text x="3630.0" y="1261" fill="#57677B" font-size="32" font-weight="400" text-anchor="middle" >09  Search with Query &amp; Scope Filters</text>
+</g>
+<g id="message-10" data-from="KB" data-to="MCP" aria-label="10 Relevant Passages &amp; Source Metadata">
+<line x1="3987" y1="1360" x2="3273" y2="1360" stroke="#57677B" stroke-width="2.6" stroke-dasharray="10 8" marker-end="url(#neutral-return)"/>
+<text x="3630.0" y="1341" fill="#57677B" font-size="32" font-weight="400" text-anchor="middle" >10  Relevant Passages &amp; Source Metadata</text>
+</g>
+<g id="message-11" data-from="MCP" data-to="Skill" aria-label="11 Return Retrieved Evidence">
+<line x1="3247" y1="1440" x2="2533" y2="1440" stroke="#57677B" stroke-width="2.6" stroke-dasharray="10 8" marker-end="url(#neutral-return)"/>
+<text x="2890.0" y="1421" fill="#57677B" font-size="32" font-weight="400" text-anchor="middle" >11  Return Retrieved Evidence</text>
+</g>
+<g aria-label="Check Applicability &amp; Prepare Answer" data-kind="internal-action">
+<path d="M 2533 1490 H 2693 V 1532 H 2533" fill="none" stroke="#416F72" stroke-width="2.6" marker-end="url(#teal-call)"/>
+<text x="2478" y="1519" fill="#416F72" font-size="30" font-weight="400" text-anchor="end" >Check Applicability &amp; Prepare Answer</text>
+<text x="2478" y="1554" fill="#607086" font-size="24" font-weight="400" text-anchor="end" >Validate market, product and content version.</text>
+</g>
+<g id="message-12" data-from="Skill" data-to="Agent" aria-label="12 Return Answer &amp; Supporting Sources">
+<line x1="2507" y1="1615" x2="1793" y2="1615" stroke="#416F72" stroke-width="2.6" stroke-dasharray="10 8" marker-end="url(#teal-return)"/>
+<text x="2150.0" y="1596" fill="#416F72" font-size="32" font-weight="400" text-anchor="middle" >12  Return Answer &amp; Supporting Sources</text>
+</g>
+<g aria-label="Review Evidence &amp; Compose Customer Response" data-kind="internal-action">
+<path d="M 1793 1780 H 1953 V 1822 H 1793" fill="none" stroke="#355E96" stroke-width="2.6" marker-end="url(#blue-call)"/>
+<text x="1738" y="1809" fill="#355E96" font-size="30" font-weight="400" text-anchor="end" >Review Evidence &amp; Compose Customer Response</text>
+</g>
+<g id="message-13" data-from="Agent" data-to="Chatbot" aria-label="13 Return Final Answer &amp; Source References">
+<line x1="1767" y1="1885" x2="1053" y2="1885" stroke="#355E96" stroke-width="2.6" stroke-dasharray="10 8" marker-end="url(#blue-return)"/>
+<text x="1410.0" y="1866" fill="#355E96" font-size="32" font-weight="400" text-anchor="middle" >13  Return Final Answer &amp; Source References</text>
+</g>
+<g id="message-14" data-from="Chatbot" data-to="Customer" aria-label="14 Display Answer with Sources">
+<line x1="1027" y1="1950" x2="300" y2="1950" stroke="#253347" stroke-width="2.6" stroke-dasharray="10 8" marker-end="url(#ink-return)"/>
+<text x="663.5" y="1931" fill="#253347" font-size="32" font-weight="400" text-anchor="middle" >14  Display Answer with Sources</text>
+</g>
+<rect x="70" y="42" width="460" height="82" rx="5" fill="#DC416A" stroke="none" stroke-width="0" />
+<text x="300" y="96" fill="#FFFFFF" font-size="36" font-weight="700" text-anchor="middle" >Customer</text>
+<rect x="810" y="42" width="460" height="82" rx="5" fill="#DC416A" stroke="none" stroke-width="0" />
+<text x="1040" y="96" fill="#FFFFFF" font-size="36" font-weight="700" text-anchor="middle" >Chatbot</text>
+<rect x="1550" y="42" width="460" height="82" rx="5" fill="#DC416A" stroke="none" stroke-width="0" />
+<text x="1780" y="96" fill="#FFFFFF" font-size="36" font-weight="700" text-anchor="middle" >Agent</text>
+<rect x="2290" y="42" width="460" height="82" rx="5" fill="#DC416A" stroke="none" stroke-width="0" />
+<text x="2520" y="96" fill="#FFFFFF" font-size="36" font-weight="700" text-anchor="middle" >Skill</text>
+<rect x="3030" y="42" width="460" height="82" rx="5" fill="#DC416A" stroke="none" stroke-width="0" />
+<text x="3260" y="96" fill="#FFFFFF" font-size="36" font-weight="700" text-anchor="middle" >MCP</text>
+<rect x="3770" y="42" width="460" height="82" rx="5" fill="#DC416A" stroke="none" stroke-width="0" />
+<text x="4000" y="96" fill="#FFFFFF" font-size="36" font-weight="700" text-anchor="middle" >KB</text>
+</g></svg>
