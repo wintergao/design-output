@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="4200" height="2000" viewBox="0 0 4200 2000" role="img" aria-labelledby="skill-localization-title skill-localization-description" font-family="Arial, Helvetica, sans-serif">
+  <title id="skill-localization-title">Skill Localization and Customization for Local BUs</title>
+  <desc id="skill-localization-description">A transparent 4200 by 2000 English-language diagram in a rose palette. The Group Skill Baseline is forked with source-version tracking, localized as a complete Skill Package, validated and approved, and published as a version for Local BU Agents. Eight customization areas cover purpose and triggers, inputs and context, language and scenarios, knowledge and business rules, workflow and exceptions, outputs and templates, tools and executable helpers, and tests and evaluation. SKILL.md, references, assets, scripts, and tests form the baseline package. Input-output contract compatibility, versioned breaking changes, calling-Agent tests, runtime authorization, controlled upgrades and rollback are explicit. Rehearse Client Conversation illustrates local language, approved product guidance, playbook and evaluation changes, with optional rehearsal and a clear distinction between client facts, assumptions and simulations.</desc>
+  <g id="group-skill-baseline" data-role="lifecycle-stage">
+    <rect x="64" y="56" width="768" height="300" rx="26" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="4" />
+    <path d="M66 162V82Q66 58 90 58H806Q830 58 830 82V162Z" fill="#DC416A" data-role="header-bar" />
+    <text x="94" y="102" font-size="38" font-weight="700" fill="#FFFFFF" text-anchor="start">
+      <tspan x="94" y="102">Group Skill</tspan>
+      <tspan x="94" y="147">Baseline</tspan>
+    </text>
+    <text x="94" y="218" font-size="30" font-weight="400" fill="#000000" text-anchor="start">
+      <tspan x="94" y="218">SKILL.md · references/ · assets/</tspan>
+      <tspan x="94" y="262">scripts/ · tests/</tspan>
+      <tspan x="94" y="306">Task contract &amp; execution workflow</tspan>
+    </text>
+  </g>
+  <path d="M843 206H879" fill="none" stroke="#DC416A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M868 198L879 206L868 214" fill="none" stroke="#DC416A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <g id="fork-and-track-source" data-role="lifecycle-stage">
+    <rect x="890" y="56" width="768" height="300" rx="26" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="4" />
+    <path d="M892 162V82Q892 58 916 58H1632Q1656 58 1656 82V162Z" fill="#DC416A" data-role="header-bar" />
+    <text x="920" y="102" font-size="38" font-weight="700" fill="#FFFFFF" text-anchor="start">
+      <tspan x="920" y="102">Fork &amp;</tspan>
+      <tspan x="920" y="147">Track Source</tspan>
+    </text>
+    <text x="920" y="218" font-size="30" font-weight="400" fill="#000000" text-anchor="start">
+      <tspan x="920" y="218">Pin the Group source version</tspan>
+      <tspan x="920" y="262">Create a Skill package for the BU</tspan>
+      <tspan x="920" y="306">Record changes &amp; ownership</tspan>
+    </text>
+  </g>
+  <path d="M1669 206H1705" fill="none" stroke="#DC416A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M1694 198L1705 206L1694 214" fill="none" stroke="#DC416A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <g id="localize-skill-package" data-role="lifecycle-stage">
+    <rect x="1716" y="56" width="768" height="300" rx="26" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="4" />
+    <path d="M1718 162V82Q1718 58 1742 58H2458Q2482 58 2482 82V162Z" fill="#DC416A" data-role="header-bar" />
+    <text x="1746" y="102" font-size="38" font-weight="700" fill="#FFFFFF" text-anchor="start">
+      <tspan x="1746" y="102">Localize</tspan>
+      <tspan x="1746" y="147">Skill Package</tspan>
+    </text>
+    <text x="1746" y="218" font-size="30" font-weight="400" fill="#000000" text-anchor="start">
+      <tspan x="1746" y="218">Configure · Adapt · Extend</tspan>
+      <tspan x="1746" y="262">Instructions, resources &amp; helpers</tspan>
+      <tspan x="1746" y="306">Update contracts &amp; evaluations</tspan>
+    </text>
+  </g>
+  <path d="M2495 206H2531" fill="none" stroke="#DC416A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M2520 198L2531 206L2520 214" fill="none" stroke="#DC416A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <g id="validate-and-approve" data-role="lifecycle-stage">
+    <rect x="2542" y="56" width="768" height="300" rx="26" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="4" />
+    <path d="M2544 162V82Q2544 58 2568 58H3284Q3308 58 3308 82V162Z" fill="#DC416A" data-role="header-bar" />
+    <text x="2572" y="102" font-size="38" font-weight="700" fill="#FFFFFF" text-anchor="start">
+      <tspan x="2572" y="102">Validate &amp;</tspan>
+      <tspan x="2572" y="147">Approve</tspan>
+    </text>
+    <text x="2572" y="218" font-size="30" font-weight="400" fill="#000000" text-anchor="start">
+      <tspan x="2572" y="218">Package, schema &amp; script checks</tspan>
+      <tspan x="2572" y="262">Behavior &amp; calling Agent tests</tspan>
+      <tspan x="2572" y="306">Business / security approval</tspan>
+    </text>
+  </g>
+  <path d="M3321 206H3357" fill="none" stroke="#DC416A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M3346 198L3357 206L3346 214" fill="none" stroke="#DC416A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <g id="publish-bu-skill" data-role="lifecycle-stage">
+    <rect x="3368" y="56" width="768" height="300" rx="26" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="4" />
+    <path d="M3370 162V82Q3370 58 3394 58H4110Q4134 58 4134 82V162Z" fill="#DC416A" data-role="header-bar" />
+    <text x="3398" y="102" font-size="38" font-weight="700" fill="#FFFFFF" text-anchor="start">
+      <tspan x="3398" y="102">Publish BU</tspan>
+      <tspan x="3398" y="147">Skill Version</tspan>
+    </text>
+    <text x="3398" y="218" font-size="30" font-weight="400" fill="#000000" text-anchor="start">
+      <tspan x="3398" y="218">Bind version to calling Agents</tspan>
+      <tspan x="3398" y="262">Monitor quality &amp; execution</tspan>
+      <tspan x="3398" y="306">Maintain BU release ownership</tspan>
+    </text>
+  </g>
+  <g id="local-bu-customization-areas">
+    <rect x="64" y="392" width="4072" height="894" rx="28" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="4" />
+    <path d="M66 478V420Q66 394 92 394H4108Q4134 394 4134 420V478Z" fill="#DC416A" data-role="header-bar" />
+    <text x="96" y="450" font-size="45" font-weight="700" fill="#FFFFFF" text-anchor="start">Local BU Customization Areas</text>
+    <text x="4104" y="448" font-size="31" font-weight="700" fill="#FFFFFF" text-anchor="end">Configure  ·  Adapt  ·  Extend</text>
+    <g id="purpose-triggers" data-role="customization-dimension">
+      <rect x="96" y="510" width="984" height="360" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M97.5 589.5V532.0Q97.5 511.5 118.0 511.5H1058.0Q1078.5 511.5 1078.5 532.0V589.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="124" y="562" font-size="37" font-weight="700" fill="#D31145" text-anchor="start">Purpose &amp; Triggers</text>
+      <text x="124" y="643" font-size="32" font-weight="400" fill="#000000" text-anchor="start">
+        <tspan x="124" y="643">Purpose, users &amp; task boundaries</tspan>
+        <tspan x="124" y="695">Description, intent matching &amp; triggers</tspan>
+        <tspan x="124" y="747">Entry conditions &amp; completion criteria</tspan>
+      </text>
+      <path d="M124 796H1052" fill="none" stroke="#F6CFDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="124" y="840" font-size="27" font-weight="400" fill="#D31145" text-anchor="start">SKILL.md · Metadata / Purpose</text>
+    </g>
+    <g id="inputs-context" data-role="customization-dimension">
+      <rect x="1104" y="510" width="984" height="360" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M1105.5 589.5V532.0Q1105.5 511.5 1126.0 511.5H2066.0Q2086.5 511.5 2086.5 532.0V589.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="1132" y="562" font-size="37" font-weight="700" fill="#D31145" text-anchor="start">Inputs &amp; Context</text>
+      <text x="1132" y="643" font-size="32" font-weight="400" fill="#000000" text-anchor="start">
+        <tspan x="1132" y="643">Required inputs &amp; field mapping</tspan>
+        <tspan x="1132" y="695">Client context, language &amp; evidence</tspan>
+        <tspan x="1132" y="747">Missing-data checks &amp; clarification</tspan>
+      </text>
+      <path d="M1132 796H2060" fill="none" stroke="#F6CFDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="1132" y="840" font-size="27" font-weight="400" fill="#D31145" text-anchor="start">contracts.md · Inputs</text>
+    </g>
+    <g id="language-scenarios" data-role="customization-dimension">
+      <rect x="2112" y="510" width="984" height="360" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M2113.5 589.5V532.0Q2113.5 511.5 2134.0 511.5H3074.0Q3094.5 511.5 3094.5 532.0V589.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="2140" y="562" font-size="37" font-weight="700" fill="#D31145" text-anchor="start">Language &amp; Scenarios</text>
+      <text x="2140" y="643" font-size="32" font-weight="400" fill="#000000" text-anchor="start">
+        <tspan x="2140" y="643">Local terminology, tone &amp; practices</tspan>
+        <tspan x="2140" y="695">Customer scenarios &amp; objections</tspan>
+        <tspan x="2140" y="747">Role-play personas &amp; feedback style</tspan>
+      </text>
+      <path d="M2140 796H3068" fill="none" stroke="#F6CFDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="2140" y="840" font-size="27" font-weight="400" fill="#D31145" text-anchor="start">conversation-guidance.md · rehearsal-guide.md</text>
+    </g>
+    <g id="knowledge-rules" data-role="customization-dimension">
+      <rect x="3120" y="510" width="984" height="360" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M3121.5 589.5V532.0Q3121.5 511.5 3142.0 511.5H4082.0Q4102.5 511.5 4102.5 532.0V589.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="3148" y="562" font-size="37" font-weight="700" fill="#D31145" text-anchor="start">Knowledge &amp; Business Rules</text>
+      <text x="3148" y="643" font-size="32" font-weight="400" fill="#000000" text-anchor="start">
+        <tspan x="3148" y="643">Local products &amp; approved sources</tspan>
+        <tspan x="3148" y="695">Business rules &amp; evidence standards</tspan>
+        <tspan x="3148" y="747">Applicable market, version &amp; limits</tspan>
+      </text>
+      <path d="M3148 796H4076" fill="none" stroke="#F6CFDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="3148" y="840" font-size="27" font-weight="400" fill="#D31145" text-anchor="start">Rules · references/ · Knowledge bindings</text>
+    </g>
+    <g id="workflow-exceptions" data-role="customization-dimension">
+      <rect x="96" y="894" width="984" height="360" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M97.5 973.5V916.0Q97.5 895.5 118.0 895.5H1058.0Q1078.5 895.5 1078.5 916.0V973.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="124" y="946" font-size="37" font-weight="700" fill="#D31145" text-anchor="start">Workflow &amp; Exceptions</text>
+      <text x="124" y="1027" font-size="32" font-weight="400" fill="#000000" text-anchor="start">
+        <tspan x="124" y="1027">Steps, decisions &amp; optional branches</tspan>
+        <tspan x="124" y="1079">Clarify, wait, fail, resume or escalate</tspan>
+        <tspan x="124" y="1131">Task boundaries &amp; human handoffs</tspan>
+      </text>
+      <path d="M124 1180H1052" fill="none" stroke="#F6CFDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="124" y="1224" font-size="27" font-weight="400" fill="#D31145" text-anchor="start">Workflow · Guidance files</text>
+    </g>
+    <g id="outputs-templates" data-role="customization-dimension">
+      <rect x="1104" y="894" width="984" height="360" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M1105.5 973.5V916.0Q1105.5 895.5 1126.0 895.5H2066.0Q2086.5 895.5 2086.5 916.0V973.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="1132" y="946" font-size="37" font-weight="700" fill="#D31145" text-anchor="start">Outputs &amp; Templates</text>
+      <text x="1132" y="1027" font-size="32" font-weight="400" fill="#000000" text-anchor="start">
+        <tspan x="1132" y="1027">Local deliverables &amp; playbook format</tspan>
+        <tspan x="1132" y="1079">Required fields, sources &amp; assumptions</tspan>
+        <tspan x="1132" y="1131">Schema, templates &amp; feedback outputs</tspan>
+      </text>
+      <path d="M1132 1180H2060" fill="none" stroke="#F6CFDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="1132" y="1224" font-size="27" font-weight="400" fill="#D31145" text-anchor="start">playbook.schema.json · playbook-template.md</text>
+    </g>
+    <g id="tools-helpers" data-role="customization-dimension">
+      <rect x="2112" y="894" width="984" height="360" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M2113.5 973.5V916.0Q2113.5 895.5 2134.0 895.5H3074.0Q3094.5 895.5 3094.5 916.0V973.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="2140" y="946" font-size="37" font-weight="700" fill="#D31145" text-anchor="start">Tools &amp; Executable Helpers</text>
+      <text x="2140" y="1027" font-size="32" font-weight="400" fill="#000000" text-anchor="start">
+        <tspan x="2140" y="1027">Local tools, adapters &amp; dependencies</tspan>
+        <tspan x="2140" y="1079">Mapping, validation &amp; helper scripts</tspan>
+        <tspan x="2140" y="1131">Approved execution environment</tspan>
+      </text>
+      <path d="M2140 1180H3068" fill="none" stroke="#F6CFDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="2140" y="1224" font-size="27" font-weight="400" fill="#D31145" text-anchor="start">scripts/ · Platform bindings</text>
+    </g>
+    <g id="tests-evaluation" data-role="customization-dimension">
+      <rect x="3120" y="894" width="984" height="360" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M3121.5 973.5V916.0Q3121.5 895.5 3142.0 895.5H4082.0Q4102.5 895.5 4102.5 916.0V973.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="3148" y="946" font-size="37" font-weight="700" fill="#D31145" text-anchor="start">Tests &amp; Evaluation</text>
+      <text x="3148" y="1027" font-size="32" font-weight="400" fill="#000000" text-anchor="start">
+        <tspan x="3148" y="1027">Local cases &amp; representative fixtures</tspan>
+        <tspan x="3148" y="1079">Language, content &amp; quality criteria</tspan>
+        <tspan x="3148" y="1131">Schema, script &amp; Agent regression tests</tspan>
+      </text>
+      <path d="M3148 1180H4076" fill="none" stroke="#F6CFDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="3148" y="1224" font-size="27" font-weight="400" fill="#D31145" text-anchor="start">tests/ · fixtures/ · rubric.md</text>
+    </g>
+  </g>
+  <g id="agent-skill-contract-compatibility">
+    <rect x="64" y="1322" width="4072" height="126" rx="24" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+    <path d="M88 1322H924V1448H88Q64 1448 64 1424V1346Q64 1322 88 1322Z" fill="#F6CFDA" />
+    <text x="96" y="1371" font-size="38" font-weight="700" fill="#D31145" text-anchor="start">
+      <tspan x="96" y="1371">Agent–Skill Contract</tspan>
+      <tspan x="96" y="1415">Compatibility</tspan>
+    </text>
+    <text x="976" y="1371" font-size="33" font-weight="700" fill="#000000" text-anchor="start">Preserve Contracts  →  Version Breaking Changes  →  Validate Calling Agents</text>
+    <text x="976" y="1420" font-size="30" font-weight="400" fill="#000000" text-anchor="start">Required fields, types, result structure and completion / waiting / failure states.</text>
+  </g>
+  <g id="runtime-enforced-controls">
+    <rect x="64" y="1472" width="4072" height="126" rx="24" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+    <path d="M88 1472H924V1598H88Q64 1598 64 1574V1496Q64 1472 88 1472Z" fill="#F6CFDA" />
+    <text x="96" y="1524" font-size="38" font-weight="700" fill="#D31145" text-anchor="start">Runtime-Enforced Controls</text>
+    <text x="96" y="1569" font-size="28" font-weight="400" fill="#000000" text-anchor="start">Group guardrails + local policies</text>
+    <text x="976" y="1523" font-size="32" font-weight="700" fill="#000000" text-anchor="start">Skill declares dependencies; Runtime &amp; Business Systems enforce authorization.</text>
+    <text x="976" y="1570" font-size="30" font-weight="400" fill="#000000" text-anchor="start">Identity · Data scope · Tool permissions · Approvals · Platform-managed credentials</text>
+  </g>
+  <g id="version-lineage-and-updates">
+    <rect x="64" y="1622" width="4072" height="126" rx="24" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+    <path d="M88 1622H924V1748H88Q64 1748 64 1724V1646Q64 1622 88 1622Z" fill="#F6CFDA" />
+    <text x="96" y="1674" font-size="38" font-weight="700" fill="#D31145" text-anchor="start">Version Lineage &amp; Updates</text>
+    <text x="96" y="1719" font-size="27" font-weight="400" fill="#000000" text-anchor="start">Source version · Local changes · Dependencies</text>
+    <rect x="984" y="1648" width="694" height="76" rx="16" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+    <text x="1331" y="1697" font-size="31" font-weight="700" fill="#000000" text-anchor="middle">Track Source &amp; Changes</text>
+    <path d="M1694 1686H1758" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M1747 1678L1758 1686L1747 1694" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="1774" y="1648" width="694" height="76" rx="16" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+    <text x="2121" y="1697" font-size="31" font-weight="700" fill="#000000" text-anchor="middle">Review Group Updates</text>
+    <path d="M2484 1686H2548" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M2537 1678L2548 1686L2537 1694" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="2564" y="1648" width="694" height="76" rx="16" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+    <text x="2911" y="1697" font-size="31" font-weight="700" fill="#000000" text-anchor="middle">Merge &amp; Re-test</text>
+    <path d="M3274 1686H3338" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M3327 1678L3338 1686L3327 1694" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="3354" y="1648" width="694" height="76" rx="16" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+    <text x="3701" y="1697" font-size="31" font-weight="700" fill="#000000" text-anchor="middle">Publish / Roll Back</text>
+  </g>
+  <g id="rehearse-conversation-example">
+    <rect x="64" y="1772" width="4072" height="164" rx="24" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+    <path d="M88 1772H924V1936H88Q64 1936 64 1912V1796Q64 1772 88 1772Z" fill="#F6CFDA" />
+    <text x="96" y="1816" font-size="24" font-weight="700" fill="#D31145" text-anchor="start">LOCALIZATION EXAMPLE</text>
+    <text x="96" y="1863" font-size="37" font-weight="700" fill="#000000" text-anchor="start">Rehearse Client Conversation</text>
+    <text x="96" y="1911" font-size="28" font-weight="400" fill="#000000" text-anchor="start">BU Skill → BU Sales Coach Agent</text>
+    <rect x="984" y="1796" width="950" height="76" rx="16" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+    <text x="1459" y="1845" font-size="32" font-weight="700" fill="#000000" text-anchor="middle">Local Language &amp; Scenarios</text>
+    <path d="M1950 1834H2008" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M1997 1826L2008 1834L1997 1842" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="2024" y="1796" width="950" height="76" rx="16" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+    <text x="2499" y="1845" font-size="32" font-weight="700" fill="#000000" text-anchor="middle">Approved Local Product Guidance</text>
+    <path d="M2990 1834H3048" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M3037 1826L3048 1834L3037 1842" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="3064" y="1796" width="950" height="76" rx="16" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+    <text x="3539" y="1845" font-size="32" font-weight="700" fill="#000000" text-anchor="middle">Local Playbook &amp; Evaluation</text>
+    <text x="976" y="1913" font-size="29" font-weight="400" fill="#000000" text-anchor="start">Optional rehearsal · Distinguish facts, assumptions &amp; simulations · Validate contract &amp; Agent integration</text>
+  </g>
+</svg>

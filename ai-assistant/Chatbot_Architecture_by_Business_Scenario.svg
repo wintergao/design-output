@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="4200" height="2100" viewBox="0 0 2520 1260" version="1.1" role="img" aria-labelledby="chart-title chart-desc">
+  <title id="chart-title">Chatbot Architecture by Business Scenario</title>
+  <desc id="chart-desc">Two business scenarios: Agent Assistant on the left and Customer Assistant on the right. Touchpoints are separate from GenAI Hub 2.0, whose left-side group contains Chatbot, Agent Platform, and Ontology / Knowledge. Each scenario has a dedicated Assistant Agent, its own domain agents, and its own knowledge scope. Skill Market and Tools Library are shared across both scenarios.</desc>
+  <g id="scenario-white-underlays">
+    <rect x="394" y="28" width="1035" height="1204" rx="16" fill="#FFFFFF" stroke="none" stroke-width="0" />
+    <rect x="1453" y="28" width="1035" height="1204" rx="16" fill="#FFFFFF" stroke="none" stroke-width="0" />
+  </g>
+  <g id="system-bands">
+    <rect x="394" y="110" width="2094" height="170" rx="15" fill="#F9FAFB" stroke="#C4D1D7" stroke-width="1.4" id="band-touchpoints" />
+    <rect x="394" y="380" width="2094" height="140" rx="15" fill="#FEFAFB" stroke="#E2C3CE" stroke-width="1.4" id="band-chatbot" />
+    <rect x="394" y="560" width="2094" height="442" rx="15" fill="#FBFAFD" stroke="#CCC6D9" stroke-width="1.4" id="band-agent-platform" />
+    <rect x="394" y="1040" width="2094" height="174" rx="15" fill="#F8FBF9" stroke="#C0D6C9" stroke-width="1.4" id="band-ontology-knowledge" />
+  </g>
+  <g id="left-layer-hierarchy">
+    <g id="touchpoints-label">
+      <rect x="32" y="110" width="338" height="170" rx="16" fill="#E7EDF0" stroke="#B5C3CD" stroke-width="1.7" />
+      <rect x="54" y="181" width="5" height="28" rx="2.5" fill="#566B78" stroke="none" stroke-width="1.5" />
+      <text x="74" y="205" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#333D47" text-anchor="start">Touchpoints</text>
+    </g>
+    <g id="genai-hub-2-label-group">
+      <rect x="32" y="310" width="338" height="922" rx="18" fill="#F8F6FB" stroke="#AFA5C2" stroke-width="2.3" id="genai-hub-2-frame" />
+      <path d="M33.2 365.2V328.2Q33.2 311.2 50.2 311.2H351.8Q368.8 311.2 368.8 328.2V365.2Z" fill="#E5E0EF" stroke="#E5E0EF" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M33.2 365.2H368.8" fill="none" stroke="#B8AEC9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="54" y="347" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#55456F" text-anchor="start">GenAI Hub 2.0</text>
+      <g id="chatbot-label">
+        <rect x="48" y="380" width="306" height="140" rx="13" fill="#F5E3E9" stroke="#D4ACBC" stroke-width="1.7" />
+        <rect x="66" y="436.0" width="5" height="28" rx="2.5" fill="#93516B" stroke="none" stroke-width="1.5" />
+        <text x="86" y="460.0" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#333D47" text-anchor="start">Chatbot</text>
+      </g>
+      <g id="agent-platform-label">
+        <rect x="48" y="560" width="306" height="442" rx="13" fill="#ECE9F3" stroke="#B7ABC9" stroke-width="1.7" />
+        <rect x="66" y="767.0" width="5" height="28" rx="2.5" fill="#72658A" stroke="none" stroke-width="1.5" />
+        <text x="86" y="791.0" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#333D47" text-anchor="start">Agent Platform</text>
+      </g>
+      <g id="ontology-knowledge-label">
+        <rect x="48" y="1040" width="306" height="174" rx="13" fill="#E2EEE8" stroke="#ABC6B7" stroke-width="1.7" />
+        <rect x="66" y="1113.0" width="5" height="28" rx="2.5" fill="#44715F" stroke="none" stroke-width="1.5" />
+        <text x="86" y="1127.0" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#333D47" text-anchor="start">
+          <tspan x="86" y="1119.0">Ontology /</tspan>
+          <tspan x="86" y="1153.0">Knowledge</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+  <g id="scenario-frames">
+    <rect x="394" y="28" width="1035" height="1204" rx="16" fill="#7463A4" stroke="#7463A4" stroke-width="2.8" fill-opacity=".056" stroke-opacity=".8" id="frame-agent" />
+    <path d="M395.4 88.0V44.4Q395.4 29.4 410.4 29.4H1412.6Q1427.6 29.4 1427.6 44.4V88.0Z" fill="#635188" stroke="#635188" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="911.5" y="69.5" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="white" text-anchor="middle">Agent Assistant</text>
+    <rect x="1453" y="28" width="1035" height="1204" rx="16" fill="#287B79" stroke="#287B79" stroke-width="2.8" fill-opacity=".056" stroke-opacity=".8" id="frame-customer" />
+    <path d="M1454.4 88.0V44.4Q1454.4 29.4 1469.4 29.4H2471.6000000000004Q2486.6000000000004 29.4 2486.6000000000004 44.4V88.0Z" fill="#1E6667" stroke="#1E6667" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="1970.5" y="69.5" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="white" text-anchor="middle">Customer Assistant</text>
+  </g>
+  <g id="flow">
+    <path d="M911.5 246V405.5" fill="none" stroke="#566B78" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M906.5 399.5L911.5 405.5L916.5 399.5" fill="none" stroke="#566B78" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="929.5" y="337" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#566B78" text-anchor="start">Embedded Chat</text>
+    <path d="M911.5 493V590.5" fill="none" stroke="#456C83" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M906.5 584.5L911.5 590.5L916.5 584.5" fill="none" stroke="#456C83" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="929.5" y="546" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#456C83" text-anchor="start">Agent Invocation</text>
+    <path d="M911.5 668V696M432 710V696H1391V710" fill="none" stroke="#72658A" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M907.5 691L911.5 696L915.5 691" fill="none" stroke="#72658A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M911.5 1002V1040" fill="none" stroke="#44715F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="911.5" cy="1002" r="2.7" fill="white" stroke="#44715F" stroke-width="1.8" />
+    <circle cx="911.5" cy="1040" r="2.7" fill="white" stroke="#44715F" stroke-width="1.8" />
+    <text x="929.5" y="1027" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#44715F" text-anchor="start">Knowledge Retrieval</text>
+    <path d="M1970.5 246V405.5" fill="none" stroke="#566B78" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M1965.5 399.5L1970.5 405.5L1975.5 399.5" fill="none" stroke="#566B78" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="1988.5" y="337" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#566B78" text-anchor="start">Embedded Chat</text>
+    <path d="M1970.5 493V590.5" fill="none" stroke="#456C83" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M1965.5 584.5L1970.5 590.5L1975.5 584.5" fill="none" stroke="#456C83" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="1988.5" y="546" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#456C83" text-anchor="start">Agent Invocation</text>
+    <path d="M1970.5 668V696M1491 710V696H2450V710" fill="none" stroke="#72658A" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M1966.5 691L1970.5 696L1974.5 691" fill="none" stroke="#72658A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M1970.5 1002V1040" fill="none" stroke="#44715F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="1970.5" cy="1002" r="2.7" fill="white" stroke="#44715F" stroke-width="1.8" />
+    <circle cx="1970.5" cy="1040" r="2.7" fill="white" stroke="#44715F" stroke-width="1.8" />
+    <text x="1988.5" y="1027" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#44715F" text-anchor="start">Knowledge Retrieval</text>
+  </g>
+  <g id="scenario-content">
+    <g id="scenario-agent-content">
+      <rect x="430" y="160" width="963" height="86" rx="12" fill="#FFFFFF" stroke="#C6D4DC" stroke-width="1.5" id="touch-agent" />
+      <g transform="translate(768.5 184) scale(1.15)" fill="none" stroke="#566B78" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M5 3.5h22a3 3 0 0 1 3 3v18.5a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V6.5a3 3 0 0 1 3-3z" />
+        <path d="M2.5 10h27M10.5 10v18M15 16h8m-3-3 3 3-3 3M15 23h10" />
+      </g>
+      <text x="821.5" y="214" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#333D47" text-anchor="start">Agency Portal</text>
+      <rect x="430" y="407" width="963" height="86" rx="12" fill="#F6CFDA" stroke="#D9AABB" stroke-width="1.5" id="bot-agent" />
+      <text x="911.5" y="461" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#333D47" text-anchor="middle">Agent Assistant Chatbot</text>
+      <rect x="430" y="592" width="963" height="76" rx="11" fill="#C7DDEA" stroke="#A4C0D0" stroke-width="1.5" id="assistant-agent" />
+      <text x="911.5" y="641" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#333D47" text-anchor="middle">Assistant Agent</text>
+      <rect x="1203" y="614" width="170" height="32" rx="15" fill="#EFF6FA" stroke="#A9C5D4" stroke-width="1.1" />
+      <text x="1288" y="635.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#456C83" text-anchor="middle">Dedicated Instance</text>
+      <g id="domain-agents-agent">
+        <g id="domain-agent-0">
+          <rect x="430" y="724" width="311" height="70" rx="10" fill="#D2D1E4" stroke="#B0ACC5" stroke-width="1.3" />
+          <text x="585.5" y="759.0" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#333D47" text-anchor="middle">
+            <tspan x="585.5" y="753.0">Recruitment</tspan>
+            <tspan x="585.5" y="782.0">Expert Agent</tspan>
+          </text>
+        </g>
+        <g id="domain-agent-1">
+          <rect x="756" y="724" width="311" height="70" rx="10" fill="#D2D1E4" stroke="#B0ACC5" stroke-width="1.3" />
+          <text x="911.5" y="759.0" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#333D47" text-anchor="middle">
+            <tspan x="911.5" y="753.0">Learning Coach</tspan>
+            <tspan x="911.5" y="782.0">Agent</tspan>
+          </text>
+        </g>
+        <g id="domain-agent-2">
+          <rect x="1082" y="724" width="311" height="70" rx="10" fill="#D2D1E4" stroke="#B0ACC5" stroke-width="1.3" />
+          <text x="1237.5" y="759.0" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#333D47" text-anchor="middle">
+            <tspan x="1237.5" y="753.0">Performance Coach</tspan>
+            <tspan x="1237.5" y="782.0">Agent</tspan>
+          </text>
+        </g>
+        <g id="domain-agent-3">
+          <rect x="430" y="806" width="474" height="70" rx="10" fill="#D2D1E4" stroke="#B0ACC5" stroke-width="1.3" />
+          <text x="667.0" y="841.0" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#333D47" text-anchor="middle">
+            <tspan x="667.0" y="849.5">Sales Coach Agent</tspan>
+          </text>
+        </g>
+        <g id="domain-agent-4">
+          <rect x="919" y="806" width="474" height="70" rx="10" fill="#D2D1E4" stroke="#B0ACC5" stroke-width="1.3" />
+          <text x="1156.0" y="841.0" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#333D47" text-anchor="middle">
+            <tspan x="1156.0" y="849.5">Team Mgmt. Expert Agent</tspan>
+          </text>
+        </g>
+      </g>
+      <rect x="430" y="1081" width="963" height="92" rx="12" fill="#E1EFE7" stroke="#B2CEBF" stroke-width="1.45" id="knowledge-agent" />
+      <g transform="translate(691.5 1110) scale(1.1)" fill="none" stroke="#44715F" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M16 8.3C12.5 5.3 8.2 4.2 2.5 5.3v20c5.9-1.4 10.2-.3 13.5 2.8 3.3-3.1 7.6-4.2 13.5-2.8v-20C23.8 4.2 19.5 5.3 16 8.3zm0 0v19.5M6.5 10.2c2.5 0 4.1.5 5.5 1.5m-5.5 4.1c2.5 0 4.1.5 5.5 1.5m8.8-5.7c1.6-.8 3.3-1.4 5.1-1.4" />
+      </g>
+      <text x="742.5" y="1137" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#333D47" text-anchor="start">Agent Assistant Knowledge</text>
+    </g>
+    <g id="scenario-customer-content">
+      <rect x="1489" y="160" width="963" height="86" rx="12" fill="#FFFFFF" stroke="#C6D4DC" stroke-width="1.5" id="touch-customer" />
+      <g transform="translate(1901.5 184) scale(1.15)" fill="none" stroke="#566B78" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M9 2.5h14a3 3 0 0 1 3 3v21a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3v-21a3 3 0 0 1 3-3z" />
+        <path d="M12 5.5h8m-6.5 21h5M12 16h8m-4-4v8" />
+      </g>
+      <text x="1955.5" y="214" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#333D47" text-anchor="start">AIA+</text>
+      <rect x="1489" y="407" width="963" height="86" rx="12" fill="#F6CFDA" stroke="#D9AABB" stroke-width="1.5" id="bot-customer" />
+      <text x="1970.5" y="461" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#333D47" text-anchor="middle">Customer Assistant Chatbot</text>
+      <rect x="1489" y="592" width="963" height="76" rx="11" fill="#C7DDEA" stroke="#A4C0D0" stroke-width="1.5" id="assistant-customer" />
+      <text x="1970.5" y="641" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#333D47" text-anchor="middle">Assistant Agent</text>
+      <rect x="2262" y="614" width="170" height="32" rx="15" fill="#EFF6FA" stroke="#A9C5D4" stroke-width="1.1" />
+      <text x="2347" y="635.5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#456C83" text-anchor="middle">Dedicated Instance</text>
+      <g id="domain-agents-customer">
+        <g id="domain-customer-0">
+          <rect x="1489" y="724" width="311" height="152" rx="10" fill="#D2D1E4" stroke="#B0ACC5" stroke-width="1.3" />
+          <text x="1644.5" y="800.0" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#333D47" text-anchor="middle">
+            <tspan x="1644.5" y="794.0">Insurance Specialist</tspan>
+            <tspan x="1644.5" y="823.0">Agent</tspan>
+          </text>
+        </g>
+        <g id="domain-customer-1">
+          <rect x="1815" y="724" width="311" height="152" rx="10" fill="#D2D1E4" stroke="#B0ACC5" stroke-width="1.3" />
+          <text x="1970.5" y="800.0" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#333D47" text-anchor="middle">
+            <tspan x="1970.5" y="794.0">Health Partner</tspan>
+            <tspan x="1970.5" y="823.0">Agent</tspan>
+          </text>
+        </g>
+        <g id="domain-customer-2">
+          <rect x="2141" y="724" width="311" height="152" rx="10" fill="#D2D1E4" stroke="#B0ACC5" stroke-width="1.3" />
+          <text x="2296.5" y="800.0" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#333D47" text-anchor="middle">
+            <tspan x="2296.5" y="794.0">Life Companion</tspan>
+            <tspan x="2296.5" y="823.0">Agent</tspan>
+          </text>
+        </g>
+      </g>
+      <rect x="1489" y="1081" width="963" height="92" rx="12" fill="#E1EFE7" stroke="#B2CEBF" stroke-width="1.45" id="knowledge-customer" />
+      <g transform="translate(1724.5 1110) scale(1.1)" fill="none" stroke="#44715F" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M16 8.3C12.5 5.3 8.2 4.2 2.5 5.3v20c5.9-1.4 10.2-.3 13.5 2.8 3.3-3.1 7.6-4.2 13.5-2.8v-20C23.8 4.2 19.5 5.3 16 8.3zm0 0v19.5M6.5 10.2c2.5 0 4.1.5 5.5 1.5m-5.5 4.1c2.5 0 4.1.5 5.5 1.5m8.8-5.7c1.6-.8 3.3-1.4 5.1-1.4" />
+      </g>
+      <text x="1775.5" y="1137" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#333D47" text-anchor="start">Customer Assistant Knowledge</text>
+    </g>
+  </g>
+  <g id="shared-capability-catalogs">
+    <path d="M430 898H2452" fill="none" stroke="#BEB8CC" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="416" y="909" width="2050" height="78" rx="12" fill="#F3F0F7" stroke="#BDB7CC" stroke-width="1.4" />
+    <rect x="430" y="919" width="1001" height="58" rx="9" fill="#EDEAF3" stroke="#BDB7CC" stroke-width="1.3" />
+    <g transform="translate(835.5 932) scale(0.9)" fill="none" stroke="#72658A" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M3.5 7H12v8.5H3.5zM19.5 7H28v8.5h-8.5zM3.5 21H12v8.5H3.5zM20 25l3 3 6-9" />
+    </g>
+    <text x="880.5" y="957" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#333D47" text-anchor="start">Skill Market</text>
+    <rect x="1451" y="919" width="1001" height="58" rx="9" fill="#EDEAF3" stroke="#BDB7CC" stroke-width="1.3" />
+    <g transform="translate(1846.5 932) scale(0.9)" fill="none" stroke="#72658A" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M19 5a7 7 0 0 0-8.5 8.7L3 21.5a3.8 3.8 0 1 0 5.5 5.2l8-8.2a7 7 0 0 0 8.6-8.7l-4 4.2-4-4.1 4.2-4.3z" />
+    </g>
+    <text x="1891.5" y="957" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#333D47" text-anchor="start">Tools Library</text>
+  </g>
+</svg>

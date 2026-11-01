@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="4200" height="2000" viewBox="0 0 4200 2000" version="1.1" role="img" aria-labelledby="diagram-title diagram-description" font-family="Arial, Helvetica, sans-serif">
+  <title id="diagram-title">Assistant Agent — Three Execution Paths</title>
+  <desc id="diagram-description">A transparent 4200 by 2000 diagram. The original reference robot icon is reused without changes to its geometry or colors. The Assistant Agent is centered in the upper row, with User Request on its left and Response to User on its right. Below are three equal cards: Knowledge Retrieval &amp; Answering, Data Delegation &amp; Analysis, and Business Delegation &amp; Orchestration. The Assistant selects or combines paths as needed. Requests go to the selected paths and their results return to the Assistant for a consolidated response. Knowledge Base is accessed directly; data analysis is delegated to Chat BI / Data Agent; business requests are delegated to and coordinated across Domain Agents. There is no prescribed sequence between the three paths. The Assistant icon and text sit directly on the transparent canvas with no backing panel. All three execution cards use the same #DC416A header fill, white title text, #F6CFDA borders, and white content areas with black text. In this compact revision, each lower card is 1000 units high instead of 1268, the three step centers are 120 units apart instead of 198, and the result areas are raised by 268 units. The complete composition is centered vertically on the unchanged 4200 by 2000 transparent canvas. All visible wording, type sizes, colors, and the original Agent icon remain unchanged.</desc>
+  <g id="compact-layout" transform="translate(0 146)">
+    <g id="connections">
+      <path d="M1388 214H1944" fill="none" stroke="#DC416A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M1926 203L1944 214L1926 225" fill="none" stroke="#DC416A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M2256 214H2812" fill="none" stroke="#DC416A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M2794 203L2812 214L2794 225" fill="none" stroke="#DC416A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M2100 474V590M730 642V606Q730 590 746 590H3454Q3470 590 3470 606V642" fill="none" stroke="#DC416A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M2100 590V642" fill="none" stroke="#DC416A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M2089 492L2100 474L2111 492" fill="none" stroke="#DC416A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M719 624L730 642L741 624" fill="none" stroke="#DC416A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M2089 624L2100 642L2111 624" fill="none" stroke="#DC416A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M3459 624L3470 642L3481 624" fill="none" stroke="#DC416A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="user-request">
+      <rect x="160" y="110" width="1200" height="262" rx="26" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" />
+      <path d="M162 190V136Q162 112 186 112H1334Q1358 112 1358 136V190Z" fill="#D6D8DA" data-role="header-bar" />
+      <text x="202" y="165" font-size="44" font-weight="700" fill="#000000" text-anchor="start">User Request</text>
+      <text x="760" y="262" font-size="37" font-weight="400" fill="#000000" text-anchor="middle">Questions · Data Analysis</text>
+      <text x="760" y="316" font-size="37" font-weight="400" fill="#000000" text-anchor="middle">Business Tasks</text>
+    </g>
+    <g id="user-response">
+      <rect x="2840" y="110" width="1200" height="262" rx="26" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" />
+      <path d="M2842 190V136Q2842 112 2866 112H4014Q4038 112 4038 136V190Z" fill="#D6D8DA" data-role="header-bar" />
+      <text x="2882" y="165" font-size="44" font-weight="700" fill="#000000" text-anchor="start">Response to User</text>
+      <text x="3440" y="262" font-size="37" font-weight="400" fill="#000000" text-anchor="middle">Answers · Reports &amp; Charts</text>
+      <text x="3440" y="316" font-size="37" font-weight="400" fill="#000000" text-anchor="middle">Business Results</text>
+    </g>
+    <g id="assistant-agent">
+      <g id="chat-agent-medallion" transform="translate(1968 40) scale(2.2)" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">
+        <circle cx="60" cy="60" r="58.3" fill="#EDF0F4" stroke="#BCC9D3" stroke-width="1.25" />
+        <circle cx="60" cy="60" r="51.8" fill="#30495C" />
+        <path d="M41 37h38c8.4 0 14.5 6.2 14.5 14.5v18.8c0 8.1-6.2 14.3-14.5 14.3H58.5L44 94c-1.2.8-2.7-.1-2.7-1.5v-8.2C33 83.7 27 78 27 70.1V51.5C27 43.2 32.9 37 41 37Z" fill="#DAE9F1" />
+        <path d="M60 36.6v-7" fill="none" stroke="#DAE9F1" stroke-width="3.6" />
+        <circle cx="60" cy="27.4" r="3.3" fill="#C9C2E3" />
+        <rect x="35.8" y="45.5" width="48.4" height="24.7" rx="11" fill="#3E566A" />
+        <path d="M49.1 54.1v6.6" fill="none" stroke="#E9F4FB" stroke-width="4.2" />
+        <path d="M70.9 54.1v6.6" fill="none" stroke="#D5CFEA" stroke-width="4.2" />
+        <path d="M54.1 75.3q5.9 3.9 11.8 0" fill="none" stroke="#465F73" stroke-width="2.45" />
+      </g>
+      <text x="2100" y="361" font-size="58" font-weight="700" fill="#000000" text-anchor="middle">Assistant Agent</text>
+      <text x="2100" y="412" font-size="34" font-weight="400" fill="#000000" text-anchor="middle">Understand Intent &amp; Context</text>
+      <text x="2100" y="458" font-size="34" font-weight="400" fill="#000000" text-anchor="middle">Plan, Route &amp; Consolidate Results</text>
+    </g>
+    <g id="routing-label">
+      <rect x="1750" y="506" width="700" height="56" rx="28" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+      <text x="2100" y="544" font-size="32" font-weight="700" fill="#000000" text-anchor="middle">Select or Combine as Needed</text>
+    </g>
+    <g id="knowledge-retrieval" data-role="execution-path">
+      <rect x="80" y="662" width="1300" height="1000" rx="28" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="5" data-role="card-frame" />
+      <path d="M82.5 819.5V690.0Q82.5 664.5 108.0 664.5H1352.0Q1377.5 664.5 1377.5 690.0V819.5Z" fill="#DC416A" data-role="header-bar" />
+      <text x="128" y="728" font-size="54" font-weight="700" fill="#FFFFFF" text-anchor="start" data-role="card-title">
+        <tspan x="128" y="728">Knowledge Retrieval</tspan>
+        <tspan x="128" y="793">&amp; Answering</tspan>
+      </text>
+      <g id="knowledge-retrieval-target">
+        <rect x="124" y="862" width="1212" height="198" rx="20" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+        <text x="730.0" y="940" font-size="48" font-weight="700" fill="#000000" text-anchor="middle">Knowledge Base</text>
+        <text x="730.0" y="1004" font-size="33" font-weight="400" fill="#000000" text-anchor="middle">FAQs · Product Documents · Business Rules</text>
+      </g>
+      <g id="knowledge-retrieval-steps">
+        <path d="M168 1169V1351" fill="none" stroke="#F6CFDA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+        <circle cx="168" cy="1140" r="29" fill="#F6CFDA" />
+        <text x="168" y="1151" font-size="32" font-weight="700" fill="#000000" text-anchor="middle">1</text>
+        <text x="226" y="1155" font-size="43" font-weight="400" fill="#000000" text-anchor="start">Retrieve Relevant Knowledge</text>
+        <circle cx="168" cy="1260" r="29" fill="#F6CFDA" />
+        <text x="168" y="1271" font-size="32" font-weight="700" fill="#000000" text-anchor="middle">2</text>
+        <text x="226" y="1275" font-size="43" font-weight="400" fill="#000000" text-anchor="start">Validate Sources &amp; Context</text>
+        <circle cx="168" cy="1380" r="29" fill="#F6CFDA" />
+        <text x="168" y="1391" font-size="32" font-weight="700" fill="#000000" text-anchor="middle">3</text>
+        <text x="226" y="1395" font-size="43" font-weight="400" fill="#000000" text-anchor="start">Generate an Answer with Sources</text>
+      </g>
+      <g id="knowledge-retrieval-result">
+        <rect x="124" y="1478" width="1212" height="140" rx="20" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+        <text x="152" y="1522" font-size="26" font-weight="700" fill="#000000" text-anchor="start">RESULT</text>
+        <text x="730.0" y="1580" font-size="43" font-weight="700" fill="#000000" text-anchor="middle">Answers with Sources</text>
+      </g>
+    </g>
+    <g id="data-delegation" data-role="execution-path">
+      <rect x="1450" y="662" width="1300" height="1000" rx="28" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="5" data-role="card-frame" />
+      <path d="M1452.5 819.5V690.0Q1452.5 664.5 1478.0 664.5H2722.0Q2747.5 664.5 2747.5 690.0V819.5Z" fill="#DC416A" data-role="header-bar" />
+      <text x="1498" y="728" font-size="54" font-weight="700" fill="#FFFFFF" text-anchor="start" data-role="card-title">
+        <tspan x="1498" y="728">Data Delegation</tspan>
+        <tspan x="1498" y="793">&amp; Analysis</tspan>
+      </text>
+      <g id="data-delegation-target">
+        <rect x="1494" y="862" width="1212" height="198" rx="20" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+        <text x="2100.0" y="940" font-size="48" font-weight="700" fill="#000000" text-anchor="middle">Chat BI / Data Agent</text>
+        <text x="2100.0" y="1004" font-size="33" font-weight="400" fill="#000000" text-anchor="middle">Enterprise Data</text>
+      </g>
+      <g id="data-delegation-steps">
+        <path d="M1538 1169V1351" fill="none" stroke="#F6CFDA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+        <circle cx="1538" cy="1140" r="29" fill="#F6CFDA" />
+        <text x="1538" y="1151" font-size="32" font-weight="700" fill="#000000" text-anchor="middle">1</text>
+        <text x="1596" y="1155" font-size="43" font-weight="400" fill="#000000" text-anchor="start">Delegate the Analysis Request</text>
+        <circle cx="1538" cy="1260" r="29" fill="#F6CFDA" />
+        <text x="1538" y="1271" font-size="32" font-weight="700" fill="#000000" text-anchor="middle">2</text>
+        <text x="1596" y="1275" font-size="43" font-weight="400" fill="#000000" text-anchor="start">Query &amp; Analyze Authorized Data</text>
+        <circle cx="1538" cy="1380" r="29" fill="#F6CFDA" />
+        <text x="1538" y="1391" font-size="32" font-weight="700" fill="#000000" text-anchor="middle">3</text>
+        <text x="1596" y="1395" font-size="43" font-weight="400" fill="#000000" text-anchor="start">Generate Reports &amp; Charts</text>
+      </g>
+      <g id="data-delegation-result">
+        <rect x="1494" y="1478" width="1212" height="140" rx="20" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+        <text x="1522" y="1522" font-size="26" font-weight="700" fill="#000000" text-anchor="start">RESULT</text>
+        <text x="2100.0" y="1580" font-size="43" font-weight="700" fill="#000000" text-anchor="middle">Insights, Reports &amp; Charts</text>
+      </g>
+    </g>
+    <g id="business-delegation" data-role="execution-path">
+      <rect x="2820" y="662" width="1300" height="1000" rx="28" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="5" data-role="card-frame" />
+      <path d="M2822.5 819.5V690.0Q2822.5 664.5 2848.0 664.5H4092.0Q4117.5 664.5 4117.5 690.0V819.5Z" fill="#DC416A" data-role="header-bar" />
+      <text x="2868" y="728" font-size="54" font-weight="700" fill="#FFFFFF" text-anchor="start" data-role="card-title">
+        <tspan x="2868" y="728">Business Delegation</tspan>
+        <tspan x="2868" y="793">&amp; Orchestration</tspan>
+      </text>
+      <g id="business-delegation-target">
+        <rect x="2864" y="862" width="1212" height="198" rx="20" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+        <text x="3470.0" y="940" font-size="48" font-weight="700" fill="#000000" text-anchor="middle">Domain Agents</text>
+        <text x="3470.0" y="1004" font-size="33" font-weight="400" fill="#000000" text-anchor="middle">Specialized Business Capabilities</text>
+      </g>
+      <g id="business-delegation-steps">
+        <path d="M2908 1169V1351" fill="none" stroke="#F6CFDA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+        <circle cx="2908" cy="1140" r="29" fill="#F6CFDA" />
+        <text x="2908" y="1151" font-size="32" font-weight="700" fill="#000000" text-anchor="middle">1</text>
+        <text x="2966" y="1155" font-size="43" font-weight="400" fill="#000000" text-anchor="start">Break Down the Business Request</text>
+        <circle cx="2908" cy="1260" r="29" fill="#F6CFDA" />
+        <text x="2908" y="1271" font-size="32" font-weight="700" fill="#000000" text-anchor="middle">2</text>
+        <text x="2966" y="1275" font-size="43" font-weight="400" fill="#000000" text-anchor="start">Delegate &amp; Orchestrate Domain Agents</text>
+        <circle cx="2908" cy="1380" r="29" fill="#F6CFDA" />
+        <text x="2908" y="1391" font-size="32" font-weight="700" fill="#000000" text-anchor="middle">3</text>
+        <text x="2966" y="1395" font-size="43" font-weight="400" fill="#000000" text-anchor="start">Execute Tasks &amp; Collect Results</text>
+      </g>
+      <g id="business-delegation-result">
+        <rect x="2864" y="1478" width="1212" height="140" rx="20" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+        <text x="2892" y="1522" font-size="26" font-weight="700" fill="#000000" text-anchor="start">RESULT</text>
+        <text x="3470.0" y="1580" font-size="43" font-weight="700" fill="#000000" text-anchor="middle">Business Results &amp; Task Status</text>
+      </g>
+    </g>
+  </g>
+</svg>

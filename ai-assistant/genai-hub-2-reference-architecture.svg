@@ -1,0 +1,487 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="4200" height="2000" viewBox="0 0 4200 2000" role="img" aria-labelledby="svg-accessible-title svg-accessible-description" font-family="Arial, Helvetica, sans-serif">
+  <title id="svg-accessible-title">Insurance &amp; Enterprise Systems and GenAI Hub 2.0</title>
+  <desc id="svg-accessible-description">A transparent 4200 by 2000 reference architecture with 64 editable modules. The left Insurance &amp; Enterprise Systems domain uses #D6D8DA with black system and subsystem titles. The three right-side subsystems have #F6CFDA outer borders and fully opaque header bars in #E5708F, #DC416A, and #EDA0B5 from top to bottom. Their title text is #FFFFFF. The outer GenAI Hub 2.0 retains its pale #FFDEE0 frame and header. Assistant Agents and Domain Agents share white fills, black 44-point regular centered text, 4-point #DC416A strokes, and 14-point rounded corners. All original content, dimensions, and layout proportions are retained.</desc>
+  <g id="insurance-enterprise-systems">
+    <rect x="40" y="40" width="2040" height="1920" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="8" rx="32" ry="32" stroke-opacity=".65" />
+    <path d="M 72 40 H 2048 Q 2080 40 2080 72 V 120 H 40 V 72 Q 40 40 72 40 Z" fill="#D6D8DA" data-role="header-bar" />
+    <text text-anchor="start" font-size="56" font-weight="700" fill="#000000">
+      <tspan x="72" y="99.04">Insurance &amp; Enterprise Systems</tspan>
+    </text>
+    <g id="channels" data-role="channel-group">
+      <g id="agency-portal-app" data-role="section" data-bounds="40,120,1020.0,460">
+        <rect x="52" y="128" width="996" height="444" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="6" rx="24" ry="24" />
+        <path d="M 76 128 H 1024 Q 1048 128 1048 152 V 200 H 52 V 152 Q 52 128 76 128 Z" fill="#D6D8DA" data-role="header-bar" />
+        <text text-anchor="start" font-size="48" font-weight="700" fill="#000000">
+          <tspan x="80" y="180.32">Agency Portal / App</tspan>
+        </text>
+        <g data-role="module" data-label="Today" data-bounds="64,228,310.667,154">
+          <rect x="64" y="228" width="310.667" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+          <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+            <tspan x="219.333" y="318.6">Today</tspan>
+          </text>
+        </g>
+        <g data-role="module" data-label="AI Assistant" data-bounds="394.667,228,310.667,154">
+          <rect x="394.667" y="228" width="310.667" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+          <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+            <tspan x="550" y="318.6">AI Assistant</tspan>
+          </text>
+        </g>
+        <g data-role="module" data-label="Customers" data-bounds="725.333,228,310.667,154">
+          <rect x="725.333" y="228" width="310.667" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+          <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+            <tspan x="880.667" y="318.6">Customers</tspan>
+          </text>
+        </g>
+        <g data-role="module" data-label="Business" data-bounds="64,402,310.667,154">
+          <rect x="64" y="402" width="310.667" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+          <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+            <tspan x="219.333" y="492.6">Business</tspan>
+          </text>
+        </g>
+        <g data-role="module" data-label="Growth" data-bounds="394.667,402,310.667,154">
+          <rect x="394.667" y="402" width="310.667" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+          <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+            <tspan x="550" y="492.6">Growth</tspan>
+          </text>
+        </g>
+        <g data-role="module" data-label="Team" data-bounds="725.333,402,310.667,154">
+          <rect x="725.333" y="402" width="310.667" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+          <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+            <tspan x="880.667" y="492.6">Team</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="aia-plus" data-role="section" data-bounds="1060.0,120,1020.0,460">
+        <rect x="1072" y="128" width="996" height="444" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="6" rx="24" ry="24" />
+        <path d="M 1096 128 H 2044 Q 2068 128 2068 152 V 200 H 1072 V 152 Q 1072 128 1096 128 Z" fill="#D6D8DA" data-role="header-bar" />
+        <text text-anchor="start" font-size="48" font-weight="700" fill="#000000">
+          <tspan x="1100" y="180.32">AIA+</tspan>
+        </text>
+        <g data-role="module" data-label="Home" data-bounds="1084,228,476,154">
+          <rect x="1084" y="228" width="476" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+          <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+            <tspan x="1322" y="318.6">Home</tspan>
+          </text>
+        </g>
+        <g data-role="module" data-label="AI Assistant" data-bounds="1580,228,476,154">
+          <rect x="1580" y="228" width="476" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+          <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+            <tspan x="1818" y="318.6">AI Assistant</tspan>
+          </text>
+        </g>
+        <g data-role="module" data-label="Account" data-bounds="1084,402,310.667,154">
+          <rect x="1084" y="402" width="310.667" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+          <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+            <tspan x="1239.33" y="492.6">Account</tspan>
+          </text>
+        </g>
+        <g data-role="module" data-label="Health" data-bounds="1414.67,402,310.667,154">
+          <rect x="1414.67" y="402" width="310.667" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+          <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+            <tspan x="1570" y="492.6">Health</tspan>
+          </text>
+        </g>
+        <g data-role="module" data-label="Rewards" data-bounds="1745.33,402,310.667,154">
+          <rect x="1745.33" y="402" width="310.667" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+          <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+            <tspan x="1900.67" y="492.6">Rewards</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+    <g id="insurance-core-systems" data-role="section" data-bounds="40,580,2040,460">
+      <rect x="52" y="588" width="2016" height="444" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="6" rx="24" ry="24" />
+      <path d="M 76 588 H 2044 Q 2068 588 2068 612 V 660 H 52 V 612 Q 52 588 76 588 Z" fill="#D6D8DA" data-role="header-bar" />
+      <text text-anchor="start" font-size="48" font-weight="700" fill="#000000">
+        <tspan x="80" y="640.32">Insurance Core Systems</tspan>
+      </text>
+      <g data-role="module" data-label="Product" data-bounds="64,688,650.667,154">
+        <rect x="64" y="688" width="650.667" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="389.333" y="778.6">Product</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="New Business" data-bounds="734.667,688,650.667,154">
+        <rect x="734.667" y="688" width="650.667" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="1060" y="778.6">New Business</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Underwriting" data-bounds="1405.33,688,650.667,154">
+        <rect x="1405.33" y="688" width="650.667" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="1730.67" y="778.6">Underwriting</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Policy Admin" data-bounds="64,862,650.667,154">
+        <rect x="64" y="862" width="650.667" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="389.333" y="952.6">Policy Admin</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Claims" data-bounds="734.667,862,650.667,154">
+        <rect x="734.667" y="862" width="650.667" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="1060" y="952.6">Claims</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="BCP" data-bounds="1405.33,862,650.667,154">
+        <rect x="1405.33" y="862" width="650.667" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="1730.67" y="952.6">BCP</tspan>
+        </text>
+      </g>
+    </g>
+    <g id="business-support-shared-services" data-role="section" data-bounds="40,1040,2040,460">
+      <rect x="52" y="1048" width="2016" height="444" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="6" rx="24" ry="24" />
+      <path d="M 76 1048 H 2044 Q 2068 1048 2068 1072 V 1120 H 52 V 1072 Q 52 1048 76 1048 Z" fill="#D6D8DA" data-role="header-bar" />
+      <text text-anchor="start" font-size="48" font-weight="700" fill="#000000">
+        <tspan x="80" y="1100.32">Business Support &amp; Shared Services</tspan>
+      </text>
+      <g data-role="module" data-label="Commission" data-bounds="64,1148,483,154">
+        <rect x="64" y="1148" width="483" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="305.5" y="1238.6">Commission</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="CRM" data-bounds="567,1148,483,154">
+        <rect x="567" y="1148" width="483" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="808.5" y="1238.6">CRM</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="LMS" data-bounds="1070,1148,483,154">
+        <rect x="1070" y="1148" width="483" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="1311.5" y="1238.6">LMS</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="PNM" data-bounds="1573,1148,483,154">
+        <rect x="1573" y="1148" width="483" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="1814.5" y="1238.6">PNM</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Document" data-bounds="64,1322,483,154">
+        <rect x="64" y="1322" width="483" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="305.5" y="1412.6">Document</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Workflow" data-bounds="567,1322,483,154">
+        <rect x="567" y="1322" width="483" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="808.5" y="1412.6">Workflow</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Notification" data-bounds="1070,1322,483,154">
+        <rect x="1070" y="1322" width="483" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="1311.5" y="1412.6">Notification</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="eSign &amp; eKYC" data-bounds="1573,1322,483,154">
+        <rect x="1573" y="1322" width="483" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="1814.5" y="1412.6">eSign &amp; eKYC</tspan>
+        </text>
+      </g>
+    </g>
+    <g id="data-layer" data-role="section" data-bounds="40,1500,2040,460">
+      <rect x="52" y="1508" width="2016" height="444" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="6" rx="24" ry="24" />
+      <path d="M 76 1508 H 2044 Q 2068 1508 2068 1532 V 1580 H 52 V 1532 Q 52 1508 76 1508 Z" fill="#D6D8DA" data-role="header-bar" />
+      <text text-anchor="start" font-size="48" font-weight="700" fill="#000000">
+        <tspan x="80" y="1560.32">Data Layer</tspan>
+      </text>
+      <g data-role="module" data-label="Customer 360" data-bounds="64,1608,986,154">
+        <rect x="64" y="1608" width="986" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="557" y="1698.6">Customer 360</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Agent 360" data-bounds="1070,1608,986,154">
+        <rect x="1070" y="1608" width="986" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="1563" y="1698.6">Agent 360</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="4K Data Engine" data-bounds="64,1782,986,154">
+        <rect x="64" y="1782" width="986" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="557" y="1872.6">4K Data Engine</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="DANCE" data-bounds="1070,1782,986,154">
+        <rect x="1070" y="1782" width="986" height="154" fill="#FFFFFF" stroke="#D6D8DA" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="1563" y="1872.6">DANCE</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+  <g id="genai-hub">
+    <rect x="2120" y="40" width="2040" height="1920" fill="#FFFFFF" stroke="#FFDEE0" stroke-width="8" rx="32" ry="32" />
+    <path d="M 2152 40 H 4128 Q 4160 40 4160 72 V 120 H 2120 V 72 Q 2120 40 2152 40 Z" fill="#FFDEE0" data-role="header-bar" />
+    <text text-anchor="start" font-size="56" font-weight="700" fill="#D31145">
+      <tspan x="2152" y="99.04">GenAI Hub 2.0</tspan>
+    </text>
+    <g id="assistant-chatbot-platform" data-role="section" data-bounds="2120,120,2040,460">
+      <rect x="2132" y="128" width="2016" height="444" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="6" rx="24" ry="24" />
+      <path d="M 2156 128 H 4124 Q 4148 128 4148 152 V 200 H 2132 V 152 Q 2132 128 2156 128 Z" fill="#E5708F" data-role="header-bar" />
+      <text text-anchor="start" font-size="48" font-weight="700" fill="#FFFFFF">
+        <tspan x="2160" y="180.32">Assistant Chatbot Platform</tspan>
+      </text>
+      <g data-role="module" data-label="Embedded UI &amp; SDK" data-bounds="2144,228,382.4,154">
+        <rect x="2144" y="228" width="382.4" height="154" fill="#FFFFFF" stroke="#E5708F" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="2335.2" y="294.2">Embedded</tspan>
+          <tspan x="2335.2" y="343">UI &amp; SDK</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="A2UI/AG-UI" data-bounds="2546.4,228,382.4,154">
+        <rect x="2546.4" y="228" width="382.4" height="154" fill="#FFFFFF" stroke="#E5708F" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="2737.6" y="318.6">A2UI/AG-UI</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Session &amp; Context" data-bounds="2948.8,228,382.4,154">
+        <rect x="2948.8" y="228" width="382.4" height="154" fill="#FFFFFF" stroke="#E5708F" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="3140" y="294.2">Session &amp;</tspan>
+          <tspan x="3140" y="343">Context</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Agent Interaction" data-bounds="3351.2,228,382.4,154">
+        <rect x="3351.2" y="228" width="382.4" height="154" fill="#FFFFFF" stroke="#E5708F" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="3542.4" y="294.2">Agent</tspan>
+          <tspan x="3542.4" y="343">Interaction</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Nudge &amp; Actions" data-bounds="3753.6,228,382.4,154">
+        <rect x="3753.6" y="228" width="382.4" height="154" fill="#FFFFFF" stroke="#E5708F" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="3944.8" y="294.2">Nudge &amp;</tspan>
+          <tspan x="3944.8" y="343">Actions</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Chatbot Configuration" data-bounds="2144,402,382.4,154">
+        <rect x="2144" y="402" width="382.4" height="154" fill="#FFFFFF" stroke="#E5708F" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="2335.2" y="468.2">Chatbot</tspan>
+          <tspan x="2335.2" y="517">Configuration</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Identity &amp; Access" data-bounds="2546.4,402,382.4,154">
+        <rect x="2546.4" y="402" width="382.4" height="154" fill="#FFFFFF" stroke="#E5708F" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="2737.6" y="468.2">Identity &amp;</tspan>
+          <tspan x="2737.6" y="517">Access</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Lifecycle &amp; Release" data-bounds="2948.8,402,382.4,154">
+        <rect x="2948.8" y="402" width="382.4" height="154" fill="#FFFFFF" stroke="#E5708F" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="3140" y="468.2">Lifecycle &amp;</tspan>
+          <tspan x="3140" y="517">Release</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Monitoring &amp; Operations" data-bounds="3351.2,402,382.4,154">
+        <rect x="3351.2" y="402" width="382.4" height="154" fill="#FFFFFF" stroke="#E5708F" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="3542.4" y="468.2">Monitoring &amp;</tspan>
+          <tspan x="3542.4" y="517">Operations</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Safety &amp; Compliance" data-bounds="3753.6,402,382.4,154">
+        <rect x="3753.6" y="402" width="382.4" height="154" fill="#FFFFFF" stroke="#E5708F" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="3944.8" y="468.2">Safety &amp;</tspan>
+          <tspan x="3944.8" y="517">Compliance</tspan>
+        </text>
+      </g>
+    </g>
+    <g id="agent-platform" data-role="section" data-bounds="2120,580,2040,920">
+      <rect x="2132" y="588" width="2016" height="904" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="6" rx="24" ry="24" />
+      <path d="M 2156 588 H 4124 Q 4148 588 4148 612 V 660 H 2132 V 612 Q 2132 588 2156 588 Z" fill="#DC416A" data-role="header-bar" />
+      <text text-anchor="start" font-size="48" font-weight="700" fill="#FFFFFF">
+        <tspan x="2160" y="640.32">Agent Platform</tspan>
+      </text>
+      <g id="agency-agents" data-role="agent-group">
+        <rect x="2144" y="676" width="984" height="524" fill="#FFFFFF" stroke="#DC416A" stroke-width="6" rx="20" ry="20" stroke-opacity=".55" />
+        <g data-role="module" data-label="Assistant Agent" data-bounds="2164,696,944,76">
+          <rect x="2164" y="696" width="944" height="76" fill="#FFFFFF" stroke="#DC416A" stroke-width="4" rx="14" ry="14" />
+          <text text-anchor="middle" font-size="44" font-weight="400" fill="#000000">
+            <tspan x="2636" y="748.96">Assistant Agent</tspan>
+          </text>
+        </g>
+        <g data-role="module" data-label="Recruitment" data-bounds="2164,792,464,118.667">
+          <rect x="2164" y="792" width="464" height="118.667" fill="#FFFFFF" stroke="#DC416A" stroke-width="4" rx="14" ry="14" />
+          <text text-anchor="middle" font-size="44" font-weight="400" fill="#000000">
+            <tspan x="2396" y="866.293">Recruitment</tspan>
+          </text>
+        </g>
+        <g data-role="module" data-label="Learning" data-bounds="2644,792,464,118.667">
+          <rect x="2644" y="792" width="464" height="118.667" fill="#FFFFFF" stroke="#DC416A" stroke-width="4" rx="14" ry="14" />
+          <text text-anchor="middle" font-size="44" font-weight="400" fill="#000000">
+            <tspan x="2876" y="866.293">Learning</tspan>
+          </text>
+        </g>
+        <g data-role="module" data-label="Performance" data-bounds="2164,926.667,464,118.667">
+          <rect x="2164" y="926.667" width="464" height="118.667" fill="#FFFFFF" stroke="#DC416A" stroke-width="4" rx="14" ry="14" />
+          <text text-anchor="middle" font-size="44" font-weight="400" fill="#000000">
+            <tspan x="2396" y="1000.96">Performance</tspan>
+          </text>
+        </g>
+        <g data-role="module" data-label="Sales" data-bounds="2644,926.667,464,118.667">
+          <rect x="2644" y="926.667" width="464" height="118.667" fill="#FFFFFF" stroke="#DC416A" stroke-width="4" rx="14" ry="14" />
+          <text text-anchor="middle" font-size="44" font-weight="400" fill="#000000">
+            <tspan x="2876" y="1000.96">Sales</tspan>
+          </text>
+        </g>
+        <g data-role="module" data-label="Team Mgmt." data-bounds="2164,1061.33,944,118.667">
+          <rect x="2164" y="1061.33" width="944" height="118.667" fill="#FFFFFF" stroke="#DC416A" stroke-width="4" rx="14" ry="14" />
+          <text text-anchor="middle" font-size="44" font-weight="400" fill="#000000">
+            <tspan x="2636" y="1135.63">Team Mgmt.</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="customer-agents" data-role="agent-group">
+        <rect x="3152" y="676" width="984" height="524" fill="#FFFFFF" stroke="#DC416A" stroke-width="6" rx="20" ry="20" stroke-opacity=".55" />
+        <g data-role="module" data-label="Assistant Agent" data-bounds="3172,696,944,76">
+          <rect x="3172" y="696" width="944" height="76" fill="#FFFFFF" stroke="#DC416A" stroke-width="4" rx="14" ry="14" />
+          <text text-anchor="middle" font-size="44" font-weight="400" fill="#000000">
+            <tspan x="3644" y="748.96">Assistant Agent</tspan>
+          </text>
+        </g>
+        <g data-role="module" data-label="Insurance Specialist" data-bounds="3172,792,944,118.667">
+          <rect x="3172" y="792" width="944" height="118.667" fill="#FFFFFF" stroke="#DC416A" stroke-width="4" rx="14" ry="14" />
+          <text text-anchor="middle" font-size="44" font-weight="400" fill="#000000">
+            <tspan x="3644" y="866.293">Insurance Specialist</tspan>
+          </text>
+        </g>
+        <g data-role="module" data-label="Health Partner" data-bounds="3172,926.667,944,118.667">
+          <rect x="3172" y="926.667" width="944" height="118.667" fill="#FFFFFF" stroke="#DC416A" stroke-width="4" rx="14" ry="14" />
+          <text text-anchor="middle" font-size="44" font-weight="400" fill="#000000">
+            <tspan x="3644" y="1000.96">Health Partner</tspan>
+          </text>
+        </g>
+        <g data-role="module" data-label="Life Companion" data-bounds="3172,1061.33,944,118.667">
+          <rect x="3172" y="1061.33" width="944" height="118.667" fill="#FFFFFF" stroke="#DC416A" stroke-width="4" rx="14" ry="14" />
+          <text text-anchor="middle" font-size="44" font-weight="400" fill="#000000">
+            <tspan x="3644" y="1135.63">Life Companion</tspan>
+          </text>
+        </g>
+      </g>
+      <line x1="2144" y1="1224" x2="4136" y2="1224" stroke="#DC416A" stroke-width="4" />
+      <g data-role="module" data-label="Skills" data-bounds="2144,1248,483,90">
+        <rect x="2144" y="1248" width="483" height="90" fill="#FFFFFF" stroke="#DC416A" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="44" font-weight="400" fill="#000000">
+          <tspan x="2385.5" y="1307.96">Skills</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Tools" data-bounds="2647,1248,483,90">
+        <rect x="2647" y="1248" width="483" height="90" fill="#FFFFFF" stroke="#DC416A" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="44" font-weight="400" fill="#000000">
+          <tspan x="2888.5" y="1307.96">Tools</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Context" data-bounds="3150,1248,483,90">
+        <rect x="3150" y="1248" width="483" height="90" fill="#FFFFFF" stroke="#DC416A" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="44" font-weight="400" fill="#000000">
+          <tspan x="3391.5" y="1307.96">Context</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="MCP" data-bounds="3653,1248,483,90">
+        <rect x="3653" y="1248" width="483" height="90" fill="#FFFFFF" stroke="#DC416A" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="44" font-weight="400" fill="#000000">
+          <tspan x="3894.5" y="1307.96">MCP</tspan>
+        </text>
+      </g>
+      <line x1="2144" y1="1362" x2="4136" y2="1362" stroke="#DC416A" stroke-width="4" />
+      <g data-role="module" data-label="Agent Harness" data-bounds="2144,1386,1992,90">
+        <rect x="2144" y="1386" width="1992" height="90" fill="#FFFFFF" stroke="#DC416A" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="44" font-weight="400" fill="#000000">
+          <tspan x="3140" y="1445.96">Agent Harness</tspan>
+        </text>
+      </g>
+    </g>
+    <g id="ontology-knowledge" data-role="section" data-bounds="2120,1500,2040,460">
+      <rect x="2132" y="1508" width="2016" height="444" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="6" rx="24" ry="24" />
+      <path d="M 2156 1508 H 4124 Q 4148 1508 4148 1532 V 1580 H 2132 V 1532 Q 2132 1508 2156 1508 Z" fill="#EDA0B5" data-role="header-bar" />
+      <text text-anchor="start" font-size="48" font-weight="700" fill="#FFFFFF">
+        <tspan x="2160" y="1560.32">Ontology / Knowledge</tspan>
+      </text>
+      <g data-role="module" data-label="Domain Ontology" data-bounds="2144,1608,382.4,154">
+        <rect x="2144" y="1608" width="382.4" height="154" fill="#FFFFFF" stroke="#EDA0B5" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="2335.2" y="1674.2">Domain</tspan>
+          <tspan x="2335.2" y="1723">Ontology</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Knowledge Graph" data-bounds="2546.4,1608,382.4,154">
+        <rect x="2546.4" y="1608" width="382.4" height="154" fill="#FFFFFF" stroke="#EDA0B5" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="2737.6" y="1674.2">Knowledge</tspan>
+          <tspan x="2737.6" y="1723">Graph</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Document Knowledge" data-bounds="2948.8,1608,382.4,154">
+        <rect x="2948.8" y="1608" width="382.4" height="154" fill="#FFFFFF" stroke="#EDA0B5" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="3140" y="1674.2">Document</tspan>
+          <tspan x="3140" y="1723">Knowledge</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="FAQ &amp; Answers" data-bounds="3351.2,1608,382.4,154">
+        <rect x="3351.2" y="1608" width="382.4" height="154" fill="#FFFFFF" stroke="#EDA0B5" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="3542.4" y="1674.2">FAQ &amp;</tspan>
+          <tspan x="3542.4" y="1723">Answers</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Retrieval &amp; Grounding" data-bounds="3753.6,1608,382.4,154">
+        <rect x="3753.6" y="1608" width="382.4" height="154" fill="#FFFFFF" stroke="#EDA0B5" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="3944.8" y="1674.2">Retrieval &amp;</tspan>
+          <tspan x="3944.8" y="1723">Grounding</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Ingestion" data-bounds="2144,1782,382.4,154">
+        <rect x="2144" y="1782" width="382.4" height="154" fill="#FFFFFF" stroke="#EDA0B5" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="2335.2" y="1872.6">Ingestion</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Processing &amp; Indexing" data-bounds="2546.4,1782,382.4,154">
+        <rect x="2546.4" y="1782" width="382.4" height="154" fill="#FFFFFF" stroke="#EDA0B5" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="2737.6" y="1848.2">Processing &amp;</tspan>
+          <tspan x="2737.6" y="1897">Indexing</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Version &amp; Publishing" data-bounds="2948.8,1782,382.4,154">
+        <rect x="2948.8" y="1782" width="382.4" height="154" fill="#FFFFFF" stroke="#EDA0B5" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="3140" y="1848.2">Version &amp;</tspan>
+          <tspan x="3140" y="1897">Publishing</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Quality &amp; Evaluation" data-bounds="3351.2,1782,382.4,154">
+        <rect x="3351.2" y="1782" width="382.4" height="154" fill="#FFFFFF" stroke="#EDA0B5" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="3542.4" y="1848.2">Quality &amp;</tspan>
+          <tspan x="3542.4" y="1897">Evaluation</tspan>
+        </text>
+      </g>
+      <g data-role="module" data-label="Access &amp; Provenance" data-bounds="3753.6,1782,382.4,154">
+        <rect x="3753.6" y="1782" width="382.4" height="154" fill="#FFFFFF" stroke="#EDA0B5" stroke-width="4" rx="14" ry="14" />
+        <text text-anchor="middle" font-size="40" font-weight="400" fill="#000000">
+          <tspan x="3944.8" y="1848.2">Access &amp;</tspan>
+          <tspan x="3944.8" y="1897">Provenance</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

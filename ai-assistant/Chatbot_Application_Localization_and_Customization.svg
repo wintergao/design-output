@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="4200" height="2000" viewBox="0 0 4200 2000" role="img" aria-labelledby="chatbot-localization-title chatbot-localization-description" font-family="Arial, Helvetica, sans-serif">
+  <title id="chatbot-localization-title">Chatbot Application Localization and Customization</title>
+  <desc id="chatbot-localization-description">A 4200 by 2000 transparent English-language diagram using a restrained rose palette. Five stages take a Group Application Template on Assistant Chatbot Platform through BU application creation, configuration, extension and integration, validation and approval, and publishing and operations. Ten customization areas are arranged in two rows of five. They cover brand and language, dynamic UI and custom components, host application integration, identity and trusted context, conversations and sessions, Agent and resource bindings, actions and human handoff, nudges, guardrails and data governance, and testing, release and operations. AG-UI events, A2UI descriptions, component catalogs and renderers have distinct roles. Runtime enforcement and a versioned, compatible application release apply across all areas. A Malaysia Agency Portal client-meeting example connects verified host context to the BU Assistant Agent, Sales Domain Agent, dynamic business UI and authorized CRM or Calendar actions.</desc>
+  <g id="group-application-template" data-role="lifecycle-stage">
+    <rect x="64" y="56" width="768" height="280" rx="26" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="4" />
+    <path d="M66 162V82Q66 58 90 58H806Q830 58 830 82V162Z" fill="#DC416A" data-role="header-bar" />
+    <text x="94" y="102" font-size="38" font-weight="700" fill="#FFFFFF" text-anchor="start" data-max-width="708">
+      <tspan x="94" y="102">Group Application</tspan>
+      <tspan x="94" y="147">Template</tspan>
+    </text>
+    <text x="94" y="210" font-size="30" font-weight="400" fill="#000000" text-anchor="start" data-max-width="708">
+      <tspan x="94" y="210">Assistant Chatbot Platform</tspan>
+      <tspan x="94" y="253">SDK · UI catalog · Runtime</tspan>
+      <tspan x="94" y="296">Standards &amp; extension points</tspan>
+    </text>
+  </g>
+  <path d="M843 196H879" fill="none" stroke="#DC416A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M868 188L879 196L868 204" fill="none" stroke="#DC416A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <g id="create-bu-application" data-role="lifecycle-stage">
+    <rect x="890" y="56" width="768" height="280" rx="26" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="4" />
+    <path d="M892 162V82Q892 58 916 58H1632Q1656 58 1656 82V162Z" fill="#DC416A" data-role="header-bar" />
+    <text x="920" y="102" font-size="38" font-weight="700" fill="#FFFFFF" text-anchor="start" data-max-width="708">
+      <tspan x="920" y="102">Create BU</tspan>
+      <tspan x="920" y="147">Application</tspan>
+    </text>
+    <text x="920" y="210" font-size="30" font-weight="400" fill="#000000" text-anchor="start" data-max-width="708">
+      <tspan x="920" y="210">Market · Audience · Scenario</tspan>
+      <tspan x="920" y="253">Channels · Languages · Owner</tspan>
+      <tspan x="920" y="296">Tenant scope &amp; entry Agent</tspan>
+    </text>
+  </g>
+  <path d="M1669 196H1705" fill="none" stroke="#DC416A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M1694 188L1705 196L1694 204" fill="none" stroke="#DC416A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <g id="configure-extend-integrate" data-role="lifecycle-stage">
+    <rect x="1716" y="56" width="768" height="280" rx="26" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="4" />
+    <path d="M1718 162V82Q1718 58 1742 58H2458Q2482 58 2482 82V162Z" fill="#DC416A" data-role="header-bar" />
+    <text x="1746" y="102" font-size="38" font-weight="700" fill="#FFFFFF" text-anchor="start" data-max-width="708">
+      <tspan x="1746" y="102">Configure, Extend</tspan>
+      <tspan x="1746" y="147">&amp; Integrate</tspan>
+    </text>
+    <text x="1746" y="210" font-size="30" font-weight="400" fill="#000000" text-anchor="start" data-max-width="708">
+      <tspan x="1746" y="210">Local UX &amp; components</tspan>
+      <tspan x="1746" y="253">Identity &amp; host integration</tspan>
+      <tspan x="1746" y="296">Rules, systems &amp; resources</tspan>
+    </text>
+  </g>
+  <path d="M2495 196H2531" fill="none" stroke="#DC416A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M2520 188L2531 196L2520 204" fill="none" stroke="#DC416A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <g id="validate-approve" data-role="lifecycle-stage">
+    <rect x="2542" y="56" width="768" height="280" rx="26" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="4" />
+    <path d="M2544 162V82Q2544 58 2568 58H3284Q3308 58 3308 82V162Z" fill="#DC416A" data-role="header-bar" />
+    <text x="2572" y="102" font-size="38" font-weight="700" fill="#FFFFFF" text-anchor="start" data-max-width="708">
+      <tspan x="2572" y="102">Validate &amp;</tspan>
+      <tspan x="2572" y="147">Approve</tspan>
+    </text>
+    <text x="2572" y="210" font-size="30" font-weight="400" fill="#000000" text-anchor="start" data-max-width="708">
+      <tspan x="2572" y="210">Experience &amp; permissions</tspan>
+      <tspan x="2572" y="253">Integration &amp; compatibility</tspan>
+      <tspan x="2572" y="296">Business / security approval</tspan>
+    </text>
+  </g>
+  <path d="M3321 196H3357" fill="none" stroke="#DC416A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M3346 188L3357 196L3346 204" fill="none" stroke="#DC416A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <g id="publish-operate" data-role="lifecycle-stage">
+    <rect x="3368" y="56" width="768" height="280" rx="26" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="4" />
+    <path d="M3370 162V82Q3370 58 3394 58H4110Q4134 58 4134 82V162Z" fill="#DC416A" data-role="header-bar" />
+    <text x="3398" y="102" font-size="38" font-weight="700" fill="#FFFFFF" text-anchor="start" data-max-width="708">
+      <tspan x="3398" y="102">Publish &amp;</tspan>
+      <tspan x="3398" y="147">Operate</tspan>
+    </text>
+    <text x="3398" y="210" font-size="30" font-weight="400" fill="#000000" text-anchor="start" data-max-width="708">
+      <tspan x="3398" y="210">Versioned release</tspan>
+      <tspan x="3398" y="253">Staged rollout &amp; tracing</tspan>
+      <tspan x="3398" y="296">Feedback &amp; rollback</tspan>
+    </text>
+  </g>
+  <g id="local-bu-chatbot-customization">
+    <rect x="64" y="372" width="4072" height="1008" rx="28" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="4" />
+    <path d="M66 458V400Q66 374 92 374H4108Q4134 374 4134 400V458Z" fill="#DC416A" data-role="header-bar" />
+    <text x="96" y="430" font-size="43" font-weight="700" fill="#FFFFFF" text-anchor="start" data-max-width="2750">Local BU Chatbot Application Customization</text>
+    <text x="4104" y="429" font-size="31" font-weight="700" fill="#FFFFFF" text-anchor="end" data-max-width="900">Configure  ·  Extend  ·  Integrate</text>
+    <g id="brand-language-experience" data-role="customization-dimension">
+      <rect x="96" y="486" width="784" height="420" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M97.5 591.5V508.0Q97.5 487.5 118.0 487.5H858.0Q878.5 487.5 878.5 508.0V591.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="124" y="530" font-size="35" font-weight="700" fill="#D31145" text-anchor="start" data-max-width="728">
+        <tspan x="124" y="530">Brand, Language</tspan>
+        <tspan x="124" y="572">&amp; Experience</tspan>
+      </text>
+      <text x="124" y="640" font-size="31" font-weight="400" fill="#000000" text-anchor="start" data-max-width="728">
+        <tspan x="124" y="640">Theme &amp; welcome</tspan>
+        <tspan x="124" y="687">Language &amp; tone</tspan>
+        <tspan x="124" y="734">Prompts &amp; input modes</tspan>
+        <tspan x="124" y="781">Local formats &amp; accessibility</tspan>
+      </text>
+      <path d="M124 818H852" fill="none" stroke="#F6CFDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="124" y="868" font-size="27" font-weight="400" fill="#D31145" text-anchor="start" data-max-width="728">Local experience settings</text>
+    </g>
+    <g id="dynamic-ui-components" data-role="customization-dimension">
+      <rect x="904" y="486" width="784" height="420" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M905.5 591.5V508.0Q905.5 487.5 926.0 487.5H1666.0Q1686.5 487.5 1686.5 508.0V591.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="932" y="530" font-size="35" font-weight="700" fill="#D31145" text-anchor="start" data-max-width="728">
+        <tspan x="932" y="530">Dynamic UI</tspan>
+        <tspan x="932" y="572">&amp; Custom Components</tspan>
+      </text>
+      <text x="932" y="640" font-size="31" font-weight="400" fill="#000000" text-anchor="start" data-max-width="728">
+        <tspan x="932" y="640">AG-UI events · A2UI descriptions</tspan>
+        <tspan x="932" y="687">Catalogs &amp; renderers</tspan>
+        <tspan x="932" y="734">Custom cards, forms &amp; actions</tspan>
+        <tspan x="932" y="781">Schemas &amp; fallbacks</tspan>
+      </text>
+      <path d="M932 818H1660" fill="none" stroke="#F6CFDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="932" y="857" font-size="27" font-weight="400" fill="#D31145" text-anchor="start" data-max-width="728">
+        <tspan x="932" y="857">Standard · Group · BU components</tspan>
+        <tspan x="932" y="890">Cross-platform compatibility</tspan>
+      </text>
+    </g>
+    <g id="host-app-channel-integration" data-role="customization-dimension">
+      <rect x="1712" y="486" width="784" height="420" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M1713.5 591.5V508.0Q1713.5 487.5 1734.0 487.5H2474.0Q2494.5 487.5 2494.5 508.0V591.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="1740" y="530" font-size="35" font-weight="700" fill="#D31145" text-anchor="start" data-max-width="728">
+        <tspan x="1740" y="530">Host App</tspan>
+        <tspan x="1740" y="572">&amp; Channel Integration</tspan>
+      </text>
+      <text x="1740" y="640" font-size="31" font-weight="400" fill="#000000" text-anchor="start" data-max-width="728">
+        <tspan x="1740" y="640">Web / iOS / Android SDK</tspan>
+        <tspan x="1740" y="687">Navigation &amp; Deep Links</tspan>
+        <tspan x="1740" y="734">Camera, voice &amp; upload</tspan>
+        <tspan x="1740" y="781">Host events &amp; lifecycle</tspan>
+      </text>
+      <path d="M1740 818H2468" fill="none" stroke="#F6CFDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="1740" y="857" font-size="27" font-weight="400" fill="#D31145" text-anchor="start" data-max-width="728">
+        <tspan x="1740" y="857">Agency Portal / App · AIA+</tspan>
+        <tspan x="1740" y="890">Host integration contract</tspan>
+      </text>
+    </g>
+    <g id="identity-trusted-context" data-role="customization-dimension">
+      <rect x="2520" y="486" width="784" height="420" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M2521.5 591.5V508.0Q2521.5 487.5 2542.0 487.5H3282.0Q3302.5 487.5 3302.5 508.0V591.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="2548" y="530" font-size="35" font-weight="700" fill="#D31145" text-anchor="start" data-max-width="728">
+        <tspan x="2548" y="530">Identity</tspan>
+        <tspan x="2548" y="572">&amp; Trusted Context</tspan>
+      </text>
+      <text x="2548" y="640" font-size="31" font-weight="400" fill="#000000" text-anchor="start" data-max-width="728">
+        <tspan x="2548" y="640">SSO &amp; user roles</tspan>
+        <tspan x="2548" y="687">Tenant &amp; data scope</tspan>
+        <tspan x="2548" y="734">Customer &amp; page context</tspan>
+        <tspan x="2548" y="781">Server-side validation</tspan>
+      </text>
+      <path d="M2548 818H3276" fill="none" stroke="#F6CFDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="2548" y="868" font-size="27" font-weight="400" fill="#D31145" text-anchor="start" data-max-width="728">Verify context before access</text>
+    </g>
+    <g id="conversation-session-management" data-role="customization-dimension">
+      <rect x="3328" y="486" width="784" height="420" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M3329.5 591.5V508.0Q3329.5 487.5 3350.0 487.5H4090.0Q4110.5 487.5 4110.5 508.0V591.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="3356" y="530" font-size="35" font-weight="700" fill="#D31145" text-anchor="start" data-max-width="728">
+        <tspan x="3356" y="530">Conversation</tspan>
+        <tspan x="3356" y="572">&amp; Session Management</tspan>
+      </text>
+      <text x="3356" y="640" font-size="31" font-weight="400" fill="#000000" text-anchor="start" data-max-width="728">
+        <tspan x="3356" y="640">History &amp; continuity</tspan>
+        <tspan x="3356" y="687">Task state &amp; recovery</tspan>
+        <tspan x="3356" y="734">Customer switch &amp; logout</tspan>
+        <tspan x="3356" y="781">Retention &amp; memory rules</tspan>
+      </text>
+      <path d="M3356 818H4084" fill="none" stroke="#F6CFDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="3356" y="868" font-size="27" font-weight="400" fill="#D31145" text-anchor="start" data-max-width="728">Isolate customer sessions</text>
+    </g>
+    <g id="agent-resource-bindings" data-role="customization-dimension">
+      <rect x="96" y="930" width="784" height="420" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M97.5 1035.5V952.0Q97.5 931.5 118.0 931.5H858.0Q878.5 931.5 878.5 952.0V1035.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="124" y="974" font-size="35" font-weight="700" fill="#D31145" text-anchor="start" data-max-width="728">
+        <tspan x="124" y="974">Agent</tspan>
+        <tspan x="124" y="1016">&amp; Resource Bindings</tspan>
+      </text>
+      <text x="124" y="1084" font-size="31" font-weight="400" fill="#000000" text-anchor="start" data-max-width="728">
+        <tspan x="124" y="1084">BU Assistant Agent version</tspan>
+        <tspan x="124" y="1131">Local knowledge &amp; data</tspan>
+        <tspan x="124" y="1178">Tools / Connectors / MCP</tspan>
+        <tspan x="124" y="1225">Environments &amp; permissions</tspan>
+      </text>
+      <path d="M124 1262H852" fill="none" stroke="#F6CFDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="124" y="1312" font-size="27" font-weight="400" fill="#D31145" text-anchor="start" data-max-width="728">Assistant Agent delegates tasks</text>
+    </g>
+    <g id="actions-human-handoff" data-role="customization-dimension">
+      <rect x="904" y="930" width="784" height="420" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M905.5 1035.5V952.0Q905.5 931.5 926.0 931.5H1666.0Q1686.5 931.5 1686.5 952.0V1035.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="932" y="974" font-size="35" font-weight="700" fill="#D31145" text-anchor="start" data-max-width="728">
+        <tspan x="932" y="974">Actions</tspan>
+        <tspan x="932" y="1016">&amp; Human Handoff</tspan>
+      </text>
+      <text x="932" y="1084" font-size="31" font-weight="400" fill="#000000" text-anchor="start" data-max-width="728">
+        <tspan x="932" y="1084">Forms &amp; approvals</tspan>
+        <tspan x="932" y="1131">CRM / core-system adapters</tspan>
+        <tspan x="932" y="1178">Pause, resume &amp; handoff</tspan>
+        <tspan x="932" y="1225">Results &amp; safe retries</tspan>
+      </text>
+      <path d="M932 1262H1660" fill="none" stroke="#F6CFDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="932" y="1301" font-size="27" font-weight="400" fill="#D31145" text-anchor="start" data-max-width="728">
+        <tspan x="932" y="1301">Authorize → Execute</tspan>
+        <tspan x="932" y="1334">Verify system results</tspan>
+      </text>
+    </g>
+    <g id="nudge-engagement" data-role="customization-dimension">
+      <rect x="1712" y="930" width="784" height="420" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M1713.5 1035.5V952.0Q1713.5 931.5 1734.0 931.5H2474.0Q2494.5 931.5 2494.5 952.0V1035.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="1740" y="974" font-size="35" font-weight="700" fill="#D31145" text-anchor="start" data-max-width="728">
+        <tspan x="1740" y="974">Nudge</tspan>
+        <tspan x="1740" y="1016">&amp; Engagement</tspan>
+      </text>
+      <text x="1740" y="1084" font-size="31" font-weight="400" fill="#000000" text-anchor="start" data-max-width="728">
+        <tspan x="1740" y="1084">Events &amp; target groups</tspan>
+        <tspan x="1740" y="1131">Push / Inbox / Tasks</tspan>
+        <tspan x="1740" y="1178">Preferences &amp; quiet hours</tspan>
+        <tspan x="1740" y="1225">Frequency &amp; deduplication</tspan>
+      </text>
+      <path d="M1740 1262H2468" fill="none" stroke="#F6CFDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="1740" y="1312" font-size="27" font-weight="400" fill="#D31145" text-anchor="start" data-max-width="728">Trigger → Notify → Act</text>
+    </g>
+    <g id="guardrails-data-governance" data-role="customization-dimension">
+      <rect x="2520" y="930" width="784" height="420" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M2521.5 1035.5V952.0Q2521.5 931.5 2542.0 931.5H3282.0Q3302.5 931.5 3302.5 952.0V1035.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="2548" y="974" font-size="35" font-weight="700" fill="#D31145" text-anchor="start" data-max-width="728">
+        <tspan x="2548" y="974">Guardrails</tspan>
+        <tspan x="2548" y="1016">&amp; Data Governance</tspan>
+      </text>
+      <text x="2548" y="1084" font-size="31" font-weight="400" fill="#000000" text-anchor="start" data-max-width="728">
+        <tspan x="2548" y="1084">Input / tool / output checks</tspan>
+        <tspan x="2548" y="1131">Privacy &amp; access controls</tspan>
+        <tspan x="2548" y="1178">Disclosures &amp; sales rules</tspan>
+        <tspan x="2548" y="1225">Retention &amp; data residency</tspan>
+      </text>
+      <path d="M2548 1262H3276" fill="none" stroke="#F6CFDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="2548" y="1312" font-size="27" font-weight="400" fill="#D31145" text-anchor="start" data-max-width="728">Govern text, UI, files &amp; actions</text>
+    </g>
+    <g id="testing-release-operations" data-role="customization-dimension">
+      <rect x="3328" y="930" width="784" height="420" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M3329.5 1035.5V952.0Q3329.5 931.5 3350.0 931.5H4090.0Q4110.5 931.5 4110.5 952.0V1035.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="3356" y="974" font-size="35" font-weight="700" fill="#D31145" text-anchor="start" data-max-width="728">
+        <tspan x="3356" y="974">Testing, Release</tspan>
+        <tspan x="3356" y="1016">&amp; Operations</tspan>
+      </text>
+      <text x="3356" y="1084" font-size="31" font-weight="400" fill="#000000" text-anchor="start" data-max-width="728">
+        <tspan x="3356" y="1084">Language &amp; device tests</tspan>
+        <tspan x="3356" y="1131">Permissions &amp; end-to-end tests</tspan>
+        <tspan x="3356" y="1178">Rollout &amp; rollback</tspan>
+        <tspan x="3356" y="1225">Feedback, cost &amp; tracing</tspan>
+      </text>
+      <path d="M3356 1262H4084" fill="none" stroke="#F6CFDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="3356" y="1312" font-size="27" font-weight="400" fill="#D31145" text-anchor="start" data-max-width="728">SDK / UI / Agent compatibility</text>
+    </g>
+  </g>
+  <g id="runtime-enforced-governance" data-role="implementation-mechanism">
+    <rect x="64" y="1416" width="4072" height="136" rx="24" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+    <path d="M88 1416H924V1552H88Q64 1552 64 1528V1440Q64 1416 88 1416Z" fill="#F6CFDA" />
+    <text x="96" y="1469" font-size="37" font-weight="700" fill="#D31145" text-anchor="start" data-max-width="796">Runtime-Enforced Governance</text>
+    <text x="96" y="1515" font-size="28" font-weight="400" fill="#000000" text-anchor="start" data-max-width="796">Group standards + BU policies</text>
+    <text x="976" y="1468" font-size="32" font-weight="700" fill="#000000" text-anchor="start" data-max-width="3128">Verify Context  ·  Authorize Access &amp; Actions  ·  Govern Outputs</text>
+    <text x="976" y="1516" font-size="30" font-weight="400" fill="#000000" text-anchor="start" data-max-width="3128">Platform &amp; business systems enforce Group + BU controls.</text>
+  </g>
+  <g id="versioned-application-release" data-role="implementation-mechanism">
+    <rect x="64" y="1576" width="4072" height="136" rx="24" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+    <path d="M88 1576H924V1712H88Q64 1712 64 1688V1600Q64 1576 88 1576Z" fill="#F6CFDA" />
+    <text x="96" y="1629" font-size="37" font-weight="700" fill="#D31145" text-anchor="start" data-max-width="796">Versioned Application Release</text>
+    <text x="96" y="1675" font-size="28" font-weight="400" fill="#000000" text-anchor="start" data-max-width="796">Versioned dependencies</text>
+    <text x="976" y="1628" font-size="32" font-weight="700" fill="#000000" text-anchor="start" data-max-width="3128">App Config · UI Catalog · SDK / Renderer · Policies · Agents &amp; Resources</text>
+    <text x="976" y="1676" font-size="30" font-weight="400" fill="#000000" text-anchor="start" data-max-width="3128">Test Compatibility  →  Approve  →  Publish  →  Monitor  →  Roll Back</text>
+  </g>
+  <g id="client-meeting-preparation-example" data-role="implementation-mechanism">
+    <rect x="64" y="1736" width="4072" height="208" rx="24" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+    <path d="M88 1736H924V1944H88Q64 1944 64 1920V1760Q64 1736 88 1736Z" fill="#F6CFDA" />
+    <text x="96" y="1778" font-size="23" font-weight="700" fill="#D31145" text-anchor="start" data-max-width="796">LOCAL IMPLEMENTATION EXAMPLE</text>
+    <text x="96" y="1825" font-size="36" font-weight="700" fill="#000000" text-anchor="start" data-max-width="796">Client Meeting Preparation</text>
+    <text x="96" y="1870" font-size="29" font-weight="400" fill="#000000" text-anchor="start" data-max-width="796">Malaysia Agency Portal</text>
+    <text x="96" y="1913" font-size="27" font-weight="400" fill="#000000" text-anchor="start" data-max-width="796">App → Agent → Business System</text>
+    <rect x="984" y="1770" width="552" height="96" rx="16" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+    <text x="1260" y="1810" font-size="30" font-weight="700" fill="#000000" text-anchor="middle" data-max-width="512">
+      <tspan x="1260" y="1810">Verified</tspan>
+      <tspan x="1260" y="1845">Host Context</tspan>
+    </text>
+    <path d="M1552 1818H1592" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M1581 1810L1592 1818L1581 1826" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="1608" y="1770" width="552" height="96" rx="16" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+    <text x="1884" y="1810" font-size="30" font-weight="700" fill="#000000" text-anchor="middle" data-max-width="512">
+      <tspan x="1884" y="1810">BU Assistant</tspan>
+      <tspan x="1884" y="1845">Agent</tspan>
+    </text>
+    <path d="M2176 1818H2216" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M2205 1810L2216 1818L2205 1826" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="2232" y="1770" width="552" height="96" rx="16" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+    <text x="2508" y="1810" font-size="30" font-weight="700" fill="#000000" text-anchor="middle" data-max-width="512">
+      <tspan x="2508" y="1810">Sales Domain</tspan>
+      <tspan x="2508" y="1845">Agent</tspan>
+    </text>
+    <path d="M2800 1818H2840" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M2829 1810L2840 1818L2829 1826" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="2856" y="1770" width="552" height="96" rx="16" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+    <text x="3132" y="1810" font-size="30" font-weight="700" fill="#000000" text-anchor="middle" data-max-width="512">
+      <tspan x="3132" y="1810">Dynamic</tspan>
+      <tspan x="3132" y="1845">Business UI</tspan>
+    </text>
+    <path d="M3424 1818H3464" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M3453 1810L3464 1818L3453 1826" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="3480" y="1770" width="552" height="96" rx="16" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+    <text x="3756" y="1810" font-size="30" font-weight="700" fill="#000000" text-anchor="middle" data-max-width="512">
+      <tspan x="3756" y="1810">Authorized</tspan>
+      <tspan x="3756" y="1845">CRM / Calendar Action</tspan>
+    </text>
+    <text x="976" y="1913" font-size="30" font-weight="400" fill="#000000" text-anchor="start" data-max-width="3128">Confirm → Authorize → Execute → Report Result  ·  Local Nudge Rules</text>
+  </g>
+</svg>

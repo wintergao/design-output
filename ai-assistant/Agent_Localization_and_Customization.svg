@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="4200" height="2000" viewBox="0 0 4200 2000" role="img" aria-labelledby="localization-title localization-description" font-family="Arial, Helvetica, sans-serif">
+  <title id="localization-title">Agent Localization and Customization for Local BUs</title>
+  <desc id="localization-description">A 4200 by 2000 transparent English-language diagram in a rose palette. The Group provides a versioned Domain Agent baseline with a nine-section definition, five business stages, eighteen reusable skills, guardrails and evaluation cases. A Local BU forks the baseline, retains its source version, and customizes six areas: business scope and outcomes; language and experience; products and knowledge; skills and workflows; systems, data and access; and authority and human oversight. The BU validates, approves, publishes and operates its own version. Group guardrails and local policies are enforced by runtime and business systems. Version lineage tracks source and local changes, reviews Group updates, and requires merge and re-test before publishing, with rollback available. The S15 Assemble Quote and Proposal example binds local products, an official quote system, templates and approvals, validates evidence, and releases local configuration with the BU Agent.</desc>
+  <g id="group-agent-baseline">
+    <rect x="64" y="56" width="760" height="1232" rx="28" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="4" data-role="main-panel" />
+    <path d="M66 144V84Q66 58 92 58H796Q822 58 822 84V144Z" fill="#DC416A" data-role="header-bar" />
+    <text x="96" y="115" font-size="45" font-weight="700" fill="#FFFFFF" text-anchor="start">Group Agent Baseline</text>
+    <g id="reference-sales-agent">
+      <rect x="108" y="178" width="672" height="172" rx="20" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+      <text x="140" y="214" font-size="23" font-weight="700" fill="#D31145" text-anchor="start">REFERENCE DOMAIN AGENT</text>
+      <svg x="140" y="236" width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="#D31145" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="7" cy="6" r="3" />
+        <path d="M1.5 21v-3a5.5 5.5 0 0 1 11 0v3m3-18h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-3l-3 3V4a1 1 0 0 1 1-1m-1 18 3-3 4-4m-4 0h4v4" />
+      </svg>
+      <text x="240" y="264" font-size="35" font-weight="700" fill="#000000" text-anchor="start">
+        <tspan x="240" y="264">Customer Engagement</tspan>
+        <tspan x="240" y="308">&amp; Sales Coach</tspan>
+      </text>
+    </g>
+    <g id="baseline-item-1">
+      <rect x="108" y="382" width="672" height="154" rx="18" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+      <text x="140" y="427" font-size="36" font-weight="700" fill="#D31145" text-anchor="start">Agent Definition</text>
+      <text x="140" y="473" font-size="30" font-weight="400" fill="#000000" text-anchor="start">
+        <tspan x="140" y="473">9-section behavior framework</tspan>
+        <tspan x="140" y="512">Responsibilities &amp; boundaries</tspan>
+      </text>
+    </g>
+    <g id="baseline-item-2">
+      <rect x="108" y="558" width="672" height="154" rx="18" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+      <text x="140" y="603" font-size="36" font-weight="700" fill="#D31145" text-anchor="start">Skills Baseline</text>
+      <text x="140" y="649" font-size="30" font-weight="400" fill="#000000" text-anchor="start">
+        <tspan x="140" y="649">5 business stages</tspan>
+        <tspan x="140" y="688">Select from 18 reusable skills</tspan>
+      </text>
+    </g>
+    <g id="baseline-item-3">
+      <rect x="108" y="734" width="672" height="154" rx="18" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+      <text x="140" y="779" font-size="36" font-weight="700" fill="#D31145" text-anchor="start">Group Guardrails</text>
+      <text x="140" y="825" font-size="30" font-weight="400" fill="#000000" text-anchor="start">
+        <tspan x="140" y="825">Mandatory controls</tspan>
+        <tspan x="140" y="864">Operating &amp; authority boundaries</tspan>
+      </text>
+    </g>
+    <g id="baseline-item-4">
+      <rect x="108" y="910" width="672" height="154" rx="18" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+      <text x="140" y="955" font-size="36" font-weight="700" fill="#D31145" text-anchor="start">Evaluation Baseline</text>
+      <text x="140" y="1001" font-size="30" font-weight="400" fill="#000000" text-anchor="start">
+        <tspan x="140" y="1001">Business test cases</tspan>
+        <tspan x="140" y="1040">Quality &amp; completion criteria</tspan>
+      </text>
+    </g>
+    <rect x="108" y="1102" width="672" height="138" rx="18" fill="#F6CFDA" stroke="#F6CFDA" stroke-width="2.5" />
+    <text x="140" y="1145" font-size="32" font-weight="700" fill="#000000" text-anchor="start">Versioned Group Package</text>
+    <text x="140" y="1185" font-size="28" font-weight="400" fill="#000000" text-anchor="start">
+      <tspan x="140" y="1185">Source version · Owner</tspan>
+      <tspan x="140" y="1221">Pinned Skills &amp; Tools versions</tspan>
+    </text>
+  </g>
+  <g id="local-bu-customization">
+    <rect x="928" y="56" width="2344" height="1232" rx="28" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="4" data-role="main-panel" />
+    <path d="M930 144V84Q930 58 956 58H3244Q3270 58 3270 84V144Z" fill="#DC416A" data-role="header-bar" />
+    <text x="960" y="115" font-size="45" font-weight="700" fill="#FFFFFF" text-anchor="start">Local BU Customization</text>
+    <text x="960" y="196" font-size="34" font-weight="700" fill="#000000" text-anchor="start">Create a BU-owned Agent version from the Group baseline.</text>
+    <text x="960" y="240" font-size="31" font-weight="400" fill="#000000" text-anchor="start">Track local changes; reuse shared Skills &amp; Tools by version.</text>
+    <g id="business-scope" data-role="localization-dimension">
+      <rect x="960" y="276" width="744" height="400" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M961.5 395.5V298.0Q961.5 277.5 982.0 277.5H1682.0Q1702.5 277.5 1702.5 298.0V395.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="990" y="326" font-size="38" font-weight="700" fill="#D31145" text-anchor="start">
+        <tspan x="990" y="326">Business Scope</tspan>
+        <tspan x="990" y="371">&amp; Outcomes</tspan>
+      </text>
+      <text x="990" y="468" font-size="31" font-weight="400" fill="#000000" text-anchor="start">Target users &amp; business priorities</text>
+      <text x="990" y="536" font-size="31" font-weight="400" fill="#000000" text-anchor="start">Products, stages &amp; responsibility</text>
+      <text x="990" y="604" font-size="31" font-weight="400" fill="#000000" text-anchor="start">Local KPIs &amp; completion criteria</text>
+    </g>
+    <g id="language-experience" data-role="localization-dimension">
+      <rect x="1728" y="276" width="744" height="400" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M1729.5 395.5V298.0Q1729.5 277.5 1750.0 277.5H2450.0Q2470.5 277.5 2470.5 298.0V395.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="1758" y="326" font-size="38" font-weight="700" fill="#D31145" text-anchor="start">
+        <tspan x="1758" y="326">Language &amp;</tspan>
+        <tspan x="1758" y="371">Experience</tspan>
+      </text>
+      <text x="1758" y="468" font-size="31" font-weight="400" fill="#000000" text-anchor="start">Language, terminology &amp; tone</text>
+      <text x="1758" y="536" font-size="31" font-weight="400" fill="#000000" text-anchor="start">Currency, dates &amp; local practices</text>
+      <text x="1758" y="604" font-size="31" font-weight="400" fill="#000000" text-anchor="start">Briefs, scripts &amp; proposal formats</text>
+    </g>
+    <g id="products-knowledge" data-role="localization-dimension">
+      <rect x="2496" y="276" width="744" height="400" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M2497.5 395.5V298.0Q2497.5 277.5 2518.0 277.5H3218.0Q3238.5 277.5 3238.5 298.0V395.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="2526" y="326" font-size="38" font-weight="700" fill="#D31145" text-anchor="start">
+        <tspan x="2526" y="326">Products &amp;</tspan>
+        <tspan x="2526" y="371">Knowledge</tspan>
+      </text>
+      <text x="2526" y="468" font-size="31" font-weight="400" fill="#000000" text-anchor="start">Local products, terms &amp; FAQs</text>
+      <text x="2526" y="536" font-size="31" font-weight="400" fill="#000000" text-anchor="start">Approved sources &amp; business rules</text>
+      <text x="2526" y="604" font-size="31" font-weight="400" fill="#000000" text-anchor="start">Market, version &amp; effective date</text>
+    </g>
+    <g id="skills-workflows" data-role="localization-dimension">
+      <rect x="960" y="700" width="744" height="400" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M961.5 819.5V722.0Q961.5 701.5 982.0 701.5H1682.0Q1702.5 701.5 1702.5 722.0V819.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="990" y="750" font-size="38" font-weight="700" fill="#D31145" text-anchor="start">
+        <tspan x="990" y="750">Skills &amp;</tspan>
+        <tspan x="990" y="795">Workflows</tspan>
+      </text>
+      <text x="990" y="892" font-size="31" font-weight="400" fill="#000000" text-anchor="start">Select, configure or extend skills</text>
+      <text x="990" y="960" font-size="31" font-weight="400" fill="#000000" text-anchor="start">Inputs, steps &amp; required checks</text>
+      <text x="990" y="1028" font-size="31" font-weight="400" fill="#000000" text-anchor="start">Handoffs, recovery &amp; completion</text>
+    </g>
+    <g id="systems-data-access" data-role="localization-dimension">
+      <rect x="1728" y="700" width="744" height="400" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M1729.5 819.5V722.0Q1729.5 701.5 1750.0 701.5H2450.0Q2470.5 701.5 2470.5 722.0V819.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="1758" y="750" font-size="38" font-weight="700" fill="#D31145" text-anchor="start">
+        <tspan x="1758" y="750">Systems, Data</tspan>
+        <tspan x="1758" y="795">&amp; Access</tspan>
+      </text>
+      <text x="1758" y="892" font-size="31" font-weight="400" fill="#000000" text-anchor="start">Local CRM, core &amp; data platforms</text>
+      <text x="1758" y="960" font-size="31" font-weight="400" fill="#000000" text-anchor="start">Field mapping &amp; user identity</text>
+      <text x="1758" y="1028" font-size="31" font-weight="400" fill="#000000" text-anchor="start">Data scope &amp; tool permissions</text>
+    </g>
+    <g id="authority-oversight" data-role="localization-dimension">
+      <rect x="2496" y="700" width="744" height="400" rx="22" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <path d="M2497.5 819.5V722.0Q2497.5 701.5 2518.0 701.5H3218.0Q3238.5 701.5 3238.5 722.0V819.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="2526" y="750" font-size="38" font-weight="700" fill="#D31145" text-anchor="start">
+        <tspan x="2526" y="750">Authority &amp;</tspan>
+        <tspan x="2526" y="795">Human Oversight</tspan>
+      </text>
+      <text x="2526" y="892" font-size="31" font-weight="400" fill="#000000" text-anchor="start">Prepare, recommend, change or submit</text>
+      <text x="2526" y="960" font-size="31" font-weight="400" fill="#000000" text-anchor="start">Approvals, handoffs &amp; escalation</text>
+      <text x="2526" y="1028" font-size="31" font-weight="400" fill="#000000" text-anchor="start">Human intervention &amp; action limits</text>
+    </g>
+    <rect x="960" y="1132" width="2280" height="108" rx="18" fill="#F6CFDA" stroke="#F6CFDA" stroke-width="2.5" />
+    <text x="992" y="1175" font-size="32" font-weight="700" fill="#000000" text-anchor="start">Agent Definition + Local Configuration</text>
+    <text x="992" y="1215" font-size="30" font-weight="400" fill="#000000" text-anchor="start">Bind BU knowledge, tools, approved models &amp; runtime.</text>
+  </g>
+  <g id="validation-and-release">
+    <rect x="3376" y="56" width="760" height="1232" rx="28" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="4" data-role="main-panel" />
+    <path d="M3378 144V84Q3378 58 3404 58H4108Q4134 58 4134 84V144Z" fill="#DC416A" data-role="header-bar" />
+    <text x="3408" y="115" font-size="45" font-weight="700" fill="#FFFFFF" text-anchor="start">Validate &amp; Release</text>
+    <g id="validate" data-role="release-stage">
+      <rect x="3420" y="178" width="672" height="230" rx="20" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+      <circle cx="3464" cy="225" r="23" fill="#DC416A" />
+      <text x="3464" y="234" font-size="27" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+      <text x="3508" y="236" font-size="38" font-weight="700" fill="#000000" text-anchor="start">Validate</text>
+      <text x="3452" y="291" font-size="30" font-weight="400" fill="#000000" text-anchor="start">
+        <tspan x="3452" y="291">Local language, products &amp; cases</tspan>
+        <tspan x="3452" y="335">Answer quality &amp; task execution</tspan>
+        <tspan x="3452" y="379">Permissions, approval &amp; recovery</tspan>
+      </text>
+    </g>
+    <g id="approve" data-role="release-stage">
+      <rect x="3420" y="440" width="672" height="230" rx="20" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+      <circle cx="3464" cy="487" r="23" fill="#DC416A" />
+      <text x="3464" y="496" font-size="27" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+      <text x="3508" y="498" font-size="38" font-weight="700" fill="#000000" text-anchor="start">Approve</text>
+      <text x="3452" y="553" font-size="30" font-weight="400" fill="#000000" text-anchor="start">
+        <tspan x="3452" y="553">Business, IT, security &amp; compliance</tspan>
+        <tspan x="3452" y="597">Confirm release scope &amp; readiness</tspan>
+        <tspan x="3452" y="641">Assign accountable BU ownership</tspan>
+      </text>
+    </g>
+    <g id="publish-operate" data-role="release-stage">
+      <rect x="3420" y="702" width="672" height="266" rx="20" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+      <circle cx="3464" cy="749" r="23" fill="#DC416A" />
+      <text x="3464" y="758" font-size="27" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+      <text x="3508" y="760" font-size="38" font-weight="700" fill="#000000" text-anchor="start">Publish &amp; Operate</text>
+      <text x="3452" y="815" font-size="30" font-weight="400" fill="#000000" text-anchor="start">
+        <tspan x="3452" y="815">Bind local resources &amp; environment</tspan>
+        <tspan x="3452" y="859">Connect to BU Assistant Agent</tspan>
+        <tspan x="3452" y="903">Monitor quality, cost &amp; outcomes</tspan>
+      </text>
+    </g>
+    <path d="M3756 416V432" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M3748 422L3756 432L3764 422" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M3756 678V694" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M3748 684L3756 694L3764 684" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M3756 976V992" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M3748 982L3756 992L3764 982" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <g id="bu-agent-release">
+      <rect x="3420" y="1000" width="672" height="240" rx="20" fill="#FFFFFF" stroke="#DC416A" stroke-width="3" />
+      <path d="M3421.5 1074.5V1020.0Q3421.5 1001.5 3440.0 1001.5H4072.0Q4090.5 1001.5 4090.5 1020.0V1074.5Z" fill="#F6CFDA" data-role="header-bar" />
+      <text x="3452" y="1051" font-size="39" font-weight="700" fill="#D31145" text-anchor="start">BU Agent Release</text>
+      <text x="3452" y="1122" font-size="30" font-weight="400" fill="#000000" text-anchor="start">
+        <tspan x="3452" y="1122">Independent version &amp; lifecycle</tspan>
+        <tspan x="3452" y="1166">Local scope · Local resources</tspan>
+        <tspan x="3452" y="1210">Owned and operated by the BU</tspan>
+      </text>
+    </g>
+  </g>
+  <g id="main-process-connections">
+    <path d="M839 228H913" fill="none" stroke="#DC416A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M901 220L913 228L901 236" fill="none" stroke="#DC416A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="876" y="202" font-size="28" font-weight="700" fill="#D31145" text-anchor="middle">Fork</text>
+    <path d="M3287 228H3361" fill="none" stroke="#DC416A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M3349 220L3361 228L3349 236" fill="none" stroke="#DC416A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="3324" y="202" font-size="25" font-weight="700" fill="#D31145" text-anchor="middle">Review</text>
+  </g>
+  <g id="group-and-local-governance">
+    <rect x="64" y="1324" width="4072" height="152" rx="24" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+    <path d="M88 1324H924V1476H88Q64 1476 64 1452V1348Q64 1324 88 1324Z" fill="#F6CFDA" />
+    <text x="96" y="1380" font-size="38" font-weight="700" fill="#D31145" text-anchor="start">Group Guardrails + Local Policies</text>
+    <text x="96" y="1434" font-size="28" font-weight="400" fill="#000000" text-anchor="start">Enforced by Runtime &amp; Business Systems</text>
+    <text x="976" y="1381" font-size="33" font-weight="700" fill="#000000" text-anchor="start">Identity &amp; authorization  ·  Data isolation  ·  Tool permissions  ·  Audit &amp; local controls</text>
+    <text x="976" y="1435" font-size="31" font-weight="400" fill="#000000" text-anchor="start">BU rules can add controls and approvals; policy conflicts require review.</text>
+  </g>
+  <g id="version-lineage-and-updates">
+    <rect x="64" y="1508" width="4072" height="152" rx="24" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+    <path d="M88 1508H924V1660H88Q64 1660 64 1636V1532Q64 1508 88 1508Z" fill="#F6CFDA" />
+    <text x="96" y="1564" font-size="38" font-weight="700" fill="#D31145" text-anchor="start">Version Lineage &amp; Updates</text>
+    <text x="96" y="1617" font-size="27" font-weight="400" fill="#000000" text-anchor="start">Source version · Local changes · Dependencies</text>
+    <rect x="984" y="1544" width="694" height="80" rx="16" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+    <text x="1331" y="1595" font-size="31" font-weight="700" fill="#000000" text-anchor="middle">Track Source &amp; Changes</text>
+    <path d="M1694 1584H1758" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M1746 1576L1758 1584L1746 1592" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="1774" y="1544" width="694" height="80" rx="16" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+    <text x="2121" y="1595" font-size="31" font-weight="700" fill="#000000" text-anchor="middle">Review Group Updates</text>
+    <path d="M2484 1584H2548" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M2536 1576L2548 1584L2536 1592" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="2564" y="1544" width="694" height="80" rx="16" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+    <text x="2911" y="1595" font-size="31" font-weight="700" fill="#000000" text-anchor="middle">Merge &amp; Re-test</text>
+    <path d="M3274 1584H3338" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M3326 1576L3338 1584L3326 1592" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="3354" y="1544" width="694" height="80" rx="16" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+    <text x="3701" y="1595" font-size="31" font-weight="700" fill="#000000" text-anchor="middle">Publish / Roll Back</text>
+  </g>
+  <g id="s15-localization-example">
+    <rect x="64" y="1692" width="4072" height="244" rx="24" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+    <path d="M88 1692H924V1936H88Q64 1936 64 1912V1716Q64 1692 88 1692Z" fill="#F6CFDA" />
+    <text x="96" y="1742" font-size="25" font-weight="700" fill="#D31145" text-anchor="start">LOCALIZATION EXAMPLE</text>
+    <text x="96" y="1792" font-size="39" font-weight="700" fill="#000000" text-anchor="start">
+      <tspan x="96" y="1792">S15 — Assemble Quote</tspan>
+      <tspan x="96" y="1839">&amp; Proposal</tspan>
+    </text>
+    <text x="96" y="1898" font-size="28" font-weight="400" fill="#000000" text-anchor="start">Configure a shared skill for the local market.</text>
+    <rect x="984" y="1734" width="694" height="160" rx="18" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+    <text x="1331" y="1800" font-size="31" font-weight="700" fill="#000000" text-anchor="middle">
+      <tspan x="1331" y="1800">Local Product Catalog</tspan>
+      <tspan x="1331" y="1844">+ Official Quote System</tspan>
+    </text>
+    <path d="M1694 1814H1758" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M1746 1806L1758 1814L1746 1822" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="1774" y="1734" width="694" height="160" rx="18" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+    <text x="2121" y="1800" font-size="31" font-weight="700" fill="#000000" text-anchor="middle">
+      <tspan x="2121" y="1800">Local Language</tspan>
+      <tspan x="2121" y="1844">+ Templates &amp; Approvals</tspan>
+    </text>
+    <path d="M2484 1814H2548" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M2536 1806L2548 1814L2536 1822" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="2564" y="1734" width="694" height="160" rx="18" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+    <text x="2911" y="1800" font-size="31" font-weight="700" fill="#000000" text-anchor="middle">
+      <tspan x="2911" y="1800">Validate Quote Sources</tspan>
+      <tspan x="2911" y="1844">+ Proposal Content</tspan>
+    </text>
+    <path d="M3274 1814H3338" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M3326 1806L3338 1814L3326 1822" fill="none" stroke="#DC416A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="3354" y="1734" width="694" height="160" rx="18" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="2.5" />
+    <text x="3701" y="1800" font-size="31" font-weight="700" fill="#000000" text-anchor="middle">
+      <tspan x="3701" y="1800">BU Agent Release</tspan>
+      <tspan x="3701" y="1844">with Local S15 Configuration</tspan>
+    </text>
+  </g>
+</svg>

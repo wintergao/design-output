@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="4200" height="2000" viewBox="0 0 4200 2000" font-family="Arial, Helvetica, sans-serif" role="img" aria-labelledby="comparison-title comparison-description">
+  <title id="comparison-title">AI Assistant Core Product vs. BU Implementation</title>
+  <desc id="comparison-description">An English-language comparison diagram on a transparent 4200 by 2000 canvas. Four rows compare Chatbot, Agent, Skill, and MCP / Connector across two columns: Core Product and BU Implementation. Core Product provides reusable frameworks, shared business baselines, governance and lifecycle capabilities. BU Implementation creates local instances, adapts business assets, integrates local applications and systems, validates behavior and permissions, and publishes and operates local solutions. Each comparison cell contains four concise statements. Rose column headers, pale pink row labels and borders, white content cards and black body text match the preceding diagrams.</desc>
+  <g id="core-product-header" data-role="column-header">
+    <rect x="568" y="56" width="1772" height="134" rx="28" fill="#DC416A" stroke="#F6CFDA" stroke-width="4" />
+    <text x="612" y="143" font-size="60" font-weight="700" fill="#FFFFFF" data-max-width="1684">Core Product</text>
+  </g>
+  <g id="bu-implementation-header" data-role="column-header">
+    <rect x="2364" y="56" width="1772" height="134" rx="28" fill="#DC416A" stroke="#F6CFDA" stroke-width="4" />
+    <text x="2408" y="143" font-size="60" font-weight="700" fill="#FFFFFF" data-max-width="1684">BU Implementation</text>
+  </g>
+  <g id="chatbot" data-role="comparison-row">
+    <g id="chatbot-label" data-role="row-label">
+      <rect x="64" y="220" width="480" height="412" rx="26" fill="#F6CFDA" stroke="#F6CFDA" stroke-width="3" />
+      <text x="100" y="448" font-size="56" font-weight="700" fill="#D31145" data-max-width="408">Chatbot</text>
+    </g>
+    <g id="chatbot-core-product" data-role="comparison-cell" data-column="core-product">
+      <rect x="568" y="220" width="1772" height="412" rx="26" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <circle cx="608" cy="300" r="5" fill="#DC416A" />
+      <circle cx="608" cy="378" r="5" fill="#DC416A" />
+      <circle cx="608" cy="456" r="5" fill="#DC416A" />
+      <circle cx="608" cy="534" r="5" fill="#DC416A" />
+      <text x="638" y="314" font-size="44" font-weight="400" fill="#000000" data-max-width="1662">
+        <tspan x="638" y="314">App Builder, templates &amp; embedded SDKs</tspan>
+        <tspan x="638" y="392">AG-UI / A2UI, renderers &amp; shared UI catalog</tspan>
+        <tspan x="638" y="470">Identity, sessions, actions &amp; Nudge runtime</tspan>
+        <tspan x="638" y="548">Guardrails, releases &amp; observability</tspan>
+      </text>
+    </g>
+    <g id="chatbot-bu-implementation" data-role="comparison-cell" data-column="bu-implementation">
+      <rect x="2364" y="220" width="1772" height="412" rx="26" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <circle cx="2404" cy="300" r="5" fill="#DC416A" />
+      <circle cx="2404" cy="378" r="5" fill="#DC416A" />
+      <circle cx="2404" cy="456" r="5" fill="#DC416A" />
+      <circle cx="2404" cy="534" r="5" fill="#DC416A" />
+      <text x="2434" y="314" font-size="44" font-weight="400" fill="#000000" data-max-width="1662">
+        <tspan x="2434" y="314">Create BU apps; configure brand, language &amp; UX</tspan>
+        <tspan x="2434" y="392">Build local components; embed in Agency Portal / AIA+</tspan>
+        <tspan x="2434" y="470">Integrate SSO, context, navigation &amp; notifications</tspan>
+        <tspan x="2434" y="548">Bind Agents, policies &amp; resources; test, launch &amp; operate</tspan>
+      </text>
+    </g>
+  </g>
+  <g id="agent" data-role="comparison-row">
+    <g id="agent-label" data-role="row-label">
+      <rect x="64" y="656" width="480" height="412" rx="26" fill="#F6CFDA" stroke="#F6CFDA" stroke-width="3" />
+      <text x="100" y="884" font-size="56" font-weight="700" fill="#D31145" data-max-width="408">Agent</text>
+    </g>
+    <g id="agent-core-product" data-role="comparison-cell" data-column="core-product">
+      <rect x="568" y="656" width="1772" height="412" rx="26" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <circle cx="608" cy="736" r="5" fill="#DC416A" />
+      <circle cx="608" cy="814" r="5" fill="#DC416A" />
+      <circle cx="608" cy="892" r="5" fill="#DC416A" />
+      <circle cx="608" cy="970" r="5" fill="#DC416A" />
+      <text x="638" y="750" font-size="44" font-weight="400" fill="#000000" data-max-width="1662">
+        <tspan x="638" y="750">Assistant / Domain Agent templates &amp; business baselines</tspan>
+        <tspan x="638" y="828">Agent Builder, Harness, delegation &amp; orchestration</tspan>
+        <tspan x="638" y="906">Skill, knowledge, tool, memory &amp; model bindings</tspan>
+        <tspan x="638" y="984">Authorization, evaluation, tracing &amp; version control</tspan>
+      </text>
+    </g>
+    <g id="agent-bu-implementation" data-role="comparison-cell" data-column="bu-implementation">
+      <rect x="2364" y="656" width="1772" height="412" rx="26" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <circle cx="2404" cy="736" r="5" fill="#DC416A" />
+      <circle cx="2404" cy="814" r="5" fill="#DC416A" />
+      <circle cx="2404" cy="892" r="5" fill="#DC416A" />
+      <circle cx="2404" cy="970" r="5" fill="#DC416A" />
+      <text x="2434" y="750" font-size="44" font-weight="400" fill="#000000" data-max-width="1662">
+        <tspan x="2434" y="750">Create BU Agents from shared baselines</tspan>
+        <tspan x="2434" y="828">Adapt instructions, products, rules &amp; workflows</tspan>
+        <tspan x="2434" y="906">Bind local Skills, knowledge, tools &amp; data scopes</tspan>
+        <tspan x="2434" y="984">Configure approvals; evaluate, release &amp; maintain</tspan>
+      </text>
+    </g>
+  </g>
+  <g id="skill" data-role="comparison-row">
+    <g id="skill-label" data-role="row-label">
+      <rect x="64" y="1092" width="480" height="412" rx="26" fill="#F6CFDA" stroke="#F6CFDA" stroke-width="3" />
+      <text x="100" y="1320" font-size="56" font-weight="700" fill="#D31145" data-max-width="408">Skill</text>
+    </g>
+    <g id="skill-core-product" data-role="comparison-cell" data-column="core-product">
+      <rect x="568" y="1092" width="1772" height="412" rx="26" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <circle cx="608" cy="1172" r="5" fill="#DC416A" />
+      <circle cx="608" cy="1250" r="5" fill="#DC416A" />
+      <circle cx="608" cy="1328" r="5" fill="#DC416A" />
+      <circle cx="608" cy="1406" r="5" fill="#DC416A" />
+      <text x="638" y="1186" font-size="44" font-weight="400" fill="#000000" data-max-width="1662">
+        <tspan x="638" y="1186">Shared Skill baselines &amp; package standards</tspan>
+        <tspan x="638" y="1264">Input / output contracts &amp; dependencies</tspan>
+        <tspan x="638" y="1342">Reusable workflows, templates &amp; validators</tspan>
+        <tspan x="638" y="1420">Marketplace, testing &amp; version management</tspan>
+      </text>
+    </g>
+    <g id="skill-bu-implementation" data-role="comparison-cell" data-column="bu-implementation">
+      <rect x="2364" y="1092" width="1772" height="412" rx="26" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <circle cx="2404" cy="1172" r="5" fill="#DC416A" />
+      <circle cx="2404" cy="1250" r="5" fill="#DC416A" />
+      <circle cx="2404" cy="1328" r="5" fill="#DC416A" />
+      <circle cx="2404" cy="1406" r="5" fill="#DC416A" />
+      <text x="2434" y="1186" font-size="44" font-weight="400" fill="#000000" data-max-width="1662">
+        <tspan x="2434" y="1186">Configure / fork Skills for local tasks</tspan>
+        <tspan x="2434" y="1264">Adapt inputs, rules, workflows &amp; outputs</tspan>
+        <tspan x="2434" y="1342">Bind local tools; extend scripts &amp; templates</tspan>
+        <tspan x="2434" y="1420">Test contracts &amp; calling Agents; publish BU versions</tspan>
+      </text>
+    </g>
+  </g>
+  <g id="mcp-connector" data-role="comparison-row">
+    <g id="mcp-connector-label" data-role="row-label">
+      <rect x="64" y="1528" width="480" height="412" rx="26" fill="#F6CFDA" stroke="#F6CFDA" stroke-width="3" />
+      <text x="100" y="1720" font-size="56" font-weight="700" fill="#D31145" data-max-width="408">
+        <tspan x="100" y="1720">MCP /</tspan>
+        <tspan x="100" y="1786">Connector</tspan>
+      </text>
+    </g>
+    <g id="mcp-connector-core-product" data-role="comparison-cell" data-column="core-product">
+      <rect x="568" y="1528" width="1772" height="412" rx="26" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <circle cx="608" cy="1608" r="5" fill="#DC416A" />
+      <circle cx="608" cy="1686" r="5" fill="#DC416A" />
+      <circle cx="608" cy="1764" r="5" fill="#DC416A" />
+      <circle cx="608" cy="1842" r="5" fill="#DC416A" />
+      <text x="638" y="1622" font-size="44" font-weight="400" fill="#000000" data-max-width="1662">
+        <tspan x="638" y="1622">MCP integration &amp; Connector framework</tspan>
+        <tspan x="638" y="1700">Shared Connectors, adapters &amp; Server templates</tspan>
+        <tspan x="638" y="1778">Tool contracts, authentication &amp; credential management</tspan>
+        <tspan x="638" y="1856">Authorization, retries, audit &amp; monitoring</tspan>
+      </text>
+    </g>
+    <g id="mcp-connector-bu-implementation" data-role="comparison-cell" data-column="bu-implementation">
+      <rect x="2364" y="1528" width="1772" height="412" rx="26" fill="#FFFFFF" stroke="#F6CFDA" stroke-width="3" />
+      <circle cx="2404" cy="1608" r="5" fill="#DC416A" />
+      <circle cx="2404" cy="1686" r="5" fill="#DC416A" />
+      <circle cx="2404" cy="1764" r="5" fill="#DC416A" />
+      <circle cx="2404" cy="1842" r="5" fill="#DC416A" />
+      <text x="2434" y="1622" font-size="44" font-weight="400" fill="#000000" data-max-width="1662">
+        <tspan x="2434" y="1622">Configure local endpoints, networks &amp; identities</tspan>
+        <tspan x="2434" y="1700">Connect core systems, CRM, services &amp; data</tspan>
+        <tspan x="2434" y="1778">Build adapters / MCP tools; map local fields</tspan>
+        <tspan x="2434" y="1856">Validate access &amp; execution; operate integrations</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
