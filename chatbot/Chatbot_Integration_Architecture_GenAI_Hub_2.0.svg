@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="4200" height="2000" viewBox="0 0 2520 1200" version="1.1" role="img" aria-labelledby="diagram-title diagram-desc">
+<title id="diagram-title">GenAI Hub 2.0 — Chatbot Integration Architecture</title>
+<desc id="diagram-desc">A transparent architecture diagram with User Touchpoints on the left, GenAI Hub 2.0 in the center, and Connected Systems on the right. The hub contains Chatbot, Agent Platform and KMS / KB in approximately 30, 50 and 20 percent proportions. Agent Integration invokes Chat Agent and receives its AG-UI event stream. Skills retrieve enterprise knowledge. MCP / Connectors integrate with four external systems. Human Handoff connects separately to Microsoft Dynamics 365 Omnichannel.</desc>
+<defs>
+<symbol id="icon-website" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+<path xmlns="http://www.w3.org/2000/svg" d="M4.8 4h22.4a2.2 2.2 0 0 1 2.2 2.2v19.6a2.2 2.2 0 0 1-2.2 2.2H4.8a2.2 2.2 0 0 1-2.2-2.2V6.2A2.2 2.2 0 0 1 4.8 4z" />
+          
+<path xmlns="http://www.w3.org/2000/svg" d="M2.8 10h26.4M6.5 7h.15m3.1 0h.15m3.1 0h.15M7 15h5.8v7.5H7zm10.5.5h6.2m-6.2 4h6.2" />
+        
+</symbol>
+<symbol id="icon-app" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+<path xmlns="http://www.w3.org/2000/svg" d="M9 2.5h14a3 3 0 0 1 3 3v21a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3v-21a3 3 0 0 1 3-3z" />
+            
+<path xmlns="http://www.w3.org/2000/svg" d="M12 5.5h8m-6.5 21h5M12 16h8m-4-4v8" />
+          
+</symbol>
+<symbol id="icon-messenger" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+<path xmlns="http://www.w3.org/2000/svg" d="M16 3C8.4 3 2.8 8.2 2.8 15c0 3.8 1.7 7 4.8 9.2v5l4.8-2.7c1.1.3 2.3.5 3.6.5 7.5 0 13.2-5.2 13.2-12S23.5 3 16 3z" />
+            
+<path xmlns="http://www.w3.org/2000/svg" d="m8.2 19 6.2-7.2 4.1 3.1 5.2-4.2-6.1 7.3-4-3.2z" />
+          
+</symbol>
+<symbol id="icon-access" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+<path xmlns="http://www.w3.org/2000/svg" d="M13 4.5h12.5a2 2 0 0 1 2 2v19a2 2 0 0 1-2 2H13M2.5 16H20m-6-6 6 6-6 6" />
+          
+</symbol>
+<symbol id="icon-ui" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+<path xmlns="http://www.w3.org/2000/svg" d="M15 22H5a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3h18a3 3 0 0 1 3 3v4M2 9h24M6.5 6h.2m3.2 0h.2m3.2 0h.2" />
+            
+<path xmlns="http://www.w3.org/2000/svg" d="M18.4 13h8.2a2.4 2.4 0 0 1 2.4 2.4v12.2a2.4 2.4 0 0 1-2.4 2.4h-8.2a2.4 2.4 0 0 1-2.4-2.4V15.4a2.4 2.4 0 0 1 2.4-2.4zM20 17h5m-4 10h3" />
+          
+</symbol>
+<symbol id="icon-conversations" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+<path xmlns="http://www.w3.org/2000/svg" d="M16 20H9l-5.5 5V8.5A3.5 3.5 0 0 1 7 5h14a3.5 3.5 0 0 1 3.5 3.5V13M8 10.5h10.5M8 14.5h7" />
+            
+<path xmlns="http://www.w3.org/2000/svg" d="M30.5 22a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0zM24 18.7v3.5l2.7 1.7" />
+          
+</symbol>
+<symbol id="icon-integration" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+<path xmlns="http://www.w3.org/2000/svg" d="M2.5 6h6v6h-6zM23 3h6.5v6.5H23zM23 22h6.5v6.5H23z" />
+            
+<path xmlns="http://www.w3.org/2000/svg" d="M8.5 9h4.7a3 3 0 0 0 3-3h6.5M8.5 9h4.7a3 3 0 0 1 3 3v10a3.3 3.3 0 0 0 3.3 3.3H23" />
+          
+</symbol>
+<symbol id="icon-handoff" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+<path xmlns="http://www.w3.org/2000/svg" d="M16 2.5 27.5 7v7.2c0 6.2-3.7 11.4-11.5 15.3C8.2 25.6 4.5 20.4 4.5 14.2V7zM10 16l4 4 8-9" />
+          
+</symbol>
+<symbol id="icon-organization" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+<path xmlns="http://www.w3.org/2000/svg" d="M11 3h10v7H11zM2 22h10v7H2zM20 22h10v7H20zM16 10v6M7 22v-6h18v6" />
+          
+</symbol>
+<symbol id="icon-entry" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+<path xmlns="http://www.w3.org/2000/svg" d="M5 3.5h22a3 3 0 0 1 3 3v18.5a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V6.5a3 3 0 0 1 3-3z" />
+            
+<path xmlns="http://www.w3.org/2000/svg" d="M2.5 10h27M10.5 10v18M15 16h8m-3-3 3 3-3 3M15 23h10" />
+          
+</symbol>
+<symbol id="icon-capabilities" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+<path xmlns="http://www.w3.org/2000/svg" d="M16 8.3C12.5 5.3 8.2 4.2 2.5 5.3v20c5.9-1.4 10.2-.3 13.5 2.8 3.3-3.1 7.6-4.2 13.5-2.8v-20C23.8 4.2 19.5 5.3 16 8.3zm0 0v19.5M6.5 10.2c2.5 0 4.1.5 5.5 1.5m-5.5 4.1c2.5 0 4.1.5 5.5 1.5m8.8-5.7c1.6-.8 3.3-1.4 5.1-1.4" />
+          
+</symbol>
+<symbol id="icon-testing" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+<path xmlns="http://www.w3.org/2000/svg" d="M8.8 5.5H6.6A2.6 2.6 0 0 0 4 8.1v18.3A2.6 2.6 0 0 0 6.6 29h14.8a2.6 2.6 0 0 0 2.6-2.6M19.2 5.5h2.2A2.6 2.6 0 0 1 24 8.1v8M9 3h10v5H9z" />
+            
+<path xmlns="http://www.w3.org/2000/svg" d="m8 17 3.4 3.4 6.6-7M20.3 22H29m-3.7-3.7L29 22l-3.7 3.7" />
+          
+</symbol>
+<symbol id="icon-governance" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+<path xmlns="http://www.w3.org/2000/svg" d="M3 4v23h26M8 22v-6m5.5 6v-9m5.5 9v-6m5.5 6V9M7.5 11l5-4 5.5 3.3L26 3.8M22 3.8h4v4" />
+          
+</symbol>
+<symbol id="icon-aia-service" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+<path xmlns="http://www.w3.org/2000/svg" d="M10 3.5h12a3 3 0 0 1 3 3v19a3 3 0 0 1-3 3H10a3 3 0 0 1-3-3v-19a3 3 0 0 1 3-3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" />
+            
+<path xmlns="http://www.w3.org/2000/svg" d="M13 6.5h6m-6 9h6m-3-3v6m-2 7h4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" />
+          
+</symbol>
+<symbol id="icon-d365" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+<path xmlns="http://www.w3.org/2000/svg" d="M4.5 17v-3a11.5 11.5 0 0 1 23 0v3M4.3 14h2.8a2 2 0 0 1 2 2v6.5a2 2 0 0 1-2 2H4.3a2 2 0 0 1-2-2V16a2 2 0 0 1 2-2zM24.9 14h2.8a2 2 0 0 1 2 2v6.5a2 2 0 0 1-2 2h-2.8a2 2 0 0 1-2-2V16a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" />
+            
+<path xmlns="http://www.w3.org/2000/svg" d="M26 25c0 2.3-2 3.4-5.2 3.4h-4.3m1.6 0h-4.3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" />
+          
+</symbol>
+<symbol id="icon-myaia" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+<path xmlns="http://www.w3.org/2000/svg" d="M4.5 5.5h23a2 2 0 0 1 2 2v17a2 2 0 0 1-2 2h-23a2 2 0 0 1-2-2v-17a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" />
+            
+<path xmlns="http://www.w3.org/2000/svg" d="M14.3 13a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.3 21c.6-2.6 2.2-4 5-4s4.4 1.4 5 4M20 12h5m-5 5h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" />
+          
+</symbol>
+<symbol id="icon-vitality" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+<path xmlns="http://www.w3.org/2000/svg" d="M3 16h6l3-7 4.5 14 4-10 2.4 3H29" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" />
+            
+<path xmlns="http://www.w3.org/2000/svg" d="M16 29C7.8 23.2 2.5 18.6 2.5 11.4A7 7 0 0 1 16 8.5 7 7 0 0 1 29.5 11.4C29.5 18.5 24.2 23.2 16 29z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" />
+          
+</symbol>
+<symbol id="icon-chat" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8 5.5h16a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H14l-7.5 5v-5H8a4 4 0 0 1-4-4v-10a4 4 0 0 1 4-4zM10 14.5h.4m5.3 0h.4m5.3 0h.4"/></symbol>
+<symbol id="icon-domain" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m16 3 11.5 6.4v13.2L16 29 4.5 22.6V9.4zM10.5 15.7l3.8 3.8 7.3-7.5"/></symbol>
+<marker id="arrow-blue" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L7 4 L1 7" fill="none" stroke="#436D87" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="arrow-purple" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L7 4 L1 7" fill="none" stroke="#71628D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="arrow-green" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L7 4 L1 7" fill="none" stroke="#477969" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="arrow-rose" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L7 4 L1 7" fill="none" stroke="#995571" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="arrow-slate" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L7 4 L1 7" fill="none" stroke="#637E8F" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<g id="architecture" font-family="Arial, Helvetica, Nimbus Sans, sans-serif">
+<g id="user-touchpoints">
+<rect x="28" y="30" width="310" height="1150" rx="15" fill="#F7F9FA" stroke="#B7C5CE" stroke-width="1.7" />
+<path d="M29 88 V45 Q29 31 43 31 H323 Q337 31 337 45 V88 Z" fill="#E6ECEF"/>
+<path d="M29 88 H337" fill="none" stroke="#B7C5CE" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"  />
+<rect x="46" y="48.0" width="4" height="22" rx="2" fill="#586D7B" stroke="none" stroke-width="1.4" />
+<text x="62" y="68.18" font-size="27" font-weight="700" fill="#333D47" text-anchor="start" >User Touchpoints</text>
+</g>
+<g id="connected-systems">
+<rect x="2182" y="30" width="310" height="1150" rx="15" fill="#F7F9FA" stroke="#B7C5CE" stroke-width="1.7" />
+<path d="M2183 88 V45 Q2183 31 2197 31 H2477 Q2491 31 2491 45 V88 Z" fill="#E6ECEF"/>
+<path d="M2183 88 H2491" fill="none" stroke="#B7C5CE" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"  />
+<rect x="2200" y="48.0" width="4" height="22" rx="2" fill="#586D7B" stroke="none" stroke-width="1.4" />
+<text x="2216" y="67.5" font-size="25" font-weight="700" fill="#333D47" text-anchor="start" >Connected Systems</text>
+</g>
+<g id="genai-hub">
+<rect x="432" y="30" width="1668" height="1150" rx="15" fill="#FCFDFE" stroke="#AABBC7" stroke-width="1.7" />
+<path d="M433 90 V45 Q433 31 447 31 H2085 Q2099 31 2099 45 V90 Z" fill="#E6ECEF"/>
+<path d="M433 90 H2099" fill="none" stroke="#AABBC7" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"  />
+<rect x="450" y="49.0" width="4" height="22" rx="2" fill="#586D7B" stroke="none" stroke-width="1.4" />
+<text x="466" y="71.56" font-size="34" font-weight="700" fill="#333D47" text-anchor="start" >GenAI Hub 2.0</text>
+</g>
+<g id="chatbot">
+<rect x="450" y="110" width="1632" height="300" rx="15" fill="#F4F8FA" stroke="#ADC3D0" stroke-width="1.7" />
+<path d="M451 152 V125 Q451 111 465 111 H2067 Q2081 111 2081 125 V152 Z" fill="#D8E7EF"/>
+<path d="M451 152 H2081" fill="none" stroke="#ADC3D0" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"  />
+<rect x="468" y="120.0" width="4" height="22" rx="2" fill="#436D87" stroke="none" stroke-width="1.4" />
+<text x="484" y="140.52" font-size="28" font-weight="700" fill="#333D47" text-anchor="start" >Chatbot</text>
+</g>
+<g id="agent-platform">
+<rect x="450" y="455" width="1632" height="500" rx="15" fill="#F8F7FB" stroke="#C2B9D4" stroke-width="1.7" />
+<path d="M451 499 V470 Q451 456 465 456 H2067 Q2081 456 2081 470 V499 Z" fill="#E4DEEF"/>
+<path d="M451 499 H2081" fill="none" stroke="#C2B9D4" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"  />
+<rect x="504" y="466.0" width="4" height="22" rx="2" fill="#71628D" stroke="none" stroke-width="1.4" />
+<text x="520" y="486.52" font-size="28" font-weight="700" fill="#333D47" text-anchor="start" >Agent Platform</text>
+</g>
+<g id="kms-kb">
+<rect x="450" y="985" width="1632" height="180" rx="15" fill="#F4F9F7" stroke="#ABCBBF" stroke-width="1.7" />
+<path d="M451 1025 V1000 Q451 986 465 986 H2067 Q2081 986 2081 1000 V1025 Z" fill="#DDEDE6"/>
+<path d="M451 1025 H2081" fill="none" stroke="#ABCBBF" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"  />
+<rect x="468" y="994.0" width="4" height="22" rx="2" fill="#477969" stroke="none" stroke-width="1.4" />
+<text x="484" y="1014.52" font-size="28" font-weight="700" fill="#333D47" text-anchor="start" >KMS / KB</text>
+</g>
+<g id="touchpoint-cards">
+<rect x="39" y="470" width="288" height="660" rx="14" fill="#EBF1F5" stroke="#7390A1" stroke-width="1.8" stroke-dasharray="8 5"/>
+<rect x="52" y="453" width="106" height="33" rx="9" fill="#486979" stroke="none" stroke-width="1.4" />
+<text x="105" y="476" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle" >Phase II</text>
+<g id="touchpoint-website">
+<rect x="46" y="145" width="274" height="210" rx="13" fill="#FFFFFF" stroke="#CBD5DC" stroke-width="1.5" />
+<rect x="64" y="165" width="61" height="57" rx="11" fill="#EAF0F3" stroke="none" stroke-width="1.4" />
+<use href="#icon-website" xlink:href="#icon-website" x="76" y="174" width="38" height="38" color="#586D7B"/>
+<text x="64" y="272" font-size="22.3" font-weight="700" fill="#333D47" text-anchor="start" >Corp Website</text>
+<text x="64" y="309" font-size="19.8" font-weight="400" fill="#516572" text-anchor="start" >Embedded Web Widget</text>
+</g>
+<g id="touchpoint-app">
+<rect x="46" y="515" width="274" height="210" rx="13" fill="#FFFFFF" stroke="#CBD5DC" stroke-width="1.5" />
+<rect x="64" y="535" width="61" height="57" rx="11" fill="#EAF0F3" stroke="none" stroke-width="1.4" />
+<use href="#icon-app" xlink:href="#icon-app" x="76" y="544" width="38" height="38" color="#586D7B"/>
+<text x="64" y="642" font-size="22.3" font-weight="700" fill="#333D47" text-anchor="start" >AIA+ App</text>
+<text x="64" y="679" font-size="19.8" font-weight="400" fill="#516572" text-anchor="start" >Embedded In-App Chat</text>
+</g>
+<g id="touchpoint-messenger">
+<rect x="46" y="885" width="274" height="210" rx="13" fill="#FFFFFF" stroke="#CBD5DC" stroke-width="1.5" />
+<rect x="64" y="905" width="61" height="57" rx="11" fill="#EAF0F3" stroke="none" stroke-width="1.4" />
+<use href="#icon-messenger" xlink:href="#icon-messenger" x="76" y="914" width="38" height="38" color="#586D7B"/>
+<text x="64" y="1012" font-size="22.3" font-weight="700" fill="#333D47" text-anchor="start" >Facebook Messenger</text>
+<text x="64" y="1049" font-size="19.8" font-weight="400" fill="#516572" text-anchor="start" >Native Messaging</text>
+</g>
+</g>
+<g id="chatbot-capabilities">
+<text x="520" y="178" font-size="21" font-weight="700" fill="#436D87" text-anchor="start" >Conversation Services</text>
+<g id="module-access">
+<rect x="520" y="188" width="290" height="64" rx="10" fill="#C7DDEA" stroke="#ABC6D6" stroke-width="1.2" />
+<rect x="533" y="201" width="38" height="38" rx="8" fill="#EAF3F7" stroke="none" stroke-width="1.4" />
+<use href="#icon-access" xlink:href="#icon-access" x="539" y="207" width="26" height="26" color="#436D87"/>
+<text x="585" y="227" font-size="21" font-weight="700" fill="#333D47" text-anchor="start" >Access Control</text>
+</g>
+<g id="module-ui">
+<rect x="831" y="188" width="290" height="64" rx="10" fill="#C7DDEA" stroke="#ABC6D6" stroke-width="1.2" />
+<rect x="844" y="201" width="38" height="38" rx="8" fill="#EAF3F7" stroke="none" stroke-width="1.4" />
+<use href="#icon-ui" xlink:href="#icon-ui" x="850" y="207" width="26" height="26" color="#436D87"/>
+<text x="896" y="227" font-size="21" font-weight="700" fill="#333D47" text-anchor="start" >UI/UX</text>
+</g>
+<g id="module-conversations">
+<rect x="1142" y="188" width="290" height="64" rx="10" fill="#C7DDEA" stroke="#ABC6D6" stroke-width="1.2" />
+<rect x="1155" y="201" width="38" height="38" rx="8" fill="#EAF3F7" stroke="none" stroke-width="1.4" />
+<use href="#icon-conversations" xlink:href="#icon-conversations" x="1161" y="207" width="26" height="26" color="#436D87"/>
+<text x="1207" y="227" font-size="21" font-weight="700" fill="#333D47" text-anchor="start" >Conversations</text>
+</g>
+<g id="module-integration">
+<rect x="1453" y="188" width="290" height="64" rx="10" fill="#C7DDEA" stroke="#ABC6D6" stroke-width="1.2" />
+<rect x="1466" y="201" width="38" height="38" rx="8" fill="#EAF3F7" stroke="none" stroke-width="1.4" />
+<use href="#icon-integration" xlink:href="#icon-integration" x="1472" y="207" width="26" height="26" color="#436D87"/>
+<text x="1518" y="227" font-size="21" font-weight="700" fill="#333D47" text-anchor="start" >Agent Integration</text>
+</g>
+<g id="module-handoff">
+<rect x="1764" y="188" width="290" height="64" rx="10" fill="#C7DDEA" stroke="#ABC6D6" stroke-width="1.2" />
+<rect x="1777" y="201" width="38" height="38" rx="8" fill="#EAF3F7" stroke="none" stroke-width="1.4" />
+<use href="#icon-handoff" xlink:href="#icon-handoff" x="1783" y="207" width="26" height="26" color="#436D87"/>
+<text x="1829" y="227" font-size="21" font-weight="700" fill="#333D47" text-anchor="start" >Human Handoff</text>
+</g>
+<text x="520" y="332" font-size="21" font-weight="700" fill="#995571" text-anchor="start" >Management &amp; Operations</text>
+<g id="module-organization">
+<rect x="520" y="344" width="290" height="48" rx="9" fill="#F6CFDA" stroke="#E3ACBF" stroke-width="1.2" />
+<use href="#icon-organization" xlink:href="#icon-organization" x="539" y="355" width="26" height="26" color="#995571"/>
+<text x="585" y="375" font-size="21" font-weight="700" fill="#333D47" text-anchor="start" >Organization</text>
+</g>
+<g id="module-entry">
+<rect x="831" y="344" width="290" height="48" rx="9" fill="#F6CFDA" stroke="#E3ACBF" stroke-width="1.2" />
+<use href="#icon-entry" xlink:href="#icon-entry" x="850" y="355" width="26" height="26" color="#995571"/>
+<text x="896" y="375" font-size="21" font-weight="700" fill="#333D47" text-anchor="start" >Entry Points</text>
+</g>
+<g id="module-capabilities">
+<rect x="1142" y="344" width="290" height="48" rx="9" fill="#F6CFDA" stroke="#E3ACBF" stroke-width="1.2" />
+<use href="#icon-capabilities" xlink:href="#icon-capabilities" x="1161" y="355" width="26" height="26" color="#995571"/>
+<text x="1207" y="375" font-size="21" font-weight="700" fill="#333D47" text-anchor="start" >Capabilities</text>
+</g>
+<g id="module-testing">
+<rect x="1453" y="344" width="290" height="48" rx="9" fill="#F6CFDA" stroke="#E3ACBF" stroke-width="1.2" />
+<use href="#icon-testing" xlink:href="#icon-testing" x="1472" y="355" width="26" height="26" color="#995571"/>
+<text x="1518" y="375" font-size="21" font-weight="700" fill="#333D47" text-anchor="start" >Testing</text>
+</g>
+<g id="module-governance">
+<rect x="1764" y="344" width="290" height="48" rx="9" fill="#F6CFDA" stroke="#E3ACBF" stroke-width="1.2" />
+<use href="#icon-governance" xlink:href="#icon-governance" x="1783" y="355" width="26" height="26" color="#995571"/>
+<text x="1829" y="375" font-size="21" font-weight="700" fill="#333D47" text-anchor="start" >Governance</text>
+</g>
+</g>
+<g id="agent-layer">
+<rect x="520" y="535" width="460" height="240" rx="12" fill="#C7DDEA" stroke="#AAC4D4" stroke-width="1.6" />
+<use href="#icon-chat" xlink:href="#icon-chat" x="538" y="553" width="31" height="31" color="#436D87"/>
+<text x="581" y="579" font-size="27" font-weight="700" fill="#333D47" text-anchor="start" >Chat Agent</text>
+<path d="M538 597 H962" fill="none" stroke="#A6C1D0" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"  />
+<circle cx="540" cy="627" r="2.7" fill="#436D87"/>
+<text x="554" y="633" font-size="21" font-weight="400" fill="#333D47" text-anchor="start" >Understand user intent</text>
+<circle cx="540" cy="665" r="2.7" fill="#436D87"/>
+<text x="554" y="671" font-size="21" font-weight="400" fill="#333D47" text-anchor="start" >Handle follow-up questions</text>
+<circle cx="540" cy="703" r="2.7" fill="#436D87"/>
+<text x="554" y="709" font-size="21" font-weight="400" fill="#333D47" text-anchor="start" >Answer from approved knowledge</text>
+<circle cx="540" cy="741" r="2.7" fill="#436D87"/>
+<text x="554" y="747" font-size="21" font-weight="400" fill="#333D47" text-anchor="start" >Route &amp; coordinate tasks</text>
+<rect x="1180" y="535" width="874" height="240" rx="12" fill="none" stroke="#BBAFD0" stroke-width="1.6" />
+<g id="domain-agent-1">
+<rect x="1194" y="549" width="416" height="99" rx="9" fill="#D2D1E4" stroke="#B5B0CC" stroke-width="1.15" />
+<use href="#icon-domain" xlink:href="#icon-domain" x="1281" y="581" width="32" height="32" color="#665D87"/>
+<text x="1329" y="606" font-size="24" font-weight="700" fill="#333D47" text-anchor="start" >Domain Agent</text>
+</g>
+<g id="domain-agent-2">
+<rect x="1624" y="549" width="416" height="99" rx="9" fill="#D2D1E4" stroke="#B5B0CC" stroke-width="1.15" />
+<use href="#icon-domain" xlink:href="#icon-domain" x="1711" y="581" width="32" height="32" color="#665D87"/>
+<text x="1759" y="606" font-size="24" font-weight="700" fill="#333D47" text-anchor="start" >Domain Agent</text>
+</g>
+<g id="domain-agent-3">
+<rect x="1194" y="662" width="416" height="99" rx="9" fill="#D2D1E4" stroke="#B5B0CC" stroke-width="1.15" />
+<use href="#icon-domain" xlink:href="#icon-domain" x="1281" y="694" width="32" height="32" color="#665D87"/>
+<text x="1329" y="719" font-size="24" font-weight="700" fill="#333D47" text-anchor="start" >Domain Agent</text>
+</g>
+<g id="domain-agent-4">
+<rect x="1624" y="662" width="416" height="99" rx="9" fill="#D2D1E4" stroke="#B5B0CC" stroke-width="1.15" />
+<use href="#icon-domain" xlink:href="#icon-domain" x="1711" y="694" width="32" height="32" color="#665D87"/>
+<text x="1759" y="719" font-size="24" font-weight="700" fill="#333D47" text-anchor="start" >Domain Agent</text>
+</g>
+<path d="M980 667 H1180" fill="none" stroke="#71628D" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow-purple)"/>
+<text x="1080" y="624" font-size="18" font-weight="700" fill="#71628D" text-anchor="middle" >Delegate when</text>
+<text x="1080" y="647" font-size="18" font-weight="700" fill="#71628D" text-anchor="middle" >needed</text>
+<text x="520" y="803" font-size="20" font-weight="700" fill="#71628D" text-anchor="start" >Reusable Capabilities</text>
+<g id="skills">
+<rect x="520" y="816" width="310" height="48" rx="9" fill="#EEEBF5" stroke="#C7C1D7" stroke-width="1.4" />
+<text x="675.0" y="848" font-size="23" font-weight="700" fill="#333D47" text-anchor="middle" >Skills</text>
+</g>
+<g id="tools">
+<rect x="850" y="816" width="310" height="48" rx="9" fill="#EEEBF5" stroke="#C7C1D7" stroke-width="1.4" />
+<text x="1005.0" y="848" font-size="23" font-weight="700" fill="#333D47" text-anchor="middle" >Tools</text>
+</g>
+<g id="mcp-connectors">
+<rect x="1180" y="816" width="490" height="48" rx="9" fill="#EEEBF5" stroke="#C7C1D7" stroke-width="1.4" />
+<text x="1425.0" y="848" font-size="23" font-weight="700" fill="#333D47" text-anchor="middle" >MCP / Connectors</text>
+</g>
+<g id="memory">
+<rect x="1690" y="816" width="364" height="48" rx="9" fill="#EEEBF5" stroke="#C7C1D7" stroke-width="1.4" />
+<text x="1872.0" y="848" font-size="23" font-weight="700" fill="#333D47" text-anchor="middle" >Memory</text>
+</g>
+<g id="agent-harness">
+<rect x="520" y="900" width="1534" height="40" rx="7" fill="#DCD8E9" stroke="#BCB6CF" stroke-width="1.4" />
+<text x="1287" y="928" font-size="23" font-weight="700" fill="#333D47" text-anchor="middle" >Agent Harness</text>
+</g>
+</g>
+<g id="knowledge-processing">
+<text x="472" y="1054" font-size="20" font-weight="700" fill="#36594F" text-anchor="start" >Knowledge</text>
+<text x="472" y="1077" font-size="20" font-weight="700" fill="#36594F" text-anchor="start" >Processing</text>
+<rect x="720" y="1036" width="205" height="44" rx="7" fill="#E2F0EA" stroke="#B0CEC0" stroke-width="1.2" />
+<text x="822.5" y="1065" font-size="20" font-weight="700" fill="#333D47" text-anchor="middle" >Ingestion</text>
+<path d="M928 1058 H939" fill="none" stroke="#477969" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow-green)"/>
+<rect x="943" y="1036" width="205" height="44" rx="7" fill="#E2F0EA" stroke="#B0CEC0" stroke-width="1.2" />
+<text x="1045.5" y="1065" font-size="20" font-weight="700" fill="#333D47" text-anchor="middle" >Extract</text>
+<path d="M1151 1058 H1162" fill="none" stroke="#477969" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow-green)"/>
+<rect x="1166" y="1036" width="205" height="44" rx="7" fill="#E2F0EA" stroke="#B0CEC0" stroke-width="1.2" />
+<text x="1268.5" y="1065" font-size="20" font-weight="700" fill="#333D47" text-anchor="middle" >Clean</text>
+<path d="M1374 1058 H1385" fill="none" stroke="#477969" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow-green)"/>
+<rect x="1389" y="1036" width="205" height="44" rx="7" fill="#E2F0EA" stroke="#B0CEC0" stroke-width="1.2" />
+<text x="1491.5" y="1065" font-size="20" font-weight="700" fill="#333D47" text-anchor="middle" >Chunk</text>
+<path d="M1597 1058 H1608" fill="none" stroke="#477969" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow-green)"/>
+<rect x="1612" y="1036" width="205" height="44" rx="7" fill="#E2F0EA" stroke="#B0CEC0" stroke-width="1.2" />
+<text x="1714.5" y="1065" font-size="20" font-weight="700" fill="#333D47" text-anchor="middle" >Embedding</text>
+<path d="M1820 1058 H1831" fill="none" stroke="#477969" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow-green)"/>
+<rect x="1835" y="1036" width="205" height="44" rx="7" fill="#E2F0EA" stroke="#B0CEC0" stroke-width="1.2" />
+<text x="1937.5" y="1065" font-size="20" font-weight="700" fill="#333D47" text-anchor="middle" >Index</text>
+</g>
+<g id="knowledge-governance">
+<text x="472" y="1115" font-size="20" font-weight="700" fill="#36594F" text-anchor="start" >Knowledge</text>
+<text x="472" y="1138" font-size="20" font-weight="700" fill="#36594F" text-anchor="start" >Governance</text>
+<rect x="720" y="1096" width="205" height="52" rx="7" fill="#FFFFFF" stroke="#C1D8CC" stroke-width="1.2" />
+<text x="822.5" y="1118" font-size="19" font-weight="400" fill="#333D47" text-anchor="middle" >Metadata</text>
+<text x="822.5" y="1140" font-size="19" font-weight="400" fill="#333D47" text-anchor="middle" >Governance</text>
+<rect x="943" y="1096" width="205" height="52" rx="7" fill="#FFFFFF" stroke="#C1D8CC" stroke-width="1.2" />
+<text x="1045.5" y="1129" font-size="19" font-weight="400" fill="#333D47" text-anchor="middle" >Review</text>
+<rect x="1166" y="1096" width="205" height="52" rx="7" fill="#FFFFFF" stroke="#C1D8CC" stroke-width="1.2" />
+<text x="1268.5" y="1129" font-size="19" font-weight="400" fill="#333D47" text-anchor="middle" >Evaluation</text>
+<rect x="1389" y="1096" width="205" height="52" rx="7" fill="#FFFFFF" stroke="#C1D8CC" stroke-width="1.2" />
+<text x="1491.5" y="1129" font-size="19" font-weight="400" fill="#333D47" text-anchor="middle" >Data Security</text>
+<rect x="1612" y="1096" width="205" height="52" rx="7" fill="#FFFFFF" stroke="#C1D8CC" stroke-width="1.2" />
+<text x="1714.5" y="1129" font-size="19" font-weight="400" fill="#333D47" text-anchor="middle" >Versioning</text>
+<rect x="1835" y="1096" width="205" height="52" rx="7" fill="#FFFFFF" stroke="#C1D8CC" stroke-width="1.2" />
+<text x="1937.5" y="1129" font-size="19" font-weight="400" fill="#333D47" text-anchor="middle" >Monitoring</text>
+</g>
+<g id="system-cards">
+<g id="system-aia-service">
+<rect x="2200" y="145" width="274" height="180" rx="13" fill="#FFFFFF" stroke="#C2D1D9" stroke-width="1.5" />
+<rect x="2218" y="164" width="61" height="57" rx="11" fill="#EAF0F3" stroke="none" stroke-width="1.4" />
+<use href="#icon-aia-service" xlink:href="#icon-aia-service" x="2230" y="173" width="38" height="38" color="#586D7B"/>
+<text x="2218" y="260" font-size="24" font-weight="700" fill="#333D47" text-anchor="start" >AIA+ Services</text>
+<text x="2218" y="294" font-size="20" font-weight="400" fill="#516572" text-anchor="start" >Digital Self-Service</text>
+</g>
+<g id="system-myaia">
+<rect x="2200" y="392" width="274" height="180" rx="13" fill="#FFFFFF" stroke="#C2D1D9" stroke-width="1.5" />
+<rect x="2218" y="411" width="61" height="57" rx="11" fill="#EAF0F3" stroke="none" stroke-width="1.4" />
+<use href="#icon-myaia" xlink:href="#icon-myaia" x="2230" y="420" width="38" height="38" color="#586D7B"/>
+<text x="2218" y="507" font-size="24" font-weight="700" fill="#333D47" text-anchor="start" >MyAIA</text>
+<text x="2218" y="541" font-size="20" font-weight="400" fill="#516572" text-anchor="start" >Digital Self-Service</text>
+</g>
+<g id="system-vitality">
+<rect x="2200" y="639" width="274" height="180" rx="13" fill="#FFFFFF" stroke="#C2D1D9" stroke-width="1.5" />
+<rect x="2218" y="658" width="61" height="57" rx="11" fill="#EAF0F3" stroke="none" stroke-width="1.4" />
+<use href="#icon-vitality" xlink:href="#icon-vitality" x="2230" y="667" width="38" height="38" color="#586D7B"/>
+<text x="2218" y="754" font-size="24" font-weight="700" fill="#333D47" text-anchor="start" >Vitality</text>
+<text x="2218" y="788" font-size="20" font-weight="400" fill="#516572" text-anchor="start" >Digital Self-Service</text>
+</g>
+<g id="system-d365">
+<rect x="2200" y="886" width="274" height="210" rx="13" fill="#FFFFFF" stroke="#C2D1D9" stroke-width="1.5" />
+<rect x="2218" y="905" width="61" height="57" rx="11" fill="#EAF0F3" stroke="none" stroke-width="1.4" />
+<use href="#icon-d365" xlink:href="#icon-d365" x="2230" y="914" width="38" height="38" color="#586D7B"/>
+<text x="2218" y="998" font-size="24" font-weight="700" fill="#333D47" text-anchor="start" >Microsoft</text>
+<text x="2218" y="1027" font-size="24" font-weight="700" fill="#333D47" text-anchor="start" >Dynamics 365</text>
+<text x="2218" y="1069" font-size="20" font-weight="400" fill="#516572" text-anchor="start" >Live Agent / CRM</text>
+</g>
+</g>
+<g id="connections">
+<g id="messages-user-actions">
+<path d="M320 250 H366" fill="none" stroke="#7A8C97" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"  />
+<circle cx="320" cy="250" r="3.5" fill="#FFFFFF" stroke="#637E8F" stroke-width="1.8"/>
+<path d="M320 620 H366" fill="none" stroke="#7A8C97" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"  />
+<circle cx="320" cy="620" r="3.5" fill="#FFFFFF" stroke="#637E8F" stroke-width="1.8"/>
+<path d="M320 990 H366" fill="none" stroke="#7A8C97" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"  />
+<circle cx="320" cy="990" r="3.5" fill="#FFFFFF" stroke="#637E8F" stroke-width="1.8"/>
+<path d="M366 250 V990" fill="none" stroke="#7A8C97" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"  />
+<path d="M366 374 H450" fill="none" stroke="#637E8F" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow-slate)"/>
+<circle cx="366" cy="374" r="2.7" fill="#637E8F"/>
+<text x="320" y="396" font-size="18" font-weight="700" fill="#536C7C" text-anchor="end" >Messages &amp;</text>
+<text x="320" y="419" font-size="18" font-weight="700" fill="#536C7C" text-anchor="end" >User Actions</text>
+</g>
+<g id="agent-invocation">
+<path d="M1530 252 V270 H474 V620 H520" fill="none" stroke="#436D87" stroke-width="2.15" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow-blue)"/>
+<circle cx="1530" cy="252" r="3.5" fill="#FFFFFF" stroke="#436D87" stroke-width="1.8"/>
+<rect x="1055.0" y="257" width="190" height="26" rx="6" fill="#F4F8FA" stroke="none" stroke-width="1.4" />
+<text x="1150" y="276" font-size="18" font-weight="700" fill="#436D87" text-anchor="middle" >Agent Invocation</text>
+</g>
+<g id="ag-ui-event-stream">
+<path d="M520 566 H490 V297 H1570 V252" fill="none" stroke="#71628D" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 5" marker-end="url(#arrow-purple)"/>
+<circle cx="520" cy="566" r="3.5" fill="#FFFFFF" stroke="#71628D" stroke-width="1.8"/>
+<rect x="1041.0" y="284" width="218" height="26" rx="6" fill="#F4F8FA" stroke="none" stroke-width="1.4" />
+<text x="1150" y="303" font-size="18" font-weight="700" fill="#71628D" text-anchor="middle" >AG-UI Event Stream</text>
+</g>
+<g id="knowledge-retrieval">
+<path d="M520 840 H503 V970 H1000 V985" fill="none" stroke="#477969" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow-green)"/>
+<circle cx="520" cy="840" r="3.5" fill="#FFFFFF" stroke="#477969" stroke-width="1.8"/>
+<rect x="656.0" y="957" width="224" height="26" rx="6" fill="#FCFDFE" stroke="none" stroke-width="1.4" />
+<text x="768" y="976" font-size="18.5" font-weight="700" fill="#477969" text-anchor="middle" >Knowledge Retrieval</text>
+</g>
+<g id="live-agent-handoff">
+<path d="M2054 220 H2116 V1134 H2337 V1096" fill="none" stroke="#995571" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow-rose)"/>
+<circle cx="2054" cy="220" r="3.5" fill="#FFFFFF" stroke="#995571" stroke-width="1.8"/>
+<rect x="2227.0" y="1142" width="220" height="26" rx="6" fill="#F7F9FA" stroke="none" stroke-width="1.4" />
+<text x="2337" y="1161" font-size="18.5" font-weight="700" fill="#995571" text-anchor="middle" >Live Agent Handoff</text>
+</g>
+<g id="mcp-connector-integration">
+<path d="M1425 864 V884 H2108 C2108 873 2124 873 2124 884 H2140" fill="none" stroke="#71628D" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"  />
+<circle cx="1425" cy="864" r="3.5" fill="#FFFFFF" stroke="#71628D" stroke-width="1.8"/>
+<path d="M2140 235 V976" fill="none" stroke="#71628D" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"  />
+<circle cx="2140" cy="884" r="2.7" fill="#71628D"/>
+<path d="M2140 235 H2200" fill="none" stroke="#71628D" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow-purple)"/>
+<circle cx="2140" cy="235" r="2.7" fill="#71628D"/>
+<path d="M2140 482 H2200" fill="none" stroke="#71628D" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow-purple)"/>
+<circle cx="2140" cy="482" r="2.7" fill="#71628D"/>
+<path d="M2140 729 H2200" fill="none" stroke="#71628D" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow-purple)"/>
+<circle cx="2140" cy="729" r="2.7" fill="#71628D"/>
+<path d="M2140 976 H2200" fill="none" stroke="#71628D" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow-purple)"/>
+<circle cx="2140" cy="976" r="2.7" fill="#71628D"/>
+<rect x="1766.0" y="871" width="280" height="26" rx="6" fill="#F8F7FB" stroke="none" stroke-width="1.4" />
+<text x="1906" y="890" font-size="18" font-weight="700" fill="#71628D" text-anchor="middle" >MCP / Connector Integration</text>
+</g>
+</g>
+</g>
+</svg>
